@@ -60,7 +60,7 @@ header p {
 .search-section {
     margin-bottom: 2rem;
     position: relative;
-    z-index: 10;
+    z-index: 50;
 }
 
 .input-wrapper {
