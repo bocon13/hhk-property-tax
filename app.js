@@ -111,9 +111,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const val2025 = parseFloat(prop.assessment_2025) || 0;
         const val2026 = parseFloat(prop.assessment_2026) || 0;
 
-        // Display Assessments
-        // val2026 removed from top display
-
         // Update 2025/2026 Comparison Table
         document.getElementById('lblAssmt25').textContent = formatCurrency(val2025);
         document.getElementById('lblTax25').textContent = formatCurrency(val2025 * TAX_RATE_2025);
@@ -142,8 +139,8 @@ document.addEventListener('DOMContentLoaded', () => {
         calculateScenario();
     }
 
-    // --- SCENARIO CALCULATION        // UI Elements
-    // const btnRecalculate = document.getElementById('btnRecalculate'); // Removed
+    // --- SCENARIO CALCULATION
+    // UI Elements
     const inputAge = document.getElementById('chkAge65'); // Checkbox
     const selIncome = document.getElementById('selIncome'); // Select Dropdown
     const manualIncome = document.getElementById('manualIncome'); // Manual Input
@@ -159,7 +156,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const TAX_RATE_2026_YES = 0.01580; // Estimated with School Budget (1.436 + 0.144)
 
     // Event Listeners for Live Update
-    // btnRecalculate.addEventListener('click', calculateScenario); // Removed button
     inputAge.addEventListener('change', calculateScenario);
 
     // Sync Dropdown to Manual Input (Formatted)
@@ -219,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 case 37: suggested = 800000; break;
             }
 
-            // Only auto-fill if the current income is "out of sync" or empty? 
+            // Only auto-fill if the current income is "out of sync" or empty?
             // User asked "pick a sensible Household income", implying they want it set.
             // We'll update it.
             if (suggested > 0) {
@@ -230,7 +226,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         calculateScenario();
     });
-    // inputNJRate.addEventListener('input', calculateScenario); // Hidden, driven by logic
     inputYears.addEventListener('change', calculateScenario);
     radioStatus.forEach(r => r.addEventListener('change', calculateScenario));
 
@@ -258,7 +253,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function calculateSaltLimit(income, rule) {
         if (typeof rule === 'number') return rule;
 
-        // If we have no income data, assume full deduction (optimistic) or base? 
+        // If we have no income data, assume full deduction (optimistic) or base?
         // Actually, if income is null, we usually default to base_limit in the calling code, but here we expect income.
         // If income is null/0, return base_limit.
         if (!income) return rule.base_limit;
