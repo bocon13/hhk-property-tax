@@ -103,7 +103,14 @@
         ],
         "salt_caps": {
             "2025": 10000,
-            "2026": 40000
+            "2026": {
+                "base_limit": 40000,
+                "phase_out_start": 500000,
+                "phase_out_end": 600000,
+                "phase_out_step": 10000,
+                "reduction_per_step": 3000,
+                "min_limit": 10000
+            }
         }
     }
 }

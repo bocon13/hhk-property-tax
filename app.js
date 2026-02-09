@@ -254,6 +254,30 @@ document.addEventListener('DOMContentLoaded', () => {
         calculateScenario();
     });
 
+    // Helper: Calculate SALT Deduction Limit with Phase-out
+    function calculateSaltLimit(income, rule) {
+        if (typeof rule === 'number') return rule;
+
+        // If we have no income data, assume full deduction (optimistic) or base? 
+        // Actually, if income is null, we usually default to base_limit in the calling code, but here we expect income.
+        // If income is null/0, return base_limit.
+        if (!income) return rule.base_limit;
+
+        if (income <= rule.phase_out_start) {
+            return rule.base_limit;
+        }
+        if (income >= rule.phase_out_end) {
+            return rule.min_limit;
+        }
+
+        const excess = income - rule.phase_out_start;
+        // "For every $10,000 over": implies integer division
+        const steps = Math.floor(excess / rule.phase_out_step);
+        const reduction = steps * rule.reduction_per_step;
+
+        return Math.max(rule.base_limit - reduction, rule.min_limit);
+    }
+
     function updateBracketFromIncome() {
         if (!taxRules) return;
         const incomeVal = manualIncome.value.replace(/,/g, ''); // Strip commas
@@ -373,7 +397,7 @@ document.addEventListener('DOMContentLoaded', () => {
         updateDiff('valStayNJDiff', relief_yes.staynj, relief_25.staynj);
 
         // Net Cost 2025
-        const saltCap25 = taxRules.salt_caps["2025"];
+        const saltCap25 = calculateSaltLimit(income, taxRules.salt_caps["2025"]);
         let fedDed25 = 0;
         let fedBenefit25 = 0;
         if (income !== null) {
@@ -385,7 +409,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const netCost25 = tax25 - relief_25.total - fedBenefit25;
 
         // 2026 Model (No Vote)
-        const saltCap26 = taxRules.salt_caps["2026"];
+        const saltCap26 = calculateSaltLimit(income, taxRules.salt_caps["2026"]);
         let fedDed26No = 0;
         let fedBenefit26No = 0;
         if (income !== null) {
