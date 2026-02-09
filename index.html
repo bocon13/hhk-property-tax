@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ho-Ho-Kus Property Tax Calculator</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YTVYK6XE2S"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-YTVYK6XE2S');
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Ho-Ho-Kus Tax Impact</h1>
+            <p>Estimate your 2026 property tax and model the school budget vote.</p>
+        </header>
+
+        <main>
+            <section class="search-section">
+                <div class="input-wrapper">
+                    <input type="text" id="addressInput" placeholder="Enter your address..." autocomplete="off">
+                    <div id="suggestions" class="suggestions-list"></div>
+                </div>
+            </section>
+
+            <!-- RESULTS SECTION -->
+            <section id="results" class="results-section hidden">
+
+                <!-- 1. PROPERTY TAX OVERVIEW (2025 vs 2026) -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Property Tax Overview</h2>
+                    </div>
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Year / Scenario</th>
+                                <th>Assessment</th>
+                                <th>Tax Rate</th>
+                                <th>Est. Tax</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>2025 (Actual)</strong></td>
+                                <td id="lblAssmt25">-</td>
+                                <td>2.501%</td>
+                                <td id="lblTax25">-</td>
+                            </tr>
+                            <tr class="danger-row">
+                                <td><strong>2026 (Base / No Vote)</strong></td>
+                                <td id="lblAssmt26">-</td>
+                                <td>1.436% (Est.)</td>
+                                <td id="lblTax26No">-</td>
+                            </tr>
+                            <tr class="highlight-row">
+                                <td><strong>2026 (With Yes Vote)</strong></td>
+                                <td id="lblAssmt26Yes">-</td>
+                                <td>1.580% (Est.)</td>
+                                <td id="lblTax26Yes">-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="sub-text" style="text-align:center; margin-top:0.5rem;">
+                        Impact of Vote: <span id="lblVoteCost" style="font-weight:700;">-</span> / year
+                    </p>
+                </div>
+
+                <!-- 2. SCENARIO CONFIGURATION (Relief Inputs) -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Configure Your Scenario</h2>
+                    </div>
+
+                    <div class="relief-inputs" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <!-- Row 1 -->
+                        <div class="input-group">
+                            <label>Age</label>
+                            <div class="checkbox-wrapper"
+                                style="display:flex; align-items:center; height:100%; gap:0.5rem; padding:0.5rem; border:1px solid var(--border); border-radius:8px; background:#fff;">
+                                <input type="checkbox" id="chkAge65" style="width:20px; height:20px;">
+                                <label for="chkAge65" style="margin:0; font-weight:500;">I am 65 or older</label>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="selIncome">2025 Household Income</label>
+                            <select id="selIncome">
+                                <option value="">Select Income...</option>
+                                <option value="75000">Under $150,000</option>
+                                <option value="160000">$150,000 - $172,475</option>
+                                <option value="200000">$172,476 - $250,000</option>
+                                <option value="350000">$250,001 - $500,000</option>
+                                <option value="600000">Over $500,000</option>
+                            </select>
+                        </div>
+
+                        <!-- Row 2 -->
+                        <div class="input-group">
+                            <label>Residency Status</label>
+                            <div class="radio-group">
+                                <label><input type="radio" name="status" value="homeowner" checked>
+                                    Homeowner</label>
+                                <label><input type="radio" name="status" value="renter"> Renter</label>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label>Years in Home</label>
+                            <div class="checkbox-wrapper"
+                                style="display:flex; align-items:center; height:100%; gap:0.5rem; padding:0.5rem; border:1px solid var(--border); border-radius:8px; background:#fff;">
+                                <input type="checkbox" id="chkYearsBase" style="width:20px; height:20px;">
+                                <label for="chkYearsBase" style="margin:0; font-weight:500;">Lived here 3+
+                                    years?</label>
+                            </div>
+                        </div>
+
+                        <!-- Row 3 (Advanced) -->
+                        <div class="input-group" style="grid-column: span 2;">
+                            <label for="inputBaseTax">Base Year Tax (For Senior Freeze)</label>
+                            <input type="text" id="inputBaseTax" placeholder="$">
+                            <small class="text-muted">Only needed if applying for Senior Freeze
+                                reimbursement.</small>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Relief Breakdown (Hidden until calc) -->
+                    <div id="reliefBreakdown" class="hidden"
+                        style="margin-top:1.5rem; border-top:1px solid var(--border); padding-top:1rem;">
+                        <h3 style="font-size:1rem; margin-bottom:0.5rem;">Est. NJ Relief Programs</h3>
+                        <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:0.5rem; text-align:center;">
+                            <div class="mini-card">
+                                <span>Anchor</span>
+                                <strong id="valAnchor" style="display:block; color:#16a34a;">-</strong>
+                                <small id="valAnchorDiff"
+                                    style="display:block; font-size:0.75rem; color:#15803d;"></small>
+                            </div>
+                            <div class="mini-card">
+                                <span>Senior Freeze</span>
+                                <strong id="valFreeze" style="display:block; color:#16a34a;">-</strong>
+                                <small id="valFreezeDiff"
+                                    style="display:block; font-size:0.75rem; color:#15803d;"></small>
+                            </div>
+                            <div class="mini-card">
+                                <span>Stay NJ</span>
+                                <strong id="valStayNJ" style="display:block; color:#16a34a;">-</strong>
+                                <small id="valStayNJDiff"
+                                    style="display:block; font-size:0.75rem; color:#15803d;"></small>
+                            </div>
+                        </div>
+
+                        <div
+                            style="margin-top:0.75rem; padding:0.75rem; background:#f0fdf4; border:1px solid #bbf7d0; border-radius:6px; text-align:center;">
+                            <span style="font-size:0.9rem; font-weight:600; color:#166534;">Total Est. Relief</span>
+                            <strong id="valTotalRelief"
+                                style="display:block; font-size:1.25rem; color:#16a34a;">-</strong>
+                            <small id="valReliefDiff"
+                                style="display:block; font-size:0.8rem; margin-top:2px; color:#15803d;">(vs 2025:
+                                -)</small>
+                        </div>
+
+                        <div id="msgPas1" class="hidden"
+                            style="margin-top:0.75rem; text-align:center; font-size:0.85rem; color:#1e40af; background:#eff6ff; padding:0.5rem; border-radius:6px; border:1px solid #bfdbfe;">
+                            <strong>Eligible?</strong> You may need to file the
+                            <a href="https://www.nj.gov/treasury/taxation/relief.shtml" target="_blank"
+                                style="color:#1d4ed8; text-decoration:underline;">PAS-1 Form</a>
+                            to claim these benefits.
+                        </div>
+
+                        <p class="sub-text" style="text-align:center; margin-top:0.5rem;" id="txtReliefNotes"></p>
+                    </div>
+                </div>
+
+                <!-- 3. NET COST SUMMARY -->
+                <div class="card summary-card" id="summaryCard">
+                    <div class="card-header">
+                        <h2>Net Cost Analysis</h2>
+                    </div>
+
+                    <div style="margin-bottom: 1rem; display: flex; gap: 1rem;">
+                        <div style="flex: 1;">
+                            <label for="inputFedBracket"
+                                style="font-size: 0.9rem; font-weight: 500; display: block; margin-bottom: 0.25rem;">Fed
+                                Marginal Bracket</label>
+                            <select id="inputFedBracket"
+                                style="width: 100%; padding: 0.5rem; border: 1px solid var(--border); border-radius: 6px;">
+                                <option value="">Select...</option>
+                                <option value="10">10%</option>
+                                <option value="12">12%</option>
+                                <option value="22">22%</option>
+                                <option value="24">24%</option>
+                                <option value="32">32%</option>
+                                <option value="35">35%</option>
+                                <option value="37">37%</option>
+                            </select>
+                        </div>
+                        <div style="flex: 1;">
+                            <label for="manualIncome"
+                                style="font-size: 0.9rem; font-weight: 500; display: block; margin-bottom: 0.25rem;">Household
+                                Income ($)</label>
+                            <input type="text" id="manualIncome" placeholder="e.g. 150,000" inputmode="numeric"
+                                style="width: 100%; padding: 0.5rem; border: 1px solid var(--border); border-radius: 6px;">
+                            <input type="hidden" id="inputNJRate">
+                        </div>
+                    </div>
+
+                    <table class="summary-table">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th style="text-align:right;">2025 (Actual)</th>
+                                <th style="text-align:right;">2026 (No Vote)</th>
+                                <th style="text-align:right;">2026 (Yes Vote)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Gross Property Tax</td>
+                                <td id="sumGrossTax25" style="text-align:right;">-</td>
+                                <td id="sumGrossTaxNo" style="text-align:right;">-</td>
+                                <td id="sumGrossTax" style="text-align:right; font-weight:600;">-</td>
+                            </tr>
+                            <tr>
+                                <td>(-) Total NJ Relief Programs</td>
+                                <td id="sumNJRelief25" class="credit-text" style="text-align:right;">-</td>
+                                <td id="sumNJReliefNo" class="credit-text" style="text-align:right;">-</td>
+                                <td id="sumNJRelief" class="credit-text" style="text-align:right;">-</td>
+                            </tr>
+                            <tr class="subtotal-row">
+                                <td>Net Property Tax Paid</td>
+                                <td id="sumNetProp25" style="text-align:right;">-</td>
+                                <td id="sumNetPropNo" style="text-align:right; font-weight:600;">-</td>
+                                <td id="sumNetProp" style="text-align:right;">-</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" style="height:10px;"></td>
+                            </tr>
+                            <tr>
+                                <td>Est. NJ Income Tax (Info Only)</td>
+                                <td id="sumNJIncomeTax25" style="text-align:right; font-size:0.9rem;">-</td>
+                                <td id="sumNJIncomeTaxNo" style="text-align:right; font-size:0.9rem;">-</td>
+                                <td id="sumNJIncomeTax" style="text-align:right; font-size:0.9rem;">-</td>
+                            </tr>
+                            <tr>
+                                <td style="font-size:0.9rem; color:var(--text-muted);">
+                                    <em>Total SALT Deduction (Cap $10k/$40k)</em>
+                                </td>
+                                <td id="sumSaltDed25"
+                                    style="text-align:right; font-size:0.9rem; color:var(--text-muted);">-</td>
+                                <td id="sumSaltDedNo"
+                                    style="text-align:right; font-size:0.9rem; color:var(--text-muted);">-</td>
+                                <td id="sumSaltDed"
+                                    style="text-align:right; font-size:0.9rem; color:var(--text-muted);">-</td>
+                            </tr>
+                            <tr>
+                                <td>(-) Value of Federal Deduction</td>
+                                <td id="sumFedBenefit25" class="credit-text" style="text-align:right;">-</td>
+                                <td id="sumFedBenefitNo" class="credit-text" style="text-align:right;">-</td>
+                                <td id="sumFedBenefit" class="credit-text" style="text-align:right;">-</td>
+                            </tr>
+                            <tr class="total-row">
+                                <td>Net Effective Property Tax</td>
+                                <td id="sumFinalCost25" style="text-align:right;">-</td>
+                                <td id="sumFinalCostNo" style="text-align:right;">-</td>
+                                <td id="sumFinalCost" style="text-align:right;">-</td>
+                            </tr>
+                            <tr style="font-size:0.9rem; border-top:1px solid var(--border);">
+                                <td style="padding-top:0.75rem; color:var(--text-muted);">Change vs 2025</td>
+                                <td style="text-align:right; padding-top:0.75rem; color:var(--text-muted);">-</td>
+                                <td id="sumChangeNo" style="text-align:right; font-weight:600; padding-top:0.75rem;">-
+                                </td>
+                                <td id="sumChangeYes" style="text-align:right; font-weight:600; padding-top:0.75rem;">-
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            <p>Not an official municipal tool. For informational purposes only.</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

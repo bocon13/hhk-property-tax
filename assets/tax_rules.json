@@ -1,0 +1,109 @@
+{
+    "programs": {
+        "Senior_Freeze": {
+            "age_min": 65,
+            "years_in_home_min": 3,
+            "income_limit_2025": 172475
+        },
+        "ANCHOR": {
+            "homeowner": {
+                "tier1": {
+                    "limit": 150000,
+                    "base": 1500
+                },
+                "tier2": {
+                    "limit": 250000,
+                    "base": 1000
+                },
+                "bonus_age": 65,
+                "bonus_amount": 250
+            },
+            "renter": {
+                "tier1": {
+                    "limit": 150000,
+                    "base": 450
+                },
+                "bonus_age": 65,
+                "bonus_amount": 250
+            }
+        },
+        "Stay_NJ": {
+            "age_min": 65,
+            "income_limit": 500000,
+            "benefit_percent": 0.50,
+            "benefit_cap": 6500,
+            "total_relief_cap": 6500
+        },
+        "federal_brackets": [
+            {
+                "limit": 23850,
+                "rate": 0.10,
+                "label": "10%"
+            },
+            {
+                "limit": 96950,
+                "rate": 0.12,
+                "label": "12%"
+            },
+            {
+                "limit": 206700,
+                "rate": 0.22,
+                "label": "22%"
+            },
+            {
+                "limit": 394750,
+                "rate": 0.24,
+                "label": "24%"
+            },
+            {
+                "limit": 501050,
+                "rate": 0.32,
+                "label": "32%"
+            },
+            {
+                "limit": 751600,
+                "rate": 0.35,
+                "label": "35%"
+            },
+            {
+                "limit": 100000000,
+                "rate": 0.37,
+                "label": "37%"
+            }
+        ],
+        "nj_income_tax_estimates": [
+            {
+                "limit": 20000,
+                "rate": 0.014
+            },
+            {
+                "limit": 35000,
+                "rate": 0.0175
+            },
+            {
+                "limit": 40000,
+                "rate": 0.035
+            },
+            {
+                "limit": 75000,
+                "rate": 0.05525
+            },
+            {
+                "limit": 500000,
+                "rate": 0.0637
+            },
+            {
+                "limit": 1000000,
+                "rate": 0.0897
+            },
+            {
+                "limit": 999999999,
+                "rate": 0.1075
+            }
+        ],
+        "salt_caps": {
+            "2025": 10000,
+            "2026": 40000
+        }
+    }
+}

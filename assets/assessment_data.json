@@ -1,0 +1,7197 @@
+[
+  {
+    "address": "1 STONE RIDGE LANE",
+    "assessment_2025": 493300,
+    "assessment_2026": 863900
+  },
+  {
+    "address": "3 STONE RIDGE LANE",
+    "assessment_2025": 518800,
+    "assessment_2026": 905200
+  },
+  {
+    "address": "5 STONE RIDGE LANE",
+    "assessment_2025": 496200,
+    "assessment_2026": 906600
+  },
+  {
+    "address": "7 STONE RIDGE LANE",
+    "assessment_2025": 507700,
+    "assessment_2026": 890400
+  },
+  {
+    "address": "9 STONE RIDGE LANE",
+    "assessment_2025": 458100,
+    "assessment_2026": 893200
+  },
+  {
+    "address": "11 STONE RIDGE LANE",
+    "assessment_2025": 504800,
+    "assessment_2026": 912200
+  },
+  {
+    "address": "13 STONE RIDGE LANE",
+    "assessment_2025": 456100,
+    "assessment_2026": 810900
+  },
+  {
+    "address": "15 STONE RIDGE LANE",
+    "assessment_2025": 439600,
+    "assessment_2026": 720300
+  },
+  {
+    "address": "17 STONE RIDGE LANE",
+    "assessment_2025": 554500,
+    "assessment_2026": 899800
+  },
+  {
+    "address": "10 STONE RIDGE LANE",
+    "assessment_2025": 541500,
+    "assessment_2026": 952600
+  },
+  {
+    "address": "8 STONE RIDGE LANE",
+    "assessment_2025": 521900,
+    "assessment_2026": 979900
+  },
+  {
+    "address": "6 STONE RIDGE LANE",
+    "assessment_2025": 498500,
+    "assessment_2026": 909700
+  },
+  {
+    "address": "4 STONE RIDGE LANE",
+    "assessment_2025": 487700,
+    "assessment_2026": 862800
+  },
+  {
+    "address": "2 STONE RIDGE LANE",
+    "assessment_2025": 496500,
+    "assessment_2026": 913100
+  },
+  {
+    "address": "275 N FRANKLIN TPK",
+    "assessment_2025": 401800,
+    "assessment_2026": 776100
+  },
+  {
+    "address": "265 N FRANKLIN TPK",
+    "assessment_2025": 515700,
+    "assessment_2026": 875100
+  },
+  {
+    "address": "261 N FRANKLIN TPK",
+    "assessment_2025": 553600,
+    "assessment_2026": 1024400
+  },
+  {
+    "address": "3 FERRIS CT",
+    "assessment_2025": 667600,
+    "assessment_2026": 1309000
+  },
+  {
+    "address": "5 FERRIS CT",
+    "assessment_2025": 559700,
+    "assessment_2026": 1076400
+  },
+  {
+    "address": "7 FERRIS CT",
+    "assessment_2025": 547900,
+    "assessment_2026": 960000
+  },
+  {
+    "address": "9 FERRIS CT",
+    "assessment_2025": 576300,
+    "assessment_2026": 975500
+  },
+  {
+    "address": "255 N FRANKLIN TPK",
+    "assessment_2025": 598300,
+    "assessment_2026": 879400
+  },
+  {
+    "address": "245 N FRANKLIN TPK",
+    "assessment_2025": 353500,
+    "assessment_2026": 585400
+  },
+  {
+    "address": "235 N FRANKLIN TPK",
+    "assessment_2025": 424800,
+    "assessment_2026": 772600
+  },
+  {
+    "address": "11 GARDEN CT",
+    "assessment_2025": 826900,
+    "assessment_2026": 1368300
+  },
+  {
+    "address": "10 GARDEN CT",
+    "assessment_2025": 697500,
+    "assessment_2026": 1168300
+  },
+  {
+    "address": "9 GARDEN CT",
+    "assessment_2025": 468300,
+    "assessment_2026": 921500
+  },
+  {
+    "address": "8 GARDEN CT",
+    "assessment_2025": 689200,
+    "assessment_2026": 1327100
+  },
+  {
+    "address": "7 GARDEN CT",
+    "assessment_2025": 565300,
+    "assessment_2026": 1021700
+  },
+  {
+    "address": "3 STOUTS LANE",
+    "assessment_2025": 975200,
+    "assessment_2026": 1754400
+  },
+  {
+    "address": "1 STOUTS LANE",
+    "assessment_2025": 321400,
+    "assessment_2026": 587500
+  },
+  {
+    "address": "6 GARDEN CT",
+    "assessment_2025": 488000,
+    "assessment_2026": 981000
+  },
+  {
+    "address": "5 GARDEN CT",
+    "assessment_2025": 545100,
+    "assessment_2026": 1047100
+  },
+  {
+    "address": "4 GARDEN CT",
+    "assessment_2025": 477000,
+    "assessment_2026": 853300
+  },
+  {
+    "address": "3 GARDEN CT",
+    "assessment_2025": 621900,
+    "assessment_2026": 1072500
+  },
+  {
+    "address": "2 GARDEN CT",
+    "assessment_2025": 473300,
+    "assessment_2026": 882300
+  },
+  {
+    "address": "221 N FRANKLIN TPK",
+    "assessment_2025": 434700,
+    "assessment_2026": 827000
+  },
+  {
+    "address": "248 N FRANKLIN TP.",
+    "assessment_2025": 453600,
+    "assessment_2026": 753400
+  },
+  {
+    "address": "109 BLAUVELT AVE",
+    "assessment_2025": 1017500,
+    "assessment_2026": 1702500
+  },
+  {
+    "address": "119 BLAUVELT AVE",
+    "assessment_2025": 800100,
+    "assessment_2026": 1416200
+  },
+  {
+    "address": "125 BLAUVELT AVE",
+    "assessment_2025": 614600,
+    "assessment_2026": 1231700
+  },
+  {
+    "address": "51 ARDMORE RD",
+    "assessment_2025": 792100,
+    "assessment_2026": 1562900
+  },
+  {
+    "address": "49 ARDMORE RD",
+    "assessment_2025": 812200,
+    "assessment_2026": 1518700
+  },
+  {
+    "address": "47 ARDMORE RD",
+    "assessment_2025": 768700,
+    "assessment_2026": 1423700
+  },
+  {
+    "address": "45 ARDMORE RD",
+    "assessment_2025": 959900,
+    "assessment_2026": 1828200
+  },
+  {
+    "address": "43 ARDMORE RD",
+    "assessment_2025": 784200,
+    "assessment_2026": 1482200
+  },
+  {
+    "address": "41 ARDMORE RD",
+    "assessment_2025": 983000,
+    "assessment_2026": 1816200
+  },
+  {
+    "address": "39 ARDMORE RD",
+    "assessment_2025": 751000,
+    "assessment_2026": 1443600
+  },
+  {
+    "address": "37 ARDMORE RD",
+    "assessment_2025": 918200,
+    "assessment_2026": 1749600
+  },
+  {
+    "address": "35 ARDMORE RD",
+    "assessment_2025": 978200,
+    "assessment_2026": 1767400
+  },
+  {
+    "address": "33 ARDMORE RD",
+    "assessment_2025": 958800,
+    "assessment_2026": 1752400
+  },
+  {
+    "address": "60 ACKERMAN AVE",
+    "assessment_2025": 1025000,
+    "assessment_2026": 2141500
+  },
+  {
+    "address": "70 ACKERMAN AVE",
+    "assessment_2025": 765800,
+    "assessment_2026": 1412400
+  },
+  {
+    "address": "80 ACKERMAN AVE",
+    "assessment_2025": 834700,
+    "assessment_2026": 1625800
+  },
+  {
+    "address": "90 ACKERMAN AVE",
+    "assessment_2025": 898000,
+    "assessment_2026": 1754500
+  },
+  {
+    "address": "100 ACKERMAN AVE",
+    "assessment_2025": 1057700,
+    "assessment_2026": 1957700
+  },
+  {
+    "address": "110 ACKERMAN AVE",
+    "assessment_2025": 731800,
+    "assessment_2026": 1412700
+  },
+  {
+    "address": "120 ACKERMAN AVE",
+    "assessment_2025": 968600,
+    "assessment_2026": 1853000
+  },
+  {
+    "address": "130 ACKERMAN AVE",
+    "assessment_2025": 1029500,
+    "assessment_2026": 1906800
+  },
+  {
+    "address": "140 ACKERMAN AVE",
+    "assessment_2025": 894700,
+    "assessment_2026": 1668700
+  },
+  {
+    "address": "152 ACKERMAN AVE",
+    "assessment_2025": 760300,
+    "assessment_2026": 1446300
+  },
+  {
+    "address": "172 ACKERMAN AVE",
+    "assessment_2025": 730000,
+    "assessment_2026": 1270900
+  },
+  {
+    "address": "180 ACKERMAN AVE",
+    "assessment_2025": 818500,
+    "assessment_2026": 1559000
+  },
+  {
+    "address": "111 GILBERT RD",
+    "assessment_2025": 857300,
+    "assessment_2026": 1464400
+  },
+  {
+    "address": "107 GILBERT RD",
+    "assessment_2025": 664300,
+    "assessment_2026": 1229300
+  },
+  {
+    "address": "99 GILBERT RD",
+    "assessment_2025": 742700,
+    "assessment_2026": 1327700
+  },
+  {
+    "address": "169 BLAUVELT AVE",
+    "assessment_2025": 757500,
+    "assessment_2026": 1311700
+  },
+  {
+    "address": "163 BLAUVELT AVE",
+    "assessment_2025": 751300,
+    "assessment_2026": 1247500
+  },
+  {
+    "address": "155 BLAUVELT AVE",
+    "assessment_2025": 534100,
+    "assessment_2026": 1040100
+  },
+  {
+    "address": "149 BLAUVELT AVE",
+    "assessment_2025": 629200,
+    "assessment_2026": 1333500
+  },
+  {
+    "address": "20 ARDMORE RD",
+    "assessment_2025": 811100,
+    "assessment_2026": 1579400
+  },
+  {
+    "address": "30 ARDMORE RD",
+    "assessment_2025": 861700,
+    "assessment_2026": 1545000
+  },
+  {
+    "address": "40 ARDMORE RD",
+    "assessment_2025": 716900,
+    "assessment_2026": 1458100
+  },
+  {
+    "address": "20 SARGENT RD",
+    "assessment_2025": 778600,
+    "assessment_2026": 1499700
+  },
+  {
+    "address": "10 SARGENT RD",
+    "assessment_2025": 775800,
+    "assessment_2026": 1468100
+  },
+  {
+    "address": "125 ACKERMAN AVE",
+    "assessment_2025": 639600,
+    "assessment_2026": 1503900
+  },
+  {
+    "address": "115 ACKERMAN AVE",
+    "assessment_2025": 996000,
+    "assessment_2026": 1890400
+  },
+  {
+    "address": "145 ACKERMAN AVE",
+    "assessment_2025": 660200,
+    "assessment_2026": 1312600
+  },
+  {
+    "address": "5 SARGENT RD",
+    "assessment_2025": 721600,
+    "assessment_2026": 1458100
+  },
+  {
+    "address": "15 SARGENT RD",
+    "assessment_2025": 789600,
+    "assessment_2026": 1530900
+  },
+  {
+    "address": "25 SARGENT RD",
+    "assessment_2025": 923900,
+    "assessment_2026": 1660200
+  },
+  {
+    "address": "35 SARGENT RD",
+    "assessment_2025": 667300,
+    "assessment_2026": 1251000
+  },
+  {
+    "address": "50 ARDMORE RD",
+    "assessment_2025": 720000,
+    "assessment_2026": 1448300
+  },
+  {
+    "address": "54 ARDMORE RD",
+    "assessment_2025": 787500,
+    "assessment_2026": 1571300
+  },
+  {
+    "address": "35 DUNCAN RD",
+    "assessment_2025": 731000,
+    "assessment_2026": 1353500
+  },
+  {
+    "address": "29 DUNCAN RD",
+    "assessment_2025": 669400,
+    "assessment_2026": 1307600
+  },
+  {
+    "address": "21 DUNCAN RD",
+    "assessment_2025": 984800,
+    "assessment_2026": 1779800
+  },
+  {
+    "address": "11 DUNCAN RD",
+    "assessment_2025": 732000,
+    "assessment_2026": 1438200
+  },
+  {
+    "address": "153 ACKERMAN AVE",
+    "assessment_2025": 738600,
+    "assessment_2026": 1431700
+  },
+  {
+    "address": "143 ARDMORE RD",
+    "assessment_2025": 654500,
+    "assessment_2026": 1215200
+  },
+  {
+    "address": "135 ARDMORE RD",
+    "assessment_2025": 838000,
+    "assessment_2026": 1467200
+  },
+  {
+    "address": "129 ARDMORE RD",
+    "assessment_2025": 801900,
+    "assessment_2026": 1499400
+  },
+  {
+    "address": "123 ARDMORE RD",
+    "assessment_2025": 817300,
+    "assessment_2026": 1499600
+  },
+  {
+    "address": "115 ARDMORE RD",
+    "assessment_2025": 677500,
+    "assessment_2026": 1338600
+  },
+  {
+    "address": "111 ARDMORE RD",
+    "assessment_2025": 710300,
+    "assessment_2026": 1394400
+  },
+  {
+    "address": "101 ARDMORE RD",
+    "assessment_2025": 785600,
+    "assessment_2026": 1482000
+  },
+  {
+    "address": "95 ARDMORE RD",
+    "assessment_2025": 865300,
+    "assessment_2026": 1544700
+  },
+  {
+    "address": "85 ARDMORE RD",
+    "assessment_2025": 750300,
+    "assessment_2026": 1451100
+  },
+  {
+    "address": "77 ARDMORE RD",
+    "assessment_2025": 855300,
+    "assessment_2026": 1642400
+  },
+  {
+    "address": "75 ARDMORE RD",
+    "assessment_2025": 807500,
+    "assessment_2026": 1585700
+  },
+  {
+    "address": "59 ARDMORE RD",
+    "assessment_2025": 735500,
+    "assessment_2026": 1364000
+  },
+  {
+    "address": "57 ARDMORE RD",
+    "assessment_2025": 885900,
+    "assessment_2026": 1679400
+  },
+  {
+    "address": "55 ARDMORE RD",
+    "assessment_2025": 724400,
+    "assessment_2026": 1501900
+  },
+  {
+    "address": "53 ARDMORE RD",
+    "assessment_2025": 964600,
+    "assessment_2026": 1888500
+  },
+  {
+    "address": "303 ARDMORE RD",
+    "assessment_2025": 1201300,
+    "assessment_2026": 1920900
+  },
+  {
+    "address": "311 ARDMORE RD",
+    "assessment_2025": 1164900,
+    "assessment_2026": 1891800
+  },
+  {
+    "address": "317 ARDMORE RD",
+    "assessment_2025": 1197000,
+    "assessment_2026": 1951100
+  },
+  {
+    "address": "331 ARDMORE RD",
+    "assessment_2025": 1206500,
+    "assessment_2026": 1953300
+  },
+  {
+    "address": "407 ARDMORE RD",
+    "assessment_2025": 676900,
+    "assessment_2026": 1203000
+  },
+  {
+    "address": "413 ARDMORE RD",
+    "assessment_2025": 604300,
+    "assessment_2026": 1110300
+  },
+  {
+    "address": "419 ARDMORE RD",
+    "assessment_2025": 530100,
+    "assessment_2026": 961100
+  },
+  {
+    "address": "425 ARDMORE RD",
+    "assessment_2025": 564900,
+    "assessment_2026": 1047000
+  },
+  {
+    "address": "505 ARDMORE RD",
+    "assessment_2025": 506500,
+    "assessment_2026": 918200
+  },
+  {
+    "address": "511 ARDMORE RD",
+    "assessment_2025": 845100,
+    "assessment_2026": 1447300
+  },
+  {
+    "address": "519 ARDMORE RD",
+    "assessment_2025": 551300,
+    "assessment_2026": 1022100
+  },
+  {
+    "address": "525 ARDMORE RD",
+    "assessment_2025": 520600,
+    "assessment_2026": 991100
+  },
+  {
+    "address": "529 ARDMORE RD",
+    "assessment_2025": 477300,
+    "assessment_2026": 820600
+  },
+  {
+    "address": "451 BRAEBURN RD",
+    "assessment_2025": 509300,
+    "assessment_2026": 904500
+  },
+  {
+    "address": "50 WYNCOTE RD",
+    "assessment_2025": 941400,
+    "assessment_2026": 1778300
+  },
+  {
+    "address": "80 ARDMORE RD",
+    "assessment_2025": 715400,
+    "assessment_2026": 1236500
+  },
+  {
+    "address": "90 ARDMORE RD",
+    "assessment_2025": 819400,
+    "assessment_2026": 1517600
+  },
+  {
+    "address": "39 HOLLIS DR",
+    "assessment_2025": 787000,
+    "assessment_2026": 1593500
+  },
+  {
+    "address": "29 HOLLIS DR",
+    "assessment_2025": 799800,
+    "assessment_2026": 1588600
+  },
+  {
+    "address": "10 WYNCOTE RD",
+    "assessment_2025": 832700,
+    "assessment_2026": 1609000
+  },
+  {
+    "address": "20 WYNCOTE RD",
+    "assessment_2025": 743300,
+    "assessment_2026": 1474300
+  },
+  {
+    "address": "36 WYNCOTE RD",
+    "assessment_2025": 815900,
+    "assessment_2026": 1514700
+  },
+  {
+    "address": "38 DUNCAN RD",
+    "assessment_2025": 932400,
+    "assessment_2026": 1757500
+  },
+  {
+    "address": "60 ARDMORE RD",
+    "assessment_2025": 888400,
+    "assessment_2026": 1627400
+  },
+  {
+    "address": "53 WYNCOTE RD",
+    "assessment_2025": 998400,
+    "assessment_2026": 1813900
+  },
+  {
+    "address": "45 WYNCOTE RD",
+    "assessment_2025": 870200,
+    "assessment_2026": 1570200
+  },
+  {
+    "address": "39 WYNCOTE RD",
+    "assessment_2025": 1222300,
+    "assessment_2026": 2028800
+  },
+  {
+    "address": "33 WYNCOTE RD",
+    "assessment_2025": 776300,
+    "assessment_2026": 1497200
+  },
+  {
+    "address": "27 WYNCOTE RD",
+    "assessment_2025": 1159000,
+    "assessment_2026": 2157600
+  },
+  {
+    "address": "19 WYNCOTE RD",
+    "assessment_2025": 855500,
+    "assessment_2026": 1570900
+  },
+  {
+    "address": "13 WYNCOTE ROAD",
+    "assessment_2025": 425100,
+    "assessment_2026": 307500
+  },
+  {
+    "address": "15 HOLLIS DR",
+    "assessment_2025": 907500,
+    "assessment_2026": 1594500
+  },
+  {
+    "address": "3 HOLLIS DR",
+    "assessment_2025": 1500000,
+    "assessment_2026": 2591700
+  },
+  {
+    "address": "197 ACKERMAN AVE",
+    "assessment_2025": 817200,
+    "assessment_2026": 1517400
+  },
+  {
+    "address": "189 ACKERMAN AVE",
+    "assessment_2025": 928900,
+    "assessment_2026": 1730200
+  },
+  {
+    "address": "4 DUNCAN RD",
+    "assessment_2025": 1033600,
+    "assessment_2026": 2012500
+  },
+  {
+    "address": "12 DUNCAN RD",
+    "assessment_2025": 632800,
+    "assessment_2026": 1308000
+  },
+  {
+    "address": "22 DUNCAN RD",
+    "assessment_2025": 964500,
+    "assessment_2026": 1808000
+  },
+  {
+    "address": "32 DUNCAN RD",
+    "assessment_2025": 784200,
+    "assessment_2026": 1510600
+  },
+  {
+    "address": "108 ARDMORE RD",
+    "assessment_2025": 969100,
+    "assessment_2026": 1820700
+  },
+  {
+    "address": "32 HOLLIS DR",
+    "assessment_2025": 866900,
+    "assessment_2026": 1592700
+  },
+  {
+    "address": "24 HOLLIS DR",
+    "assessment_2025": 891000,
+    "assessment_2026": 1533100
+  },
+  {
+    "address": "22 HOLLIS DR",
+    "assessment_2025": 741200,
+    "assessment_2026": 1370700
+  },
+  {
+    "address": "12 HOLLIS DR",
+    "assessment_2025": 925400,
+    "assessment_2026": 1602300
+  },
+  {
+    "address": "225 ACKERMAN AVE",
+    "assessment_2025": 897200,
+    "assessment_2026": 1720500
+  },
+  {
+    "address": "235 ACKERMAN AVE",
+    "assessment_2025": 791300,
+    "assessment_2026": 1449900
+  },
+  {
+    "address": "11 SUTTON DR",
+    "assessment_2025": 901000,
+    "assessment_2026": 1496000
+  },
+  {
+    "address": "17 SUTTON DR",
+    "assessment_2025": 737600,
+    "assessment_2026": 1237700
+  },
+  {
+    "address": "23 SUTTON DR",
+    "assessment_2025": 683800,
+    "assessment_2026": 1361300
+  },
+  {
+    "address": "31 SUTTON DR",
+    "assessment_2025": 710500,
+    "assessment_2026": 1243800
+  },
+  {
+    "address": "37 SUTTON DR",
+    "assessment_2025": 1005700,
+    "assessment_2026": 1826200
+  },
+  {
+    "address": "45 SUTTON DR",
+    "assessment_2025": 711200,
+    "assessment_2026": 1347800
+  },
+  {
+    "address": "46 SUTTON DR",
+    "assessment_2025": 857900,
+    "assessment_2026": 1580600
+  },
+  {
+    "address": "40 SUTTON DR",
+    "assessment_2025": 851400,
+    "assessment_2026": 1541100
+  },
+  {
+    "address": "34 SUTTON DR",
+    "assessment_2025": 651800,
+    "assessment_2026": 1253300
+  },
+  {
+    "address": "28 SUTTON DR",
+    "assessment_2025": 704300,
+    "assessment_2026": 1260200
+  },
+  {
+    "address": "24 SUTTON DR",
+    "assessment_2025": 851900,
+    "assessment_2026": 1454900
+  },
+  {
+    "address": "18 SUTTON DR",
+    "assessment_2025": 840000,
+    "assessment_2026": 1543500
+  },
+  {
+    "address": "12 SUTTON DR",
+    "assessment_2025": 609000,
+    "assessment_2026": 1153200
+  },
+  {
+    "address": "251 ACKERMAN AVE",
+    "assessment_2025": 682800,
+    "assessment_2026": 1180500
+  },
+  {
+    "address": "255 ACKERMAN AVE",
+    "assessment_2025": 600400,
+    "assessment_2026": 1049200
+  },
+  {
+    "address": "223 SHERIDAN AVE",
+    "assessment_2025": 543100,
+    "assessment_2026": 1045900
+  },
+  {
+    "address": "227 SHERIDAN AVE",
+    "assessment_2025": 651200,
+    "assessment_2026": 1098300
+  },
+  {
+    "address": "235 SHERIDAN AVE",
+    "assessment_2025": 644200,
+    "assessment_2026": 1114200
+  },
+  {
+    "address": "245 SHERIDAN AVE",
+    "assessment_2025": 612700,
+    "assessment_2026": 985000
+  },
+  {
+    "address": "251 SHERIDAN AVE",
+    "assessment_2025": 560200,
+    "assessment_2026": 965500
+  },
+  {
+    "address": "146 ARDMORE RD",
+    "assessment_2025": 848100,
+    "assessment_2026": 1585900
+  },
+  {
+    "address": "1 PINECREST RD",
+    "assessment_2025": 707900,
+    "assessment_2026": 1216700
+  },
+  {
+    "address": "238 SHERIDAN AVE",
+    "assessment_2025": 535500,
+    "assessment_2026": 811400
+  },
+  {
+    "address": "244 SHERIDAN AVE",
+    "assessment_2025": 542100,
+    "assessment_2026": 952500
+  },
+  {
+    "address": "250 SHERIDAN AVE",
+    "assessment_2025": 627600,
+    "assessment_2026": 1088400
+  },
+  {
+    "address": "254 SHERIDAN AVE",
+    "assessment_2025": 504400,
+    "assessment_2026": 934700
+  },
+  {
+    "address": "260 SHERIDAN AVE",
+    "assessment_2025": 493700,
+    "assessment_2026": 843400
+  },
+  {
+    "address": "304 ARDMORE RD",
+    "assessment_2025": 515100,
+    "assessment_2026": 990500
+  },
+  {
+    "address": "314 ARDMORE RD",
+    "assessment_2025": 574700,
+    "assessment_2026": 1028100
+  },
+  {
+    "address": "45 PINECREST RD",
+    "assessment_2025": 576600,
+    "assessment_2026": 916900
+  },
+  {
+    "address": "39 PINECREST RD",
+    "assessment_2025": 716200,
+    "assessment_2026": 1310700
+  },
+  {
+    "address": "33 PINECREST RD",
+    "assessment_2025": 574400,
+    "assessment_2026": 934100
+  },
+  {
+    "address": "27 PINECREST RD",
+    "assessment_2025": 691800,
+    "assessment_2026": 1256900
+  },
+  {
+    "address": "413 BRAEBURN RD",
+    "assessment_2025": 706400,
+    "assessment_2026": 1279800
+  },
+  {
+    "address": "419 BRAEBURN RD",
+    "assessment_2025": 783700,
+    "assessment_2026": 1262700
+  },
+  {
+    "address": "425 BRAEBURN RD",
+    "assessment_2025": 655200,
+    "assessment_2026": 1070400
+  },
+  {
+    "address": "431 BRAEBURN RD",
+    "assessment_2025": 623700,
+    "assessment_2026": 1137300
+  },
+  {
+    "address": "444 ARDMORE RD",
+    "assessment_2025": 653100,
+    "assessment_2026": 1215500
+  },
+  {
+    "address": "440 ARDMORE RD",
+    "assessment_2025": 537900,
+    "assessment_2026": 994500
+  },
+  {
+    "address": "436 ARDMORE RD",
+    "assessment_2025": 699400,
+    "assessment_2026": 1250500
+  },
+  {
+    "address": "422 ARDMORE RD",
+    "assessment_2025": 629000,
+    "assessment_2026": 1079500
+  },
+  {
+    "address": "418 ARDMORE RD",
+    "assessment_2025": 487200,
+    "assessment_2026": 971400
+  },
+  {
+    "address": "412 ARDMORE RD",
+    "assessment_2025": 615000,
+    "assessment_2026": 1137300
+  },
+  {
+    "address": "404 ARDMORE RD",
+    "assessment_2025": 727000,
+    "assessment_2026": 1309900
+  },
+  {
+    "address": "50 PINECREST RD",
+    "assessment_2025": 669700,
+    "assessment_2026": 1200800
+  },
+  {
+    "address": "405 BRAEBURN RD",
+    "assessment_2025": 1282600,
+    "assessment_2026": 2380200
+  },
+  {
+    "address": "2 PINECREST RD",
+    "assessment_2025": 632100,
+    "assessment_2026": 1202900
+  },
+  {
+    "address": "20 PINECREST RD",
+    "assessment_2025": 621100,
+    "assessment_2026": 1162300
+  },
+  {
+    "address": "28 PINECREST RD.",
+    "assessment_2025": 621000,
+    "assessment_2026": 1102000
+  },
+  {
+    "address": "406 BRAEBURN RD",
+    "assessment_2025": 817100,
+    "assessment_2026": 1358200
+  },
+  {
+    "address": "412 BRAEBURN RD",
+    "assessment_2025": 711100,
+    "assessment_2026": 1077900
+  },
+  {
+    "address": "418 BRAEBURN RD",
+    "assessment_2025": 675300,
+    "assessment_2026": 1261400
+  },
+  {
+    "address": "424 BRAEBURN RD",
+    "assessment_2025": 611100,
+    "assessment_2026": 1155400
+  },
+  {
+    "address": "430 BRAEBURN RD",
+    "assessment_2025": 621500,
+    "assessment_2026": 1144600
+  },
+  {
+    "address": "506 BRAEBURN RD",
+    "assessment_2025": 689500,
+    "assessment_2026": 1310500
+  },
+  {
+    "address": "514 BRAEBURN RD",
+    "assessment_2025": 643700,
+    "assessment_2026": 1174400
+  },
+  {
+    "address": "520 BRAEBURN RD",
+    "assessment_2025": 552700,
+    "assessment_2026": 1097300
+  },
+  {
+    "address": "528 BRAEBURN RD",
+    "assessment_2025": 839300,
+    "assessment_2026": 1641000
+  },
+  {
+    "address": "530 BRAEBURN RD",
+    "assessment_2025": 483100,
+    "assessment_2026": 1109400
+  },
+  {
+    "address": "532 BRAEBURN RD",
+    "assessment_2025": 481900,
+    "assessment_2026": 871600
+  },
+  {
+    "address": "609 ACKERMAN AVE",
+    "assessment_2025": 522100,
+    "assessment_2026": 1037500
+  },
+  {
+    "address": "605 ACKERMAN AVE",
+    "assessment_2025": 490800,
+    "assessment_2026": 914800
+  },
+  {
+    "address": "601 ACKERMAN AVE",
+    "assessment_2025": 693100,
+    "assessment_2026": 1230800
+  },
+  {
+    "address": "517 ACKERMAN AVE",
+    "assessment_2025": 634900,
+    "assessment_2026": 1129000
+  },
+  {
+    "address": "513 ACKERMAN AVE",
+    "assessment_2025": 848200,
+    "assessment_2026": 1282300
+  },
+  {
+    "address": "507 ACKERMAN AVE",
+    "assessment_2025": 721300,
+    "assessment_2026": 1257400
+  },
+  {
+    "address": "501 ACKERMAN AVE",
+    "assessment_2025": 574000,
+    "assessment_2026": 1003000
+  },
+  {
+    "address": "421 ACKERMAN AVE",
+    "assessment_2025": 525200,
+    "assessment_2026": 948800
+  },
+  {
+    "address": "413 ACKERMAN AVE",
+    "assessment_2025": 687000,
+    "assessment_2026": 1179100
+  },
+  {
+    "address": "409 ACKERMAN AVE",
+    "assessment_2025": 657300,
+    "assessment_2026": 1132500
+  },
+  {
+    "address": "401 ACKERMAN AVE",
+    "assessment_2025": 740000,
+    "assessment_2026": 1082600
+  },
+  {
+    "address": "319 ACKERMAN AVE",
+    "assessment_2025": 915000,
+    "assessment_2026": 1605500
+  },
+  {
+    "address": "100 GILBERT RD",
+    "assessment_2025": 820000,
+    "assessment_2026": 1466200
+  },
+  {
+    "address": "208 ACKERMAN AVE",
+    "assessment_2025": 873800,
+    "assessment_2026": 1484300
+  },
+  {
+    "address": "214 ACKERMAN AVE",
+    "assessment_2025": 815600,
+    "assessment_2026": 1420200
+  },
+  {
+    "address": "220 ACKERMAN AVE",
+    "assessment_2025": 711400,
+    "assessment_2026": 1353300
+  },
+  {
+    "address": "226 ACKERMAN AVE",
+    "assessment_2025": 683200,
+    "assessment_2026": 1330300
+  },
+  {
+    "address": "232 ACKERMAN AVE",
+    "assessment_2025": 1040200,
+    "assessment_2026": 1838100
+  },
+  {
+    "address": "238 ACKERMAN AVE",
+    "assessment_2025": 822300,
+    "assessment_2026": 1611600
+  },
+  {
+    "address": "244 ACKERMAN AVE",
+    "assessment_2025": 949900,
+    "assessment_2026": 1734400
+  },
+  {
+    "address": "250 ACKERMAN AVE",
+    "assessment_2025": 689300,
+    "assessment_2026": 1428400
+  },
+  {
+    "address": "258 ACKERMAN AVE",
+    "assessment_2025": 635200,
+    "assessment_2026": 1263700
+  },
+  {
+    "address": "201 SHERIDAN AVE",
+    "assessment_2025": 749600,
+    "assessment_2026": 1354800
+  },
+  {
+    "address": "195 SHERIDAN AVE",
+    "assessment_2025": 643000,
+    "assessment_2026": 1204300
+  },
+  {
+    "address": "253 BLAUVELT AVE",
+    "assessment_2025": 832900,
+    "assessment_2026": 1580500
+  },
+  {
+    "address": "247 BLAUVELT AVE",
+    "assessment_2025": 669800,
+    "assessment_2026": 1275900
+  },
+  {
+    "address": "241 BLAUVELT AVE",
+    "assessment_2025": 1226200,
+    "assessment_2026": 1971400
+  },
+  {
+    "address": "235 BLAUVELT AVE",
+    "assessment_2025": 828300,
+    "assessment_2026": 1506400
+  },
+  {
+    "address": "229 BLAUVELT AVE",
+    "assessment_2025": 824900,
+    "assessment_2026": 1533200
+  },
+  {
+    "address": "223 BLAUVELT AVE",
+    "assessment_2025": 900000,
+    "assessment_2026": 1560700
+  },
+  {
+    "address": "215 BLAUVELT AVE",
+    "assessment_2025": 782100,
+    "assessment_2026": 1320500
+  },
+  {
+    "address": "211 BLAUVELT AVE",
+    "assessment_2025": 705200,
+    "assessment_2026": 1331100
+  },
+  {
+    "address": "90 GILBERT RD",
+    "assessment_2025": 800200,
+    "assessment_2026": 1366000
+  },
+  {
+    "address": "304 ACKERMAN AVE",
+    "assessment_2025": 599400,
+    "assessment_2026": 996800
+  },
+  {
+    "address": "210 SHERIDAN AVE",
+    "assessment_2025": 619600,
+    "assessment_2026": 1084400
+  },
+  {
+    "address": "206 SHERIDAN AVE",
+    "assessment_2025": 621800,
+    "assessment_2026": 1045800
+  },
+  {
+    "address": "305 BLAUVELT AVE",
+    "assessment_2025": 619200,
+    "assessment_2026": 1107800
+  },
+  {
+    "address": "317 BLAUVELT AVE",
+    "assessment_2025": 683300,
+    "assessment_2026": 1182600
+  },
+  {
+    "address": "69 FAIRLAWN ST",
+    "assessment_2025": 563600,
+    "assessment_2026": 1043800
+  },
+  {
+    "address": "73 FAIRLAWN ST.",
+    "assessment_2025": 862100,
+    "assessment_2026": 1624600
+  },
+  {
+    "address": "316 ACKERMAN AVE",
+    "assessment_2025": 563200,
+    "assessment_2026": 1043900
+  },
+  {
+    "address": "84 FAIRLAWN ST",
+    "assessment_2025": 584900,
+    "assessment_2026": 961200
+  },
+  {
+    "address": "78 FAIRLAWN ST",
+    "assessment_2025": 688200,
+    "assessment_2026": 1208600
+  },
+  {
+    "address": "74 FAIRLAWN ST",
+    "assessment_2025": 710700,
+    "assessment_2026": 1250700
+  },
+  {
+    "address": "405 BLAUVELT AVE",
+    "assessment_2025": 874300,
+    "assessment_2026": 1537100
+  },
+  {
+    "address": "417 BLAUVELT AVE",
+    "assessment_2025": 675300,
+    "assessment_2026": 1323500
+  },
+  {
+    "address": "241 ELMWOOD AVE",
+    "assessment_2025": 577200,
+    "assessment_2026": 1000100
+  },
+  {
+    "address": "245 ELMWOOD AVE",
+    "assessment_2025": 683300,
+    "assessment_2026": 1108500
+  },
+  {
+    "address": "490 ACKERMAN AVE",
+    "assessment_2025": 708900,
+    "assessment_2026": 1421800
+  },
+  {
+    "address": "502 ACKERMAN AVE",
+    "assessment_2025": 583000,
+    "assessment_2026": 1062100
+  },
+  {
+    "address": "246 ELMWOOD AVE",
+    "assessment_2025": 647900,
+    "assessment_2026": 1131400
+  },
+  {
+    "address": "242 ELMWOOD AVE",
+    "assessment_2025": 661700,
+    "assessment_2026": 1074600
+  },
+  {
+    "address": "240 ELMWOOD AVE",
+    "assessment_2025": 690800,
+    "assessment_2026": 1169900
+  },
+  {
+    "address": "234 ELMWOOD AVE",
+    "assessment_2025": 651500,
+    "assessment_2026": 1102300
+  },
+  {
+    "address": "515 BLAUVELT AVE",
+    "assessment_2025": 599600,
+    "assessment_2026": 1063300
+  },
+  {
+    "address": "179 LAKEWOOD AVE",
+    "assessment_2025": 656500,
+    "assessment_2026": 1166900
+  },
+  {
+    "address": "183 LAKEWOOD AVE",
+    "assessment_2025": 570000,
+    "assessment_2026": 966900
+  },
+  {
+    "address": "189 LAKEWOOD AVE",
+    "assessment_2025": 473800,
+    "assessment_2026": 992300
+  },
+  {
+    "address": "514 ACKERMAN AVE",
+    "assessment_2025": 632600,
+    "assessment_2026": 1092300
+  },
+  {
+    "address": "602 ACKERMAN AVE",
+    "assessment_2025": 604500,
+    "assessment_2026": 1071700
+  },
+  {
+    "address": "188 LAKEWOOD AVE",
+    "assessment_2025": 826600,
+    "assessment_2026": 1425700
+  },
+  {
+    "address": "182 LAKEWOOD AVE",
+    "assessment_2025": 770000,
+    "assessment_2026": 1359100
+  },
+  {
+    "address": "176 LAKEWOOD AVE",
+    "assessment_2025": 724300,
+    "assessment_2026": 1247800
+  },
+  {
+    "address": "76 GILBERT RD",
+    "assessment_2025": 706200,
+    "assessment_2026": 1236600
+  },
+  {
+    "address": "70 GILBERT RD",
+    "assessment_2025": 647900,
+    "assessment_2026": 1228500
+  },
+  {
+    "address": "66 GILBERT RD.",
+    "assessment_2025": 581000,
+    "assessment_2026": 1181700
+  },
+  {
+    "address": "60 GILBERT RD.",
+    "assessment_2025": 670400,
+    "assessment_2026": 1293800
+  },
+  {
+    "address": "50 GILBERT RD.",
+    "assessment_2025": 893400,
+    "assessment_2026": 1693900
+  },
+  {
+    "address": "46 GILBERT RD.",
+    "assessment_2025": 558100,
+    "assessment_2026": 1159500
+  },
+  {
+    "address": "7 GLENDON RD",
+    "assessment_2025": 765500,
+    "assessment_2026": 1410100
+  },
+  {
+    "address": "15 GLENDON RD",
+    "assessment_2025": 831900,
+    "assessment_2026": 1487900
+  },
+  {
+    "address": "23 GLENDON RD",
+    "assessment_2025": 794800,
+    "assessment_2026": 1381000
+  },
+  {
+    "address": "220 BLAUVELT AVE",
+    "assessment_2025": 902000,
+    "assessment_2026": 1602400
+  },
+  {
+    "address": "214 BLAUVELT AVE",
+    "assessment_2025": 630000,
+    "assessment_2026": 1119400
+  },
+  {
+    "address": "28 GLENDON RD",
+    "assessment_2025": 934900,
+    "assessment_2026": 1688600
+  },
+  {
+    "address": "246 BLAUVELT AVE",
+    "assessment_2025": 656800,
+    "assessment_2026": 1271600
+  },
+  {
+    "address": "252 BLAUVELT AVE",
+    "assessment_2025": 665300,
+    "assessment_2026": 1223200
+  },
+  {
+    "address": "189 SHERIDAN AV",
+    "assessment_2025": 577500,
+    "assessment_2026": 1130400
+  },
+  {
+    "address": "183 SHERIDAN AV",
+    "assessment_2025": 521400,
+    "assessment_2026": 1002700
+  },
+  {
+    "address": "179 SHERIDAN AV",
+    "assessment_2025": 522000,
+    "assessment_2026": 917600
+  },
+  {
+    "address": "173 SHERIDAN AV",
+    "assessment_2025": 717000,
+    "assessment_2026": 1221800
+  },
+  {
+    "address": "169 SHERIDAN AV",
+    "assessment_2025": 546400,
+    "assessment_2026": 930500
+  },
+  {
+    "address": "165 SHERIDAN AVE",
+    "assessment_2025": 759500,
+    "assessment_2026": 1363300
+  },
+  {
+    "address": "161 SHERIDAN AV",
+    "assessment_2025": 522100,
+    "assessment_2026": 958200
+  },
+  {
+    "address": "155 SHERIDAN AV",
+    "assessment_2025": 523000,
+    "assessment_2026": 865800
+  },
+  {
+    "address": "151 SHERIDAN AV",
+    "assessment_2025": 599900,
+    "assessment_2026": 982300
+  },
+  {
+    "address": "149 SHERIDAN AV",
+    "assessment_2025": 493100,
+    "assessment_2026": 809800
+  },
+  {
+    "address": "147 SHERIDAN AV",
+    "assessment_2025": 542500,
+    "assessment_2026": 1053800
+  },
+  {
+    "address": "22 GILBERT RD",
+    "assessment_2025": 822400,
+    "assessment_2026": 1407200
+  },
+  {
+    "address": "2 GLENDON RD",
+    "assessment_2025": 909800,
+    "assessment_2026": 1623300
+  },
+  {
+    "address": "10 GLENDON RD",
+    "assessment_2025": 697200,
+    "assessment_2026": 1301300
+  },
+  {
+    "address": "18 GLENDON RD",
+    "assessment_2025": 1135900,
+    "assessment_2026": 2037000
+  },
+  {
+    "address": "304 BLAUVELT AVE",
+    "assessment_2025": 503700,
+    "assessment_2026": 909000
+  },
+  {
+    "address": "190 SHERIDAN AVE",
+    "assessment_2025": 623100,
+    "assessment_2026": 1114100
+  },
+  {
+    "address": "184 SHERIDAN AVE",
+    "assessment_2025": 559600,
+    "assessment_2026": 982500
+  },
+  {
+    "address": "180 SHERIDAN AVE",
+    "assessment_2025": 492400,
+    "assessment_2026": 870600
+  },
+  {
+    "address": "176 SHERIDAN AVE",
+    "assessment_2025": 606500,
+    "assessment_2026": 1152200
+  },
+  {
+    "address": "166 SHERIDAN AVE",
+    "assessment_2025": 675700,
+    "assessment_2026": 1120800
+  },
+  {
+    "address": "160 SHERIDAN AVE",
+    "assessment_2025": 554900,
+    "assessment_2026": 965000
+  },
+  {
+    "address": "158 SHERIDAN AVE",
+    "assessment_2025": 561600,
+    "assessment_2026": 927600
+  },
+  {
+    "address": "156 SHERIDAN AVE",
+    "assessment_2025": 677700,
+    "assessment_2026": 1144400
+  },
+  {
+    "address": "154 SHERIDAN AVE",
+    "assessment_2025": 648400,
+    "assessment_2026": 1169400
+  },
+  {
+    "address": "144 SHERIDAN AVE",
+    "assessment_2025": 440000,
+    "assessment_2026": 1059100
+  },
+  {
+    "address": "309 HOLLYWOOD AVE",
+    "assessment_2025": 402400,
+    "assessment_2026": 918700
+  },
+  {
+    "address": "311 HOLLYWOOD AVE",
+    "assessment_2025": 474600,
+    "assessment_2026": 896800
+  },
+  {
+    "address": "321 HOLLYWOOD AVE",
+    "assessment_2025": 660400,
+    "assessment_2026": 1117800
+  },
+  {
+    "address": "11 FAIRLAWN ST",
+    "assessment_2025": 837400,
+    "assessment_2026": 1493000
+  },
+  {
+    "address": "15 FAIRLAWN ST",
+    "assessment_2025": 567300,
+    "assessment_2026": 1012700
+  },
+  {
+    "address": "19 FAIRLAWN ST",
+    "assessment_2025": 605000,
+    "assessment_2026": 1173700
+  },
+  {
+    "address": "25 FAIRLAWN ST",
+    "assessment_2025": 591500,
+    "assessment_2026": 999000
+  },
+  {
+    "address": "29 FAIRLAWN ST",
+    "assessment_2025": 611300,
+    "assessment_2026": 992600
+  },
+  {
+    "address": "35 FAIRLAWN ST",
+    "assessment_2025": 541500,
+    "assessment_2026": 920400
+  },
+  {
+    "address": "39 FAIRLAWN ST",
+    "assessment_2025": 699800,
+    "assessment_2026": 1241800
+  },
+  {
+    "address": "43 FAIRLAWN ST",
+    "assessment_2025": 634000,
+    "assessment_2026": 1179500
+  },
+  {
+    "address": "47 FAIRLAWN ST",
+    "assessment_2025": 641600,
+    "assessment_2026": 1084500
+  },
+  {
+    "address": "51 FAIRLAWN ST",
+    "assessment_2025": 620500,
+    "assessment_2026": 1003200
+  },
+  {
+    "address": "316 BLAUVELT AVE",
+    "assessment_2025": 599800,
+    "assessment_2026": 1074600
+  },
+  {
+    "address": "52 FAIRLAWN ST",
+    "assessment_2025": 596600,
+    "assessment_2026": 1134200
+  },
+  {
+    "address": "406 BLAUVELT AVE",
+    "assessment_2025": 563700,
+    "assessment_2026": 993900
+  },
+  {
+    "address": "48 FAIRLAWN ST",
+    "assessment_2025": 611100,
+    "assessment_2026": 1026900
+  },
+  {
+    "address": "46 FAIRLAWN ST",
+    "assessment_2025": 666300,
+    "assessment_2026": 1274200
+  },
+  {
+    "address": "42 FAIRLAWN ST",
+    "assessment_2025": 616500,
+    "assessment_2026": 1082100
+  },
+  {
+    "address": "38 FAIRLAWN ST",
+    "assessment_2025": 825900,
+    "assessment_2026": 1390200
+  },
+  {
+    "address": "30 FAIRLAWN ST",
+    "assessment_2025": 608600,
+    "assessment_2026": 1119000
+  },
+  {
+    "address": "22 FAIRLAWN ST",
+    "assessment_2025": 601200,
+    "assessment_2026": 1117700
+  },
+  {
+    "address": "16 FAIRLAWN ST",
+    "assessment_2025": 580700,
+    "assessment_2026": 1018200
+  },
+  {
+    "address": "323 HOLLYWOOD AVE",
+    "assessment_2025": 567600,
+    "assessment_2026": 1034700
+  },
+  {
+    "address": "325 HOLLYWOOD AVE",
+    "assessment_2025": 487200,
+    "assessment_2026": 832700
+  },
+  {
+    "address": "411 HOLLYWOOD AVE",
+    "assessment_2025": 495800,
+    "assessment_2026": 831800
+  },
+  {
+    "address": "419 HOLLYWOOD AVE",
+    "assessment_2025": 526700,
+    "assessment_2026": 966700
+  },
+  {
+    "address": "177 ELMWOOD AVE",
+    "assessment_2025": 686400,
+    "assessment_2026": 1140400
+  },
+  {
+    "address": "181 ELMWOOD AVE",
+    "assessment_2025": 672400,
+    "assessment_2026": 1242600
+  },
+  {
+    "address": "187 ELMWOOD AVE",
+    "assessment_2025": 726200,
+    "assessment_2026": 1242900
+  },
+  {
+    "address": "193 ELMWOOD AVE",
+    "assessment_2025": 575000,
+    "assessment_2026": 1007600
+  },
+  {
+    "address": "199 ELMWOOD AVE",
+    "assessment_2025": 549700,
+    "assessment_2026": 1018400
+  },
+  {
+    "address": "203 ELMWOOD AVE",
+    "assessment_2025": 680100,
+    "assessment_2026": 1167400
+  },
+  {
+    "address": "209 ELMWOOD AVE",
+    "assessment_2025": 671700,
+    "assessment_2026": 1208200
+  },
+  {
+    "address": "215 ELMWOOD AVE",
+    "assessment_2025": 861900,
+    "assessment_2026": 1531200
+  },
+  {
+    "address": "217 ELMWOOD AVE",
+    "assessment_2025": 616400,
+    "assessment_2026": 1189200
+  },
+  {
+    "address": "500 BLAUVELT AVE",
+    "assessment_2025": 530700,
+    "assessment_2026": 982300
+  },
+  {
+    "address": "220 ELMWOOD AVE",
+    "assessment_2025": 624100,
+    "assessment_2026": 1040400
+  },
+  {
+    "address": "216 ELMWOOD AVE",
+    "assessment_2025": 621500,
+    "assessment_2026": 1130300
+  },
+  {
+    "address": "212 ELMWOOD AVE",
+    "assessment_2025": 626100,
+    "assessment_2026": 1016600
+  },
+  {
+    "address": "206 ELMWOOD AVE",
+    "assessment_2025": 605100,
+    "assessment_2026": 1105000
+  },
+  {
+    "address": "200 ELMWOOD AVE",
+    "assessment_2025": 729400,
+    "assessment_2026": 1236500
+  },
+  {
+    "address": "196 ELMWOOD AVE",
+    "assessment_2025": 565800,
+    "assessment_2026": 960800
+  },
+  {
+    "address": "192 ELMWOOD AVE",
+    "assessment_2025": 567200,
+    "assessment_2026": 914500
+  },
+  {
+    "address": "186 ELMWOOD AVE",
+    "assessment_2025": 704400,
+    "assessment_2026": 1204400
+  },
+  {
+    "address": "182 ELMWOOD AVE",
+    "assessment_2025": 754700,
+    "assessment_2026": 1212100
+  },
+  {
+    "address": "503 HOLLYWOOD AVE",
+    "assessment_2025": 427700,
+    "assessment_2026": 835900
+  },
+  {
+    "address": "507 HOLLYWOOD AVE",
+    "assessment_2025": 416800,
+    "assessment_2026": 759000
+  },
+  {
+    "address": "511 HOLLYWOOD AVE",
+    "assessment_2025": 535300,
+    "assessment_2026": 995100
+  },
+  {
+    "address": "115 LAKEWOOD AVE",
+    "assessment_2025": 517000,
+    "assessment_2026": 920700
+  },
+  {
+    "address": "125 LAKEWOOD AVE",
+    "assessment_2025": 725500,
+    "assessment_2026": 1185100
+  },
+  {
+    "address": "131 LAKEWOOD AVE",
+    "assessment_2025": 703700,
+    "assessment_2026": 1246900
+  },
+  {
+    "address": "137 LAKEWOOD AVE",
+    "assessment_2025": 719700,
+    "assessment_2026": 1203100
+  },
+  {
+    "address": "143 LAKEWOOD AVE",
+    "assessment_2025": 584700,
+    "assessment_2026": 1146400
+  },
+  {
+    "address": "147 LAKEWOOD AVE",
+    "assessment_2025": 639600,
+    "assessment_2026": 1163900
+  },
+  {
+    "address": "151 LAKEWOOD AVE",
+    "assessment_2025": 548300,
+    "assessment_2026": 998900
+  },
+  {
+    "address": "155 LAKEWOOD AVE",
+    "assessment_2025": 576200,
+    "assessment_2026": 1145300
+  },
+  {
+    "address": "510 BLAUVELT AVE",
+    "assessment_2025": 525100,
+    "assessment_2026": 909700
+  },
+  {
+    "address": "164 LAKEWOOD AVE",
+    "assessment_2025": 645500,
+    "assessment_2026": 1146300
+  },
+  {
+    "address": "146 LAKEWOOD AVE",
+    "assessment_2025": 651200,
+    "assessment_2026": 1226900
+  },
+  {
+    "address": "134 LAKEWOOD AVE",
+    "assessment_2025": 746800,
+    "assessment_2026": 1371500
+  },
+  {
+    "address": "128 LAKEWOOD AVE",
+    "assessment_2025": 656300,
+    "assessment_2026": 1204100
+  },
+  {
+    "address": "124 LAKEWOOD AVE",
+    "assessment_2025": 740300,
+    "assessment_2026": 1238600
+  },
+  {
+    "address": "118 LAKEWOOD AVE",
+    "assessment_2025": 537200,
+    "assessment_2026": 1042400
+  },
+  {
+    "address": "22 NORMANDY CT",
+    "assessment_2025": 775000,
+    "assessment_2026": 1270500
+  },
+  {
+    "address": "21 NORMANDY CT",
+    "assessment_2025": 888100,
+    "assessment_2026": 1259200
+  },
+  {
+    "address": "20 NORMANDY CT",
+    "assessment_2025": 865800,
+    "assessment_2026": 1175000
+  },
+  {
+    "address": "19 NORMANDY CT",
+    "assessment_2025": 913800,
+    "assessment_2026": 1261400
+  },
+  {
+    "address": "16 NORMANDY CT",
+    "assessment_2025": 941100,
+    "assessment_2026": 1241100
+  },
+  {
+    "address": "15 NORMANDY CT",
+    "assessment_2025": 880600,
+    "assessment_2026": 1127700
+  },
+  {
+    "address": "14 NORMANDY CT",
+    "assessment_2025": 755000,
+    "assessment_2026": 1093500
+  },
+  {
+    "address": "12 NORMANDY CT",
+    "assessment_2025": 943300,
+    "assessment_2026": 1212100
+  },
+  {
+    "address": "11 NORMANDY CT",
+    "assessment_2025": 875000,
+    "assessment_2026": 1143100
+  },
+  {
+    "address": "10 NORMANDY CT",
+    "assessment_2025": 836200,
+    "assessment_2026": 1127700
+  },
+  {
+    "address": "9 NORMANDY CT",
+    "assessment_2025": 882100,
+    "assessment_2026": 1150300
+  },
+  {
+    "address": "4 NORMANDY CT",
+    "assessment_2025": 862500,
+    "assessment_2026": 1141500
+  },
+  {
+    "address": "3 NORMANDY CT",
+    "assessment_2025": 819000,
+    "assessment_2026": 1204400
+  },
+  {
+    "address": "2 NORMANDY CT",
+    "assessment_2025": 840200,
+    "assessment_2026": 1182500
+  },
+  {
+    "address": "1 NORMANDY CT",
+    "assessment_2025": 849800,
+    "assessment_2026": 1112000
+  },
+  {
+    "address": "5 NORMANDY CT",
+    "assessment_2025": 863700,
+    "assessment_2026": 1075300
+  },
+  {
+    "address": "6 NORMANDY CT",
+    "assessment_2025": 800000,
+    "assessment_2026": 1117900
+  },
+  {
+    "address": "7 NORMANDY CT",
+    "assessment_2025": 775000,
+    "assessment_2026": 1093800
+  },
+  {
+    "address": "8 NORMANDY CT",
+    "assessment_2025": 843400,
+    "assessment_2026": 1102500
+  },
+  {
+    "address": "17 NORMANDY CT",
+    "assessment_2025": 893800,
+    "assessment_2026": 1143700
+  },
+  {
+    "address": "18 NORMANDY CT",
+    "assessment_2025": 891000,
+    "assessment_2026": 1138300
+  },
+  {
+    "address": "23 NORMANDY CT",
+    "assessment_2025": 870900,
+    "assessment_2026": 1131700
+  },
+  {
+    "address": "24 NORMANDY CT",
+    "assessment_2025": 840000,
+    "assessment_2026": 1230000
+  },
+  {
+    "address": "25 NORMANDY CT",
+    "assessment_2025": 860600,
+    "assessment_2026": 1115600
+  },
+  {
+    "address": "1020 WEST SADDLE RIVER RD",
+    "assessment_2025": 721100,
+    "assessment_2026": 1203100
+  },
+  {
+    "address": "1000 WEST SADDLE RIVER RD",
+    "assessment_2025": 1417400,
+    "assessment_2026": 2315300
+  },
+  {
+    "address": "990 WEST SADDLE RIVER RD",
+    "assessment_2025": 1271500,
+    "assessment_2026": 2022100
+  },
+  {
+    "address": "1010 WEST SADDLE RIVER RD",
+    "assessment_2025": 1211700,
+    "assessment_2026": 2389000
+  },
+  {
+    "address": "970 WEST SADDLE RIVER RD",
+    "assessment_2025": 779800,
+    "assessment_2026": 1305400
+  },
+  {
+    "address": "1 RIVERVIEW LANE",
+    "assessment_2025": 1382700,
+    "assessment_2026": 2266200
+  },
+  {
+    "address": "5 RIVERVIEW LANE",
+    "assessment_2025": 838300,
+    "assessment_2026": 1390900
+  },
+  {
+    "address": "9 RIVERVIEW LANE",
+    "assessment_2025": 1479600,
+    "assessment_2026": 2189600
+  },
+  {
+    "address": "11 RIVERVIEW LANE",
+    "assessment_2025": 1050900,
+    "assessment_2026": 1738400
+  },
+  {
+    "address": "15 RIVERVIEW LANE",
+    "assessment_2025": 1003400,
+    "assessment_2026": 1890900
+  },
+  {
+    "address": "703 HOLLYWOOD AVE",
+    "assessment_2025": 484600,
+    "assessment_2026": 795700
+  },
+  {
+    "address": "831 HOLLYWOOD AVE.",
+    "assessment_2025": 429400,
+    "assessment_2026": 851700
+  },
+  {
+    "address": "835 HOLLYWOOD AVE",
+    "assessment_2025": 561500,
+    "assessment_2026": 1051500
+  },
+  {
+    "address": "859 HOLLYWOOD AVE.",
+    "assessment_2025": 662000,
+    "assessment_2026": 1048700
+  },
+  {
+    "address": "12 RIVERVIEW LANE",
+    "assessment_2025": 740100,
+    "assessment_2026": 1191000
+  },
+  {
+    "address": "10 RIVERVIEW LANE",
+    "assessment_2025": 1450000,
+    "assessment_2026": 2561700
+  },
+  {
+    "address": "8 RIVERVIEW LANE",
+    "assessment_2025": 1298400,
+    "assessment_2026": 2167000
+  },
+  {
+    "address": "6 RIVERVIEW LANE",
+    "assessment_2025": 1807300,
+    "assessment_2026": 2779900
+  },
+  {
+    "address": "2 RIVERVIEW LANE",
+    "assessment_2025": 1056600,
+    "assessment_2026": 1686600
+  },
+  {
+    "address": "920 WEST SADDLE RIVER RD",
+    "assessment_2025": 1388000,
+    "assessment_2026": 2307000
+  },
+  {
+    "address": "882 WEST SADDLE RIVER RD",
+    "assessment_2025": 999900,
+    "assessment_2026": 1597500
+  },
+  {
+    "address": "885 HOLLYWOOD AVE",
+    "assessment_2025": 1393000,
+    "assessment_2026": 2073400
+  },
+  {
+    "address": "828 WEST SADDLE RIVER RD",
+    "assessment_2025": 622000,
+    "assessment_2026": 1054900
+  },
+  {
+    "address": "1 BROOKVIEW CT",
+    "assessment_2025": 740800,
+    "assessment_2026": 1367800
+  },
+  {
+    "address": "3 BROOKVIEW CT",
+    "assessment_2025": 951100,
+    "assessment_2026": 1388300
+  },
+  {
+    "address": "5 BROOKVIEW CT",
+    "assessment_2025": 1400000,
+    "assessment_2026": 2187000
+  },
+  {
+    "address": "7 BROOKVIEW CT",
+    "assessment_2025": 950900,
+    "assessment_2026": 1591500
+  },
+  {
+    "address": "9 BROOKVIEW CT",
+    "assessment_2025": 2125000,
+    "assessment_2026": 3362800
+  },
+  {
+    "address": "11 BROOKVIEW CT",
+    "assessment_2025": 963100,
+    "assessment_2026": 1560400
+  },
+  {
+    "address": "10 BROOKVIEW CT",
+    "assessment_2025": 954500,
+    "assessment_2026": 1819000
+  },
+  {
+    "address": "8 BROOKVIEW CT",
+    "assessment_2025": 1756200,
+    "assessment_2026": 3010200
+  },
+  {
+    "address": "6 BROOKVIEW CT",
+    "assessment_2025": 1321500,
+    "assessment_2026": 2132300
+  },
+  {
+    "address": "4 BROOKVIEW CT",
+    "assessment_2025": 2031600,
+    "assessment_2026": 2973300
+  },
+  {
+    "address": "2 BROOKVIEW CT",
+    "assessment_2025": 775000,
+    "assessment_2026": 1216500
+  },
+  {
+    "address": "977 WEST SADDLE RIVER RD",
+    "assessment_2025": 1854800,
+    "assessment_2026": 2882400
+  },
+  {
+    "address": "1 BROWNSTONE WAY",
+    "assessment_2025": 816200,
+    "assessment_2026": 1371800
+  },
+  {
+    "address": "3 BROWNSTONE WAY",
+    "assessment_2025": 1160700,
+    "assessment_2026": 1686300
+  },
+  {
+    "address": "5 BROWNSTONE WAY",
+    "assessment_2025": 1099100,
+    "assessment_2026": 1867000
+  },
+  {
+    "address": "7 BROWNSTONE WAY",
+    "assessment_2025": 1010000,
+    "assessment_2026": 1896800
+  },
+  {
+    "address": "9 BROWNSTONE WAY",
+    "assessment_2025": 1362700,
+    "assessment_2026": 2124300
+  },
+  {
+    "address": "11 BROWNSTONE WAY",
+    "assessment_2025": 1170100,
+    "assessment_2026": 1982300
+  },
+  {
+    "address": "6 BROWNSTONE WAY",
+    "assessment_2025": 1090500,
+    "assessment_2026": 1836000
+  },
+  {
+    "address": "4 BROWNSTONE WAY",
+    "assessment_2025": 993500,
+    "assessment_2026": 1635500
+  },
+  {
+    "address": "2 BROWNSTONE WAY",
+    "assessment_2025": 969400,
+    "assessment_2026": 1691500
+  },
+  {
+    "address": "901 WEST SADDLE RIVER RD",
+    "assessment_2025": 1058000,
+    "assessment_2026": 1820800
+  },
+  {
+    "address": "885 WEST SADDLE RIVER RD",
+    "assessment_2025": 1615800,
+    "assessment_2026": 2489300
+  },
+  {
+    "address": "865 WEST SADDLE RIVER RD",
+    "assessment_2025": 1732600,
+    "assessment_2026": 2774200
+  },
+  {
+    "address": "841 WEST SADDLE RIVER RD",
+    "assessment_2025": 1244500,
+    "assessment_2026": 1933600
+  },
+  {
+    "address": "825 WEST SADDLE RIVER RD",
+    "assessment_2025": 880600,
+    "assessment_2026": 1552200
+  },
+  {
+    "address": "1 VALLEY STREAM LANE",
+    "assessment_2025": 684800,
+    "assessment_2026": 1120900
+  },
+  {
+    "address": "3 VALLEY STREAM LANE",
+    "assessment_2025": 763200,
+    "assessment_2026": 1323800
+  },
+  {
+    "address": "5 VALLEY STREAM LANE",
+    "assessment_2025": 632700,
+    "assessment_2026": 1208200
+  },
+  {
+    "address": "E SADDLE RIVER RD",
+    "assessment_2025": 74900,
+    "assessment_2026": 115100
+  },
+  {
+    "address": "1047 E SADDLE RIVER RD",
+    "assessment_2025": 470000,
+    "assessment_2026": 766200
+  },
+  {
+    "address": "1045 E SADDLE RIVER RD",
+    "assessment_2025": 576100,
+    "assessment_2026": 1031900
+  },
+  {
+    "address": "1043 E SADDLE RIVER RD",
+    "assessment_2025": 729300,
+    "assessment_2026": 1093700
+  },
+  {
+    "address": "1031 E SADDLE RIVER RD",
+    "assessment_2025": 791000,
+    "assessment_2026": 1470600
+  },
+  {
+    "address": "1011 E SADDLE RIVER RD",
+    "assessment_2025": 1211500,
+    "assessment_2026": 1827700
+  },
+  {
+    "address": "991 E SADDLE RIVER RD",
+    "assessment_2025": 1281100,
+    "assessment_2026": 2057300
+  },
+  {
+    "address": "33 JACQUELIN AVE",
+    "assessment_2025": 1430000,
+    "assessment_2026": 2470900
+  },
+  {
+    "address": "57 JACQUELIN AVE",
+    "assessment_2025": 2175000,
+    "assessment_2026": 3241800
+  },
+  {
+    "address": "69 JACQUELIN AVE",
+    "assessment_2025": 1250000,
+    "assessment_2026": 1991900
+  },
+  {
+    "address": "65 JACQUELIN AVE",
+    "assessment_2025": 1002600,
+    "assessment_2026": 1624500
+  },
+  {
+    "address": "115 JACQUELIN AVE",
+    "assessment_2025": 1945200,
+    "assessment_2026": 2637200
+  },
+  {
+    "address": "125 JACQUELIN AVE",
+    "assessment_2025": 870000,
+    "assessment_2026": 1291100
+  },
+  {
+    "address": "3 BOILING SPRINGS RD",
+    "assessment_2025": 987400,
+    "assessment_2026": 1640200
+  },
+  {
+    "address": "130 MILL RD.",
+    "assessment_2025": 2000000,
+    "assessment_2026": 3127300
+  },
+  {
+    "address": "58 JACQUELIN AVE",
+    "assessment_2025": 1163800,
+    "assessment_2026": 1577300
+  },
+  {
+    "address": "56 JACQUELIN AVE",
+    "assessment_2025": 1050000,
+    "assessment_2026": 2325000
+  },
+  {
+    "address": "54 JACQUELIN AVE",
+    "assessment_2025": 1744100,
+    "assessment_2026": 2800100
+  },
+  {
+    "address": "50 JACQUELIN AVE",
+    "assessment_2025": 690600,
+    "assessment_2026": 1508400
+  },
+  {
+    "address": "5 WHISPERING PINES RD",
+    "assessment_2025": 1200000,
+    "assessment_2026": 2087800
+  },
+  {
+    "address": "7 WHISPERING PINES RD",
+    "assessment_2025": 1771600,
+    "assessment_2026": 2602900
+  },
+  {
+    "address": "4 WHISPERING PINES RD",
+    "assessment_2025": 1183800,
+    "assessment_2026": 2215000
+  },
+  {
+    "address": "2 WHISPERING PINES RD",
+    "assessment_2025": 1000000,
+    "assessment_2026": 1936700
+  },
+  {
+    "address": "20 JACQUELIN AVE",
+    "assessment_2025": 2420800,
+    "assessment_2026": 3616000
+  },
+  {
+    "address": "2 JACQUELIN AVE",
+    "assessment_2025": 1465600,
+    "assessment_2026": 2368100
+  },
+  {
+    "address": "943 E SADDLE RIVER RD",
+    "assessment_2025": 1202700,
+    "assessment_2026": 1822200
+  },
+  {
+    "address": "933 E SADDLE RIVER RD",
+    "assessment_2025": 1575000,
+    "assessment_2026": 2283800
+  },
+  {
+    "address": "901 E SADDLE RIVER RD",
+    "assessment_2025": 1700000,
+    "assessment_2026": 2487800
+  },
+  {
+    "address": "1 CONIFER LANE",
+    "assessment_2025": 1036200,
+    "assessment_2026": 1625500
+  },
+  {
+    "address": "2 CONIFER LANE",
+    "assessment_2025": 1209200,
+    "assessment_2026": 1898000
+  },
+  {
+    "address": "21 BOILING SPRINGS RD",
+    "assessment_2025": 1877900,
+    "assessment_2026": 2867100
+  },
+  {
+    "address": "2 SADDLE BROOK DR",
+    "assessment_2025": 2900000,
+    "assessment_2026": 4424200
+  },
+  {
+    "address": "19 BOILING SPRINGS RD",
+    "assessment_2025": 3225000,
+    "assessment_2026": 5277500
+  },
+  {
+    "address": "17 BOILING SPRINGS RD",
+    "assessment_2025": 1489000,
+    "assessment_2026": 2336200
+  },
+  {
+    "address": "15 BOILING SPRINGS RD",
+    "assessment_2025": 1825000,
+    "assessment_2026": 2912800
+  },
+  {
+    "address": "9 BOILING SPRINGS RD",
+    "assessment_2025": 5483000,
+    "assessment_2026": 8671400
+  },
+  {
+    "address": "5 BOILING SPRINGS RD",
+    "assessment_2025": 1169800,
+    "assessment_2026": 1871800
+  },
+  {
+    "address": "1 BOILING SPRINGS RD",
+    "assessment_2025": 1285500,
+    "assessment_2026": 1950600
+  },
+  {
+    "address": "2 BOILING SPRINGS RD",
+    "assessment_2025": 2601400,
+    "assessment_2026": 3372300
+  },
+  {
+    "address": "7 BOILING SPRINGS RD",
+    "assessment_2025": 2532500,
+    "assessment_2026": 3891800
+  },
+  {
+    "address": "4 BOILING SPRINGS RD",
+    "assessment_2025": 1700000,
+    "assessment_2026": 2911600
+  },
+  {
+    "address": "6 BOILING SPRINGS RD",
+    "assessment_2025": 1977100,
+    "assessment_2026": 3340300
+  },
+  {
+    "address": "8 BOILING SPRINGS RD",
+    "assessment_2025": 2440400,
+    "assessment_2026": 3569900
+  },
+  {
+    "address": "10 BOILING SPRINGS RD",
+    "assessment_2025": 1031000,
+    "assessment_2026": 1631700
+  },
+  {
+    "address": "12 BOILING SPRINGS RD",
+    "assessment_2025": 1137400,
+    "assessment_2026": 1865400
+  },
+  {
+    "address": "6 SADDLE BROOK DR",
+    "assessment_2025": 1573800,
+    "assessment_2026": 2305900
+  },
+  {
+    "address": "8 SADDLE BROOK DR",
+    "assessment_2025": 1775300,
+    "assessment_2026": 2707400
+  },
+  {
+    "address": "10 SADDLE BROOK DR",
+    "assessment_2025": 950000,
+    "assessment_2026": 2177500
+  },
+  {
+    "address": "12 N SADDLE BROOK DR",
+    "assessment_2025": 1656100,
+    "assessment_2026": 2695200
+  },
+  {
+    "address": "20 N SADDLE BROOK DR",
+    "assessment_2025": 1761600,
+    "assessment_2026": 2744700
+  },
+  {
+    "address": "1 SADDLE BROOK DR",
+    "assessment_2025": 1150600,
+    "assessment_2026": 1791100
+  },
+  {
+    "address": "3 SADDLE BROOK DR",
+    "assessment_2025": 932200,
+    "assessment_2026": 1401700
+  },
+  {
+    "address": "5 SADDLE BROOK DR",
+    "assessment_2025": 2323300,
+    "assessment_2026": 3188500
+  },
+  {
+    "address": "7 SADDLE BROOK DR",
+    "assessment_2025": 1040000,
+    "assessment_2026": 1724800
+  },
+  {
+    "address": "9 SADDLE BROOK DR",
+    "assessment_2025": 859300,
+    "assessment_2026": 1292200
+  },
+  {
+    "address": "11 SADDLE BROOK DR",
+    "assessment_2025": 2292000,
+    "assessment_2026": 3257100
+  },
+  {
+    "address": "180 MILL RD",
+    "assessment_2025": 1250000,
+    "assessment_2026": 2324300
+  },
+  {
+    "address": "29 N SADDLE BROOK DR",
+    "assessment_2025": 1406300,
+    "assessment_2026": 2302900
+  },
+  {
+    "address": "27 N SADDLE BROOK DR",
+    "assessment_2025": 1545800,
+    "assessment_2026": 2414900
+  },
+  {
+    "address": "25 N SADDLE BROOK DR",
+    "assessment_2025": 1219600,
+    "assessment_2026": 1924600
+  },
+  {
+    "address": "23 N SADDLE BROOK DR",
+    "assessment_2025": 1011800,
+    "assessment_2026": 1714200
+  },
+  {
+    "address": "21 N SADDLE BROOK DR",
+    "assessment_2025": 2161400,
+    "assessment_2026": 3430900
+  },
+  {
+    "address": "19 N SADDLE BROOK DR",
+    "assessment_2025": 1841100,
+    "assessment_2026": 3127600
+  },
+  {
+    "address": "17 N. SADDLE BROOK DR.",
+    "assessment_2025": 1387300,
+    "assessment_2026": 2393900
+  },
+  {
+    "address": "15 N SADDLE BROOK DR",
+    "assessment_2025": 1126600,
+    "assessment_2026": 1585400
+  },
+  {
+    "address": "15 SADDLE RIDGE RD.",
+    "assessment_2025": 1634700,
+    "assessment_2026": 2573300
+  },
+  {
+    "address": "13 SADDLE RIDGE RD.",
+    "assessment_2025": 1216400,
+    "assessment_2026": 1992500
+  },
+  {
+    "address": "11 SADDLE RIDGE RD.",
+    "assessment_2025": 986300,
+    "assessment_2026": 1583400
+  },
+  {
+    "address": "9 SADDLE RIDGE RD.",
+    "assessment_2025": 1200000,
+    "assessment_2026": 1831200
+  },
+  {
+    "address": "7 SADDLE RIDGE RD",
+    "assessment_2025": 1382000,
+    "assessment_2026": 3035000
+  },
+  {
+    "address": "5 SADDLE RIDGE RD",
+    "assessment_2025": 1093900,
+    "assessment_2026": 1844500
+  },
+  {
+    "address": "3 SADDLE RIDGE RD",
+    "assessment_2025": 1007200,
+    "assessment_2026": 1689100
+  },
+  {
+    "address": "1 SADDLE RIDGE RD",
+    "assessment_2025": 900000,
+    "assessment_2026": 1789000
+  },
+  {
+    "address": "2 SADDLE RIDGE RD",
+    "assessment_2025": 991400,
+    "assessment_2026": 1632000
+  },
+  {
+    "address": "4 SADDLE RIDGE RD",
+    "assessment_2025": 1177900,
+    "assessment_2026": 1873500
+  },
+  {
+    "address": "6 SADDLE RIDGE RD",
+    "assessment_2025": 2348300,
+    "assessment_2026": 3383000
+  },
+  {
+    "address": "8 SADDLE RIDGE RD",
+    "assessment_2025": 982500,
+    "assessment_2026": 1697200
+  },
+  {
+    "address": "10 SADDLE RIDGE RD",
+    "assessment_2025": 1768000,
+    "assessment_2026": 2901100
+  },
+  {
+    "address": "1 BRIDLE WAY",
+    "assessment_2025": 801900,
+    "assessment_2026": 1221500
+  },
+  {
+    "address": "3 BRIDLE WAY",
+    "assessment_2025": 1420800,
+    "assessment_2026": 2246900
+  },
+  {
+    "address": "5 BRIDLE WAY",
+    "assessment_2025": 1556200,
+    "assessment_2026": 2547600
+  },
+  {
+    "address": "7 BRIDLE WAY",
+    "assessment_2025": 1021500,
+    "assessment_2026": 1711500
+  },
+  {
+    "address": "8 BRIDLE WAY",
+    "assessment_2025": 934700,
+    "assessment_2026": 1531000
+  },
+  {
+    "address": "6 BRIDLE WAY",
+    "assessment_2025": 2250000,
+    "assessment_2026": 3339300
+  },
+  {
+    "address": "4 BRIDLE WAY",
+    "assessment_2025": 925100,
+    "assessment_2026": 1359700
+  },
+  {
+    "address": "2 BRIDLE WAY",
+    "assessment_2025": 782000,
+    "assessment_2026": 1260900
+  },
+  {
+    "address": "5 ACADEMY RD",
+    "assessment_2025": 1065000,
+    "assessment_2026": 1996400
+  },
+  {
+    "address": "15 ACADEMY RD",
+    "assessment_2025": 1300000,
+    "assessment_2026": 2331900
+  },
+  {
+    "address": "25 ACADEMY RD",
+    "assessment_2025": 1769500,
+    "assessment_2026": 3147900
+  },
+  {
+    "address": "35 ACADEMY RD",
+    "assessment_2025": 1500000,
+    "assessment_2026": 2661600
+  },
+  {
+    "address": "50 ACADEMY RD",
+    "assessment_2025": 2900000,
+    "assessment_2026": 4226400
+  },
+  {
+    "address": "40 ACADEMY RD",
+    "assessment_2025": 2415000,
+    "assessment_2026": 3687600
+  },
+  {
+    "address": "12 ACADEMY RD",
+    "assessment_2025": 1008200,
+    "assessment_2026": 1978900
+  },
+  {
+    "address": "22 PADDOCK RD",
+    "assessment_2025": 1267000,
+    "assessment_2026": 2139600
+  },
+  {
+    "address": "32 PADDOCK RD",
+    "assessment_2025": 1229200,
+    "assessment_2026": 1944500
+  },
+  {
+    "address": "401 WEARIMUS RD",
+    "assessment_2025": 769700,
+    "assessment_2026": 1364800
+  },
+  {
+    "address": "387 WEARIMUS RD.",
+    "assessment_2025": 1400000,
+    "assessment_2026": 2626700
+  },
+  {
+    "address": "371 WEARIMUS RD",
+    "assessment_2025": 946900,
+    "assessment_2026": 1590300
+  },
+  {
+    "address": "355 WEARIMUS RD.",
+    "assessment_2025": 1050500,
+    "assessment_2026": 1629800
+  },
+  {
+    "address": "339 WEARIMUS RD",
+    "assessment_2025": 937100,
+    "assessment_2026": 1561900
+  },
+  {
+    "address": "325 WEARIMUS RD",
+    "assessment_2025": 2400000,
+    "assessment_2026": 3330500
+  },
+  {
+    "address": "14 SADDLE RIDGE RD",
+    "assessment_2025": 1931200,
+    "assessment_2026": 3042500
+  },
+  {
+    "address": "12 SADDLE RIDGE RD",
+    "assessment_2025": 3018300,
+    "assessment_2026": 4954900
+  },
+  {
+    "address": "310 MILL RD",
+    "assessment_2025": 1151400,
+    "assessment_2026": 2327600
+  },
+  {
+    "address": "300 MILL RD.",
+    "assessment_2025": 1168300,
+    "assessment_2026": 2171200
+  },
+  {
+    "address": "280 MILL RD.",
+    "assessment_2025": 1245000,
+    "assessment_2026": 2178500
+  },
+  {
+    "address": "15 PADDOCK RD",
+    "assessment_2025": 1134500,
+    "assessment_2026": 1781900
+  },
+  {
+    "address": "25 PADDOCK RD",
+    "assessment_2025": 1226200,
+    "assessment_2026": 1903700
+  },
+  {
+    "address": "35 PADDOCK RD",
+    "assessment_2025": 1170000,
+    "assessment_2026": 2126600
+  },
+  {
+    "address": "240 N FRANKLIN TPK",
+    "assessment_2025": 445200,
+    "assessment_2026": 806500
+  },
+  {
+    "address": "114 BLAUVELT AVE",
+    "assessment_2025": 602300,
+    "assessment_2026": 1137000
+  },
+  {
+    "address": "120 BLAUVELT AVE",
+    "assessment_2025": 716400,
+    "assessment_2026": 1442200
+  },
+  {
+    "address": "124 BLAUVELT AVE",
+    "assessment_2025": 683800,
+    "assessment_2026": 1279800
+  },
+  {
+    "address": "130 BLAUVELT AVE",
+    "assessment_2025": 1367600,
+    "assessment_2026": 2164300
+  },
+  {
+    "address": "160 BLAUVELT AVE",
+    "assessment_2025": 1213700,
+    "assessment_2026": 2313500
+  },
+  {
+    "address": "81 GILBERT RD",
+    "assessment_2025": 1035900,
+    "assessment_2026": 1771500
+  },
+  {
+    "address": "77 GILBERT RD",
+    "assessment_2025": 1319900,
+    "assessment_2026": 2182400
+  },
+  {
+    "address": "71 GILBERT RD.",
+    "assessment_2025": 1108000,
+    "assessment_2026": 2020400
+  },
+  {
+    "address": "59 GILBERT RD.",
+    "assessment_2025": 1026400,
+    "assessment_2026": 1732000
+  },
+  {
+    "address": "45 GILBERT RD",
+    "assessment_2025": 1037800,
+    "assessment_2026": 1843900
+  },
+  {
+    "address": "41 GILBERT RD",
+    "assessment_2025": 929000,
+    "assessment_2026": 1751300
+  },
+  {
+    "address": "35 GILBERT RD",
+    "assessment_2025": 800600,
+    "assessment_2026": 1537600
+  },
+  {
+    "address": "25 GILBERT RD",
+    "assessment_2025": 873500,
+    "assessment_2026": 1627900
+  },
+  {
+    "address": "15 GILBERT RD",
+    "assessment_2025": 673200,
+    "assessment_2026": 1316200
+  },
+  {
+    "address": "1 GILBERT RD",
+    "assessment_2025": 689000,
+    "assessment_2026": 1250000
+  },
+  {
+    "address": "225 HOLLYWOOD AVE",
+    "assessment_2025": 612900,
+    "assessment_2026": 1085300
+  },
+  {
+    "address": "219 HOLLYWOOD AVE",
+    "assessment_2025": 422000,
+    "assessment_2026": 880500
+  },
+  {
+    "address": "215 HOLLYWOOD AVE",
+    "assessment_2025": 605900,
+    "assessment_2026": 1048300
+  },
+  {
+    "address": "20 HOLLYWOOD PL",
+    "assessment_2025": 1124300,
+    "assessment_2026": 1935700
+  },
+  {
+    "address": "24 HOLLYWOOD PL",
+    "assessment_2025": 1112800,
+    "assessment_2026": 1878900
+  },
+  {
+    "address": "203 HOLLYWOOD AVE",
+    "assessment_2025": 440900,
+    "assessment_2026": 824800
+  },
+  {
+    "address": "8 HOLLYWOOD PL",
+    "assessment_2025": 493500,
+    "assessment_2026": 926000
+  },
+  {
+    "address": "14 HOLLYWOOD PLACE",
+    "assessment_2025": 559700,
+    "assessment_2026": 899400
+  },
+  {
+    "address": "33 HOLLYWOOD PL",
+    "assessment_2025": 720400,
+    "assessment_2026": 1325100
+  },
+  {
+    "address": "23 HOLLYWOOD PL",
+    "assessment_2025": 644900,
+    "assessment_2026": 1113500
+  },
+  {
+    "address": "21 HOLLYWOOD PL",
+    "assessment_2025": 1176400,
+    "assessment_2026": 2004200
+  },
+  {
+    "address": "131 HOLLYWOOD AVE",
+    "assessment_2025": 425200,
+    "assessment_2026": 855400
+  },
+  {
+    "address": "125 HOLLYWOOD AVE",
+    "assessment_2025": 870000,
+    "assessment_2026": 1436200
+  },
+  {
+    "address": "119 HOLLYWOOD AVE",
+    "assessment_2025": 694500,
+    "assessment_2026": 1250300
+  },
+  {
+    "address": "113 HOLLYWOOD AVE",
+    "assessment_2025": 564500,
+    "assessment_2026": 1057500
+  },
+  {
+    "address": "105 HOLLYWOOD AVE",
+    "assessment_2025": 423800,
+    "assessment_2026": 787800
+  },
+  {
+    "address": "174 N FRANKLIN TPK",
+    "assessment_2025": 355000,
+    "assessment_2026": 788800
+  },
+  {
+    "address": "180 N FRANKLIN TPK",
+    "assessment_2025": 447400,
+    "assessment_2026": 810700
+  },
+  {
+    "address": "186 N FRANKLIN TPK",
+    "assessment_2025": 432100,
+    "assessment_2026": 856500
+  },
+  {
+    "address": "196 N FRANKLIN TPK",
+    "assessment_2025": 654500,
+    "assessment_2026": 1052400
+  },
+  {
+    "address": "200 N FRANKLIN TPK",
+    "assessment_2025": 661200,
+    "assessment_2026": 1251800
+  },
+  {
+    "address": "206 N FRANKLIN TPK",
+    "assessment_2025": 645200,
+    "assessment_2026": 1283600
+  },
+  {
+    "address": "216 N FRANKLIN TPK",
+    "assessment_2025": 567900,
+    "assessment_2026": 1241300
+  },
+  {
+    "address": "222 N FRANKLIN TPK",
+    "assessment_2025": 513700,
+    "assessment_2026": 1034400
+  },
+  {
+    "address": "228 N FRANKLIN TPK",
+    "assessment_2025": 663700,
+    "assessment_2026": 1060700
+  },
+  {
+    "address": "25 HOLLYWOOD AVE",
+    "assessment_2025": 309000,
+    "assessment_2026": 608800
+  },
+  {
+    "address": "27 HOLLYWOOD AVE",
+    "assessment_2025": 442400,
+    "assessment_2026": 770800
+  },
+  {
+    "address": "169 N FRANKLIN TPK",
+    "assessment_2025": 520200,
+    "assessment_2026": 927200
+  },
+  {
+    "address": "171 N FRANKLIN TPK",
+    "assessment_2025": 303000,
+    "assessment_2026": 599700
+  },
+  {
+    "address": "2 BLANCHFIELD CT",
+    "assessment_2025": 427300,
+    "assessment_2026": 897200
+  },
+  {
+    "address": "4 BLANCHFIELD CT",
+    "assessment_2025": 543400,
+    "assessment_2026": 1002300
+  },
+  {
+    "address": "6 BLANCHFIELD CT",
+    "assessment_2025": 688100,
+    "assessment_2026": 1267100
+  },
+  {
+    "address": "8 BLANCHFIELD CT",
+    "assessment_2025": 451600,
+    "assessment_2026": 830500
+  },
+  {
+    "address": "10 BLANCHFIELD CT",
+    "assessment_2025": 790400,
+    "assessment_2026": 1283200
+  },
+  {
+    "address": "11 BLANCHFIELD CT",
+    "assessment_2025": 501400,
+    "assessment_2026": 919100
+  },
+  {
+    "address": "9 BLANCHFIELD CT",
+    "assessment_2025": 569000,
+    "assessment_2026": 1062600
+  },
+  {
+    "address": "7 BLANCHFIELD CT",
+    "assessment_2025": 490300,
+    "assessment_2026": 937900
+  },
+  {
+    "address": "5 BLANCHFIELD CT",
+    "assessment_2025": 368100,
+    "assessment_2026": 817000
+  },
+  {
+    "address": "3 BLANCHFIELD CT",
+    "assessment_2025": 497500,
+    "assessment_2026": 767800
+  },
+  {
+    "address": "201 N FRANKLIN TPK",
+    "assessment_2025": 414900,
+    "assessment_2026": 700400
+  },
+  {
+    "address": "2 STOUTS LANE",
+    "assessment_2025": 435800,
+    "assessment_2026": 919300
+  },
+  {
+    "address": "36 HOLLYWOOD AVE",
+    "assessment_2025": 435600,
+    "assessment_2026": 741600
+  },
+  {
+    "address": "114 KNOLLWOOD DR",
+    "assessment_2025": 392200,
+    "assessment_2026": 801600
+  },
+  {
+    "address": "127 N FRANKLIN TPK",
+    "assessment_2025": 689200,
+    "assessment_2026": 1236300
+  },
+  {
+    "address": "137 N FRANKLIN TPK",
+    "assessment_2025": 586300,
+    "assessment_2026": 1190200
+  },
+  {
+    "address": "141 N FRANKLIN TPK",
+    "assessment_2025": 565900,
+    "assessment_2026": 966100
+  },
+  {
+    "address": "149 N FRANKLIN TPK",
+    "assessment_2025": 642500,
+    "assessment_2026": 1090700
+  },
+  {
+    "address": "118 N FRANKLIN TPK",
+    "assessment_2025": 424300,
+    "assessment_2026": 832900
+  },
+  {
+    "address": "124 N FRANKLIN TPK",
+    "assessment_2025": 464800,
+    "assessment_2026": 776100
+  },
+  {
+    "address": "130 N FRANKLIN TPK",
+    "assessment_2025": 406600,
+    "assessment_2026": 732200
+  },
+  {
+    "address": "136 N FRANKLIN TPK",
+    "assessment_2025": 481600,
+    "assessment_2026": 790200
+  },
+  {
+    "address": "142 N FRANKLIN TPK",
+    "assessment_2025": 384100,
+    "assessment_2026": 683800
+  },
+  {
+    "address": "148 N FRANKLIN TPK",
+    "assessment_2025": 370100,
+    "assessment_2026": 587100
+  },
+  {
+    "address": "154 N FRANKLIN TPK",
+    "assessment_2025": 473900,
+    "assessment_2026": 899000
+  },
+  {
+    "address": "37 CRESCENT PL",
+    "assessment_2025": 586200,
+    "assessment_2026": 967800
+  },
+  {
+    "address": "31 CRESCENT PL",
+    "assessment_2025": 539500,
+    "assessment_2026": 1026900
+  },
+  {
+    "address": "25 CRESCENT PL",
+    "assessment_2025": 569700,
+    "assessment_2026": 1000400
+  },
+  {
+    "address": "19 CRESCENT PL",
+    "assessment_2025": 556100,
+    "assessment_2026": 915000
+  },
+  {
+    "address": "17 CRESCENT PL",
+    "assessment_2025": 510600,
+    "assessment_2026": 942700
+  },
+  {
+    "address": "7 CRESCENT PL",
+    "assessment_2025": 554200,
+    "assessment_2026": 941700
+  },
+  {
+    "address": "1 CRESCENT PL",
+    "assessment_2025": 556600,
+    "assessment_2026": 993200
+  },
+  {
+    "address": "130-132 HOLLYWOOD AVE",
+    "assessment_2025": 707500,
+    "assessment_2026": 1266900
+  },
+  {
+    "address": "140 HOLLYWOOD AVE",
+    "assessment_2025": 525000,
+    "assessment_2026": 953600
+  },
+  {
+    "address": "202 HOLLYWOOD AVE",
+    "assessment_2025": 437400,
+    "assessment_2026": 776800
+  },
+  {
+    "address": "93 CARLTON AVE",
+    "assessment_2025": 568300,
+    "assessment_2026": 1038500
+  },
+  {
+    "address": "85 CARLTON AVE",
+    "assessment_2025": 568200,
+    "assessment_2026": 1060200
+  },
+  {
+    "address": "20 CRESCENT PL",
+    "assessment_2025": 646700,
+    "assessment_2026": 1213000
+  },
+  {
+    "address": "79 CARLTON AVE",
+    "assessment_2025": 819900,
+    "assessment_2026": 1435100
+  },
+  {
+    "address": "16 CRESCENT PL",
+    "assessment_2025": 519400,
+    "assessment_2026": 938300
+  },
+  {
+    "address": "67 CARLTON AVE",
+    "assessment_2025": 432600,
+    "assessment_2026": 798200
+  },
+  {
+    "address": "10 CRESCENT PL",
+    "assessment_2025": 508800,
+    "assessment_2026": 860800
+  },
+  {
+    "address": "4 CRESCENT PL",
+    "assessment_2025": 549900,
+    "assessment_2026": 961400
+  },
+  {
+    "address": "61 CARLTON AVE",
+    "assessment_2025": 625800,
+    "assessment_2026": 1184500
+  },
+  {
+    "address": "94 CARLTON AVE",
+    "assessment_2025": 472400,
+    "assessment_2026": 820200
+  },
+  {
+    "address": "220 HOLLYWOOD AV",
+    "assessment_2025": 532900,
+    "assessment_2026": 862600
+  },
+  {
+    "address": "228 HOLLYWOOD AV",
+    "assessment_2025": 580900,
+    "assessment_2026": 948000
+  },
+  {
+    "address": "234 HOLLYWOOD AV",
+    "assessment_2025": 564600,
+    "assessment_2026": 1019400
+  },
+  {
+    "address": "123 SHERIDAN AVE",
+    "assessment_2025": 735800,
+    "assessment_2026": 1226800
+  },
+  {
+    "address": "113 SHERIDAN AV",
+    "assessment_2025": 645700,
+    "assessment_2026": 1233000
+  },
+  {
+    "address": "103 SHERIDAN AV",
+    "assessment_2025": 711600,
+    "assessment_2026": 1179600
+  },
+  {
+    "address": "99 SHERIDAN AV",
+    "assessment_2025": 579800,
+    "assessment_2026": 1139300
+  },
+  {
+    "address": "93 SHERIDAN AV",
+    "assessment_2025": 601700,
+    "assessment_2026": 1247700
+  },
+  {
+    "address": "85 SHERIDAN AVE",
+    "assessment_2025": 550600,
+    "assessment_2026": 1017700
+  },
+  {
+    "address": "225 ROSS PL",
+    "assessment_2025": 499600,
+    "assessment_2026": 902500
+  },
+  {
+    "address": "215 ROSS PL",
+    "assessment_2025": 507300,
+    "assessment_2026": 874700
+  },
+  {
+    "address": "205 ROSS PL",
+    "assessment_2025": 545600,
+    "assessment_2026": 977400
+  },
+  {
+    "address": "66 CARLTON AVE",
+    "assessment_2025": 817800,
+    "assessment_2026": 1454900
+  },
+  {
+    "address": "70 CARLTON AVE",
+    "assessment_2025": 542800,
+    "assessment_2026": 983300
+  },
+  {
+    "address": "76 CARLTON AVE",
+    "assessment_2025": 692700,
+    "assessment_2026": 1218900
+  },
+  {
+    "address": "82 CARLTON AVE",
+    "assessment_2025": 770200,
+    "assessment_2026": 1359400
+  },
+  {
+    "address": "86 CARLTON AVE",
+    "assessment_2025": 825200,
+    "assessment_2026": 1442300
+  },
+  {
+    "address": "132 SHERIDAN AVE.",
+    "assessment_2025": 531700,
+    "assessment_2026": 993200
+  },
+  {
+    "address": "130 SHERIDAN AVE",
+    "assessment_2025": 614500,
+    "assessment_2026": 1119400
+  },
+  {
+    "address": "302 HOLLYWOOD AVE.",
+    "assessment_2025": 606500,
+    "assessment_2026": 1087900
+  },
+  {
+    "address": "322 HOLLYWOOD AVE",
+    "assessment_2025": 850400,
+    "assessment_2026": 1624000
+  },
+  {
+    "address": "400 HOLLYWOOD AVE",
+    "assessment_2025": 1408100,
+    "assessment_2026": 2515900
+  },
+  {
+    "address": "412 HOLLYWOOD AVE",
+    "assessment_2025": 1043700,
+    "assessment_2026": 1753500
+  },
+  {
+    "address": "139 ELMWOOD AV",
+    "assessment_2025": 560900,
+    "assessment_2026": 1047200
+  },
+  {
+    "address": "135 ELMWOOD AVE",
+    "assessment_2025": 627200,
+    "assessment_2026": 1120700
+  },
+  {
+    "address": "127 ELMWOOD AVENUE",
+    "assessment_2025": 1022500,
+    "assessment_2026": 1824600
+  },
+  {
+    "address": "125 ELMWOOD AVE",
+    "assessment_2025": 604900,
+    "assessment_2026": 1147400
+  },
+  {
+    "address": "119 ELMWOOD AVE",
+    "assessment_2025": 617800,
+    "assessment_2026": 1081800
+  },
+  {
+    "address": "407 ENOS PL",
+    "assessment_2025": 642800,
+    "assessment_2026": 1136800
+  },
+  {
+    "address": "401 ENOS PL",
+    "assessment_2025": 809400,
+    "assessment_2026": 1358300
+  },
+  {
+    "address": "323 ENOS PL",
+    "assessment_2025": 735500,
+    "assessment_2026": 1264800
+  },
+  {
+    "address": "315 ENOS PL",
+    "assessment_2025": 612700,
+    "assessment_2026": 1089600
+  },
+  {
+    "address": "88 SHERIDAN AVE",
+    "assessment_2025": 537500,
+    "assessment_2026": 993100
+  },
+  {
+    "address": "92 SHERIDAN AVE",
+    "assessment_2025": 477400,
+    "assessment_2026": 790200
+  },
+  {
+    "address": "98 SHERIDAN AVE",
+    "assessment_2025": 609600,
+    "assessment_2026": 966800
+  },
+  {
+    "address": "104 SHERIDAN AVENUE",
+    "assessment_2025": 1046300,
+    "assessment_2026": 1757300
+  },
+  {
+    "address": "110 SHERIDAN AVE",
+    "assessment_2025": 723900,
+    "assessment_2026": 1287100
+  },
+  {
+    "address": "402 ENOS PL",
+    "assessment_2025": 644400,
+    "assessment_2026": 1081200
+  },
+  {
+    "address": "408 ENOS PL",
+    "assessment_2025": 660200,
+    "assessment_2026": 1007900
+  },
+  {
+    "address": "414 ENOS PL",
+    "assessment_2025": 704300,
+    "assessment_2026": 1082100
+  },
+  {
+    "address": "418 ENOS PL",
+    "assessment_2025": 543500,
+    "assessment_2026": 964100
+  },
+  {
+    "address": "93 ELMWOOD AVE",
+    "assessment_2025": 499500,
+    "assessment_2026": 911600
+  },
+  {
+    "address": "81 ELMWOOD AVE",
+    "assessment_2025": 639900,
+    "assessment_2026": 1101300
+  },
+  {
+    "address": "77 ELMWOOD AVE",
+    "assessment_2025": 545900,
+    "assessment_2026": 1124000
+  },
+  {
+    "address": "75 ELMWOOD AVE",
+    "assessment_2025": 490600,
+    "assessment_2026": 865500
+  },
+  {
+    "address": "69 ELMWOOD AVE",
+    "assessment_2025": 580400,
+    "assessment_2026": 1178100
+  },
+  {
+    "address": "59 ELMWOOD AVE",
+    "assessment_2025": 474000,
+    "assessment_2026": 886800
+  },
+  {
+    "address": "417 WARREN AVE",
+    "assessment_2025": 522800,
+    "assessment_2026": 857900
+  },
+  {
+    "address": "413 WARREN AVE",
+    "assessment_2025": 650400,
+    "assessment_2026": 1136700
+  },
+  {
+    "address": "409 WARREN AVE",
+    "assessment_2025": 528600,
+    "assessment_2026": 943000
+  },
+  {
+    "address": "50 SYCAMORE AVE",
+    "assessment_2025": 506300,
+    "assessment_2026": 917800
+  },
+  {
+    "address": "60 SYCAMORE AVE",
+    "assessment_2025": 818100,
+    "assessment_2026": 1352800
+  },
+  {
+    "address": "64 SYCAMORE AVE",
+    "assessment_2025": 454600,
+    "assessment_2026": 935200
+  },
+  {
+    "address": "68 SYCAMORE AVE",
+    "assessment_2025": 473800,
+    "assessment_2026": 909500
+  },
+  {
+    "address": "72 SYCAMORE AVE",
+    "assessment_2025": 493500,
+    "assessment_2026": 1023800
+  },
+  {
+    "address": "78 SYCAMORE AVE",
+    "assessment_2025": 647600,
+    "assessment_2026": 1087900
+  },
+  {
+    "address": "154 ELMWOOD AVE",
+    "assessment_2025": 643200,
+    "assessment_2026": 1317100
+  },
+  {
+    "address": "506 HOLLYWOOD AVE",
+    "assessment_2025": 500200,
+    "assessment_2026": 968700
+  },
+  {
+    "address": "510 HOLLYWOOD AVE",
+    "assessment_2025": 561900,
+    "assessment_2026": 985600
+  },
+  {
+    "address": "514 HOLLYWOOD AVE",
+    "assessment_2025": 519000,
+    "assessment_2026": 874300
+  },
+  {
+    "address": "93 LAKEWOOD AVE",
+    "assessment_2025": 695900,
+    "assessment_2026": 1264200
+  },
+  {
+    "address": "89 LAKEWOOD AVE",
+    "assessment_2025": 535700,
+    "assessment_2026": 947700
+  },
+  {
+    "address": "85 LAKEWOOD AVE",
+    "assessment_2025": 504600,
+    "assessment_2026": 867000
+  },
+  {
+    "address": "77 LAKEWOOD AVE",
+    "assessment_2025": 711900,
+    "assessment_2026": 1155600
+  },
+  {
+    "address": "71 LAKEWOOD AVE",
+    "assessment_2025": 539400,
+    "assessment_2026": 902700
+  },
+  {
+    "address": "65 LAKEWOOD AVE",
+    "assessment_2025": 862700,
+    "assessment_2026": 1469700
+  },
+  {
+    "address": "59 LAKEWOOD AVE",
+    "assessment_2025": 516700,
+    "assessment_2026": 886900
+  },
+  {
+    "address": "53 LAKEWOOD AVE",
+    "assessment_2025": 440500,
+    "assessment_2026": 853200
+  },
+  {
+    "address": "47 LAKEWOOD AVE",
+    "assessment_2025": 659400,
+    "assessment_2026": 1176900
+  },
+  {
+    "address": "23 LAKEWOOD AVE",
+    "assessment_2025": 699700,
+    "assessment_2026": 1325400
+  },
+  {
+    "address": "19 LAKEWOOD AVE",
+    "assessment_2025": 592000,
+    "assessment_2026": 1146700
+  },
+  {
+    "address": "13 LAKEWOOD AVE",
+    "assessment_2025": 454000,
+    "assessment_2026": 844900
+  },
+  {
+    "address": "9 LAKEWOOD AVE",
+    "assessment_2025": 523600,
+    "assessment_2026": 959100
+  },
+  {
+    "address": "513 WARREN AVE",
+    "assessment_2025": 477500,
+    "assessment_2026": 888900
+  },
+  {
+    "address": "507 WARREN AVE",
+    "assessment_2025": 1176700,
+    "assessment_2026": 1814300
+  },
+  {
+    "address": "68 ELMWOOD AVE",
+    "assessment_2025": 473900,
+    "assessment_2026": 810100
+  },
+  {
+    "address": "76 ELMWOOD AVE",
+    "assessment_2025": 637500,
+    "assessment_2026": 1100900
+  },
+  {
+    "address": "84 ELMWOOD AVE",
+    "assessment_2025": 512700,
+    "assessment_2026": 1022800
+  },
+  {
+    "address": "88 ELMWOOD AVE",
+    "assessment_2025": 537500,
+    "assessment_2026": 979600
+  },
+  {
+    "address": "92 ELMWOOD AVE",
+    "assessment_2025": 601800,
+    "assessment_2026": 1026200
+  },
+  {
+    "address": "102 ELMWOOD AVE",
+    "assessment_2025": 758400,
+    "assessment_2026": 1270200
+  },
+  {
+    "address": "112 ELMWOOD AVE",
+    "assessment_2025": 1045500,
+    "assessment_2026": 1718500
+  },
+  {
+    "address": "116 ELMWOOD AVE",
+    "assessment_2025": 527500,
+    "assessment_2026": 956100
+  },
+  {
+    "address": "120 ELMWOOD AVE",
+    "assessment_2025": 499700,
+    "assessment_2026": 890900
+  },
+  {
+    "address": "124 ELMWOOD AVE",
+    "assessment_2025": 556000,
+    "assessment_2026": 989800
+  },
+  {
+    "address": "134 ELMWOOD AVE",
+    "assessment_2025": 794700,
+    "assessment_2026": 1468300
+  },
+  {
+    "address": "138 ELMWOOD AVE",
+    "assessment_2025": 576800,
+    "assessment_2026": 1058400
+  },
+  {
+    "address": "100 LAKEWOOD AVE",
+    "assessment_2025": 500100,
+    "assessment_2026": 866300
+  },
+  {
+    "address": "96 LAKEWOOD AVE",
+    "assessment_2025": 600600,
+    "assessment_2026": 1051400
+  },
+  {
+    "address": "90 LAKEWOOD AVE",
+    "assessment_2025": 653300,
+    "assessment_2026": 1289000
+  },
+  {
+    "address": "82 LAKEWOOD AVE",
+    "assessment_2025": 532600,
+    "assessment_2026": 1024600
+  },
+  {
+    "address": "78 LAKEWOOD AVE",
+    "assessment_2025": 724100,
+    "assessment_2026": 1196000
+  },
+  {
+    "address": "70 LAKEWOOD AVE",
+    "assessment_2025": 541400,
+    "assessment_2026": 1011400
+  },
+  {
+    "address": "66 LAKEWOOD AVE",
+    "assessment_2025": 552100,
+    "assessment_2026": 948600
+  },
+  {
+    "address": "60 LAKEWOOD AVE",
+    "assessment_2025": 639300,
+    "assessment_2026": 1023500
+  },
+  {
+    "address": "54 LAKEWOOD AVE.",
+    "assessment_2025": 537900,
+    "assessment_2026": 902500
+  },
+  {
+    "address": "48 LAKEWOOD AVE",
+    "assessment_2025": 661800,
+    "assessment_2026": 1093900
+  },
+  {
+    "address": "44 LAKEWOOD AVE",
+    "assessment_2025": 913400,
+    "assessment_2026": 1419900
+  },
+  {
+    "address": "42 LAKEWOOD AVE",
+    "assessment_2025": 999900,
+    "assessment_2026": 1730300
+  },
+  {
+    "address": "16 LAKEWOOD AVE",
+    "assessment_2025": 478800,
+    "assessment_2026": 1056000
+  },
+  {
+    "address": "605 WARREN AVE",
+    "assessment_2025": 676400,
+    "assessment_2026": 1203600
+  },
+  {
+    "address": "617 WARREN AVE",
+    "assessment_2025": 1018700,
+    "assessment_2026": 1626100
+  },
+  {
+    "address": "5 LLOYD RD",
+    "assessment_2025": 626400,
+    "assessment_2026": 1078200
+  },
+  {
+    "address": "11 LLOYD RD",
+    "assessment_2025": 641900,
+    "assessment_2026": 1117000
+  },
+  {
+    "address": "19 LLOYD RD",
+    "assessment_2025": 457100,
+    "assessment_2026": 937300
+  },
+  {
+    "address": "25 LLOYD RD",
+    "assessment_2025": 861000,
+    "assessment_2026": 1407100
+  },
+  {
+    "address": "31 LLOYD RD",
+    "assessment_2025": 684000,
+    "assessment_2026": 1278500
+  },
+  {
+    "address": "35 LLOYD RD",
+    "assessment_2025": 569800,
+    "assessment_2026": 1097900
+  },
+  {
+    "address": "45 LLOYD RD",
+    "assessment_2025": 585000,
+    "assessment_2026": 1161400
+  },
+  {
+    "address": "53 LLOYD RD",
+    "assessment_2025": 643300,
+    "assessment_2026": 1185600
+  },
+  {
+    "address": "61 LLOYD RD",
+    "assessment_2025": 1243500,
+    "assessment_2026": 2133700
+  },
+  {
+    "address": "71 LLOYD RD",
+    "assessment_2025": 578700,
+    "assessment_2026": 1113100
+  },
+  {
+    "address": "75 LLOYD RD",
+    "assessment_2025": 575800,
+    "assessment_2026": 1058800
+  },
+  {
+    "address": "79 LLOYD RD",
+    "assessment_2025": 630500,
+    "assessment_2026": 1187700
+  },
+  {
+    "address": "89 LLOYD RD",
+    "assessment_2025": 546000,
+    "assessment_2026": 983200
+  },
+  {
+    "address": "95 LLOYD RD",
+    "assessment_2025": 524500,
+    "assessment_2026": 1041000
+  },
+  {
+    "address": "618 HOLLYWOOD AVE",
+    "assessment_2025": 579200,
+    "assessment_2026": 1033800
+  },
+  {
+    "address": "610 HOLLYWOOD AVE",
+    "assessment_2025": 487700,
+    "assessment_2026": 884400
+  },
+  {
+    "address": "604 HOLLYWOOD AVE",
+    "assessment_2025": 558600,
+    "assessment_2026": 926600
+  },
+  {
+    "address": "702 HOLLYWOOD AVE",
+    "assessment_2025": 574600,
+    "assessment_2026": 1103400
+  },
+  {
+    "address": "708 HOLLYWOOD AVE",
+    "assessment_2025": 789000,
+    "assessment_2026": 1371100
+  },
+  {
+    "address": "714 HOLLYWOOD AVE",
+    "assessment_2025": 818200,
+    "assessment_2026": 1295000
+  },
+  {
+    "address": "722 HOLLYWOOD AV",
+    "assessment_2025": 594900,
+    "assessment_2026": 1018500
+  },
+  {
+    "address": "730 HOLLYWOOD AVE",
+    "assessment_2025": 574600,
+    "assessment_2026": 1118400
+  },
+  {
+    "address": "90 LLOYD RD",
+    "assessment_2025": 528800,
+    "assessment_2026": 882300
+  },
+  {
+    "address": "10 LLOYD RD",
+    "assessment_2025": 507900,
+    "assessment_2026": 972700
+  },
+  {
+    "address": "705 WARREN AVE",
+    "assessment_2025": 490400,
+    "assessment_2026": 935800
+  },
+  {
+    "address": "711 WARREN AV",
+    "assessment_2025": 703000,
+    "assessment_2026": 1182000
+  },
+  {
+    "address": "721 WARREN AVE",
+    "assessment_2025": 988600,
+    "assessment_2026": 1717900
+  },
+  {
+    "address": "723 WARREN AV",
+    "assessment_2025": 606500,
+    "assessment_2026": 1210900
+  },
+  {
+    "address": "727 WARREN AV",
+    "assessment_2025": 697200,
+    "assessment_2026": 1272400
+  },
+  {
+    "address": "808 HOLLYWOOD AVE.",
+    "assessment_2025": 403400,
+    "assessment_2026": 800000
+  },
+  {
+    "address": "2 ADDISON PL",
+    "assessment_2025": 768900,
+    "assessment_2026": 1353900
+  },
+  {
+    "address": "35 ADDISON PL",
+    "assessment_2025": 455000,
+    "assessment_2026": 907200
+  },
+  {
+    "address": "33 ADDISON PL",
+    "assessment_2025": 416300,
+    "assessment_2026": 925400
+  },
+  {
+    "address": "31 ADDISON PL",
+    "assessment_2025": 408000,
+    "assessment_2026": 826200
+  },
+  {
+    "address": "29 ADDISON PL",
+    "assessment_2025": 391500,
+    "assessment_2026": 870900
+  },
+  {
+    "address": "27 ADDISON PL",
+    "assessment_2025": 439000,
+    "assessment_2026": 925900
+  },
+  {
+    "address": "25 ADDISON PL",
+    "assessment_2025": 634000,
+    "assessment_2026": 1435500
+  },
+  {
+    "address": "23 ADDISON PL",
+    "assessment_2025": 984400,
+    "assessment_2026": 1696800
+  },
+  {
+    "address": "21 ADDISON PL",
+    "assessment_2025": 876300,
+    "assessment_2026": 1647600
+  },
+  {
+    "address": "19 ADDISON PL",
+    "assessment_2025": 1391400,
+    "assessment_2026": 2448800
+  },
+  {
+    "address": "17 ADDISON PL",
+    "assessment_2025": 538000,
+    "assessment_2026": 1168600
+  },
+  {
+    "address": "15 ADDISON PL",
+    "assessment_2025": 1083100,
+    "assessment_2026": 1989200
+  },
+  {
+    "address": "13 ADDISON PL",
+    "assessment_2025": 567800,
+    "assessment_2026": 1109400
+  },
+  {
+    "address": "25 BEECHWOOD RD",
+    "assessment_2025": 496600,
+    "assessment_2026": 1039800
+  },
+  {
+    "address": "8 ADDISON PL",
+    "assessment_2025": 502300,
+    "assessment_2026": 1018100
+  },
+  {
+    "address": "10 ADDISON PL",
+    "assessment_2025": 513300,
+    "assessment_2026": 1165400
+  },
+  {
+    "address": "12 ADDISON PL",
+    "assessment_2025": 538400,
+    "assessment_2026": 1116300
+  },
+  {
+    "address": "22 ADDISON PL",
+    "assessment_2025": 507700,
+    "assessment_2026": 1160300
+  },
+  {
+    "address": "24 ADDISON PL",
+    "assessment_2025": 556000,
+    "assessment_2026": 1198700
+  },
+  {
+    "address": "26 ADDISON PL",
+    "assessment_2025": 489200,
+    "assessment_2026": 1025900
+  },
+  {
+    "address": "9 ADDISON PL",
+    "assessment_2025": 517200,
+    "assessment_2026": 1175800
+  },
+  {
+    "address": "7 ADDISON PL",
+    "assessment_2025": 861300,
+    "assessment_2026": 1546800
+  },
+  {
+    "address": "5 ADDISON PL",
+    "assessment_2025": 484700,
+    "assessment_2026": 1101300
+  },
+  {
+    "address": "3 ADDISON PL",
+    "assessment_2025": 523200,
+    "assessment_2026": 1115700
+  },
+  {
+    "address": "1 ADDISON PL",
+    "assessment_2025": 517900,
+    "assessment_2026": 988500
+  },
+  {
+    "address": "9 DOGWOOD LANE",
+    "assessment_2025": 575700,
+    "assessment_2026": 962600
+  },
+  {
+    "address": "7 DOGWOOD LANE",
+    "assessment_2025": 656600,
+    "assessment_2026": 1094900
+  },
+  {
+    "address": "5 DOGWOOD LANE",
+    "assessment_2025": 589600,
+    "assessment_2026": 1052700
+  },
+  {
+    "address": "1 DOGWOOD LANE",
+    "assessment_2025": 858200,
+    "assessment_2026": 1314000
+  },
+  {
+    "address": "2 DOGWOOD LANE",
+    "assessment_2025": 584000,
+    "assessment_2026": 1027900
+  },
+  {
+    "address": "4 DOGWOOD LANE",
+    "assessment_2025": 636700,
+    "assessment_2026": 1065000
+  },
+  {
+    "address": "6 DOGWOOD LANE",
+    "assessment_2025": 593000,
+    "assessment_2026": 989600
+  },
+  {
+    "address": "8 DOGWOOD LANE",
+    "assessment_2025": 600900,
+    "assessment_2026": 1005600
+  },
+  {
+    "address": "10 DOGWOOD LANE",
+    "assessment_2025": 599300,
+    "assessment_2026": 989600
+  },
+  {
+    "address": "12 DOGWOOD LANE",
+    "assessment_2025": 549100,
+    "assessment_2026": 875500
+  },
+  {
+    "address": "43 CLEVERDON RD",
+    "assessment_2025": 520700,
+    "assessment_2026": 992400
+  },
+  {
+    "address": "37 CLEVERDON RD",
+    "assessment_2025": 518800,
+    "assessment_2026": 949000
+  },
+  {
+    "address": "29 CLEVERDON RD",
+    "assessment_2025": 754200,
+    "assessment_2026": 1255200
+  },
+  {
+    "address": "25 CLEVERDON RD",
+    "assessment_2025": 751900,
+    "assessment_2026": 1253900
+  },
+  {
+    "address": "21 CLEVERDON RD",
+    "assessment_2025": 625300,
+    "assessment_2026": 1093700
+  },
+  {
+    "address": "19 CLEVERDON RD",
+    "assessment_2025": 518900,
+    "assessment_2026": 1000600
+  },
+  {
+    "address": "15 CLEVERDON RD",
+    "assessment_2025": 630100,
+    "assessment_2026": 1185300
+  },
+  {
+    "address": "42 CLEVERDON RD",
+    "assessment_2025": 722000,
+    "assessment_2026": 1264400
+  },
+  {
+    "address": "34 CLEVERDON RD",
+    "assessment_2025": 531500,
+    "assessment_2026": 1045800
+  },
+  {
+    "address": "20 CLEVERDON RD",
+    "assessment_2025": 476800,
+    "assessment_2026": 809500
+  },
+  {
+    "address": "6 CLEVERDON RD",
+    "assessment_2025": 1020500,
+    "assessment_2026": 1504000
+  },
+  {
+    "address": "19 VAN DYKE DRIVE",
+    "assessment_2025": 352800,
+    "assessment_2026": 715800
+  },
+  {
+    "address": "37 VAN DYKE DR.",
+    "assessment_2025": 567500,
+    "assessment_2026": 1025400
+  },
+  {
+    "address": "43 VAN DYKE DR.",
+    "assessment_2025": 518400,
+    "assessment_2026": 1007400
+  },
+  {
+    "address": "20 VAN DYKE DR",
+    "assessment_2025": 1138800,
+    "assessment_2026": 1796300
+  },
+  {
+    "address": "18 VAN DYKE DR",
+    "assessment_2025": 1123600,
+    "assessment_2026": 1736000
+  },
+  {
+    "address": "16 VAN DYKE DR",
+    "assessment_2025": 1158800,
+    "assessment_2026": 1777700
+  },
+  {
+    "address": "14 VAN DYKE DR",
+    "assessment_2025": 1172800,
+    "assessment_2026": 1821900
+  },
+  {
+    "address": "12 VAN DYKE DR",
+    "assessment_2025": 626300,
+    "assessment_2026": 1110900
+  },
+  {
+    "address": "35 BRANDYWINE RD",
+    "assessment_2025": 1073200,
+    "assessment_2026": 1803800
+  },
+  {
+    "address": "49 BRANDYWINE RD",
+    "assessment_2025": 706700,
+    "assessment_2026": 1296000
+  },
+  {
+    "address": "55 BRANDYWINE RD",
+    "assessment_2025": 593900,
+    "assessment_2026": 1134300
+  },
+  {
+    "address": "65 BRANDYWINE RD",
+    "assessment_2025": 677800,
+    "assessment_2026": 1315200
+  },
+  {
+    "address": "790 WEST SADDLE RIVER RD",
+    "assessment_2025": 1260800,
+    "assessment_2026": 1965900
+  },
+  {
+    "address": "800 WEST SADDLE RIVER RD",
+    "assessment_2025": 1149600,
+    "assessment_2026": 1777500
+  },
+  {
+    "address": "810 WEST SADDLE RIVER RD",
+    "assessment_2025": 1207100,
+    "assessment_2026": 1895000
+  },
+  {
+    "address": "820 WEST SADDLE RIVER RD",
+    "assessment_2025": 1165400,
+    "assessment_2026": 1789300
+  },
+  {
+    "address": "930 HOLLYWOOD AVENUE",
+    "assessment_2025": 1162500,
+    "assessment_2026": 1764900
+  },
+  {
+    "address": "920 HOLLYWOOD AVENUE",
+    "assessment_2025": 1199600,
+    "assessment_2026": 1821700
+  },
+  {
+    "address": "910 HOLLYWOOD AVENUE",
+    "assessment_2025": 1211100,
+    "assessment_2026": 1886700
+  },
+  {
+    "address": "900 HOLLYWOOD AVENUE",
+    "assessment_2025": 1188300,
+    "assessment_2026": 1853400
+  },
+  {
+    "address": "5 WAYNE CT",
+    "assessment_2025": 893700,
+    "assessment_2026": 1563000
+  },
+  {
+    "address": "11 VAN DYKE DR",
+    "assessment_2025": 1017400,
+    "assessment_2026": 1774900
+  },
+  {
+    "address": "1 VAN DYKE DR",
+    "assessment_2025": 537000,
+    "assessment_2026": 1083000
+  },
+  {
+    "address": "23 BRANDYWINE RD",
+    "assessment_2025": 620100,
+    "assessment_2026": 1037600
+  },
+  {
+    "address": "17 BRANDYWINE RD",
+    "assessment_2025": 522200,
+    "assessment_2026": 962300
+  },
+  {
+    "address": "929 WASHINGTON AVE",
+    "assessment_2025": 596000,
+    "assessment_2026": 1074400
+  },
+  {
+    "address": "919 WASHINGTON AVE",
+    "assessment_2025": 597800,
+    "assessment_2026": 1042300
+  },
+  {
+    "address": "915 WASHINGTON AVE",
+    "assessment_2025": 526100,
+    "assessment_2026": 984600
+  },
+  {
+    "address": "911 WASHINGTON AVE",
+    "assessment_2025": 477800,
+    "assessment_2026": 828200
+  },
+  {
+    "address": "914 WASHINGTON AVE",
+    "assessment_2025": 405900,
+    "assessment_2026": 759500
+  },
+  {
+    "address": "920 WASHINGTON AVE",
+    "assessment_2025": 1022100,
+    "assessment_2026": 1753900
+  },
+  {
+    "address": "926 WASHINGTON AVE",
+    "assessment_2025": 494400,
+    "assessment_2026": 928600
+  },
+  {
+    "address": "934 WASHINGTON AVE",
+    "assessment_2025": 480000,
+    "assessment_2026": 954300
+  },
+  {
+    "address": "940 WASHINGTON AVE",
+    "assessment_2025": 552100,
+    "assessment_2026": 1065000
+  },
+  {
+    "address": "950 WASHINGTON AVE",
+    "assessment_2025": 690200,
+    "assessment_2026": 1296900
+  },
+  {
+    "address": "56 BRANDYWINE RD",
+    "assessment_2025": 1159100,
+    "assessment_2026": 2039900
+  },
+  {
+    "address": "48 BRANDYWINE RD",
+    "assessment_2025": 685100,
+    "assessment_2026": 1248800
+  },
+  {
+    "address": "38 BRANDYWINE RD",
+    "assessment_2025": 530800,
+    "assessment_2026": 1022700
+  },
+  {
+    "address": "32 BRANDYWINE RD",
+    "assessment_2025": 724600,
+    "assessment_2026": 1258800
+  },
+  {
+    "address": "22 BRANDYWINE RD",
+    "assessment_2025": 730700,
+    "assessment_2026": 1269700
+  },
+  {
+    "address": "14 BRANDYWINE RD",
+    "assessment_2025": 607300,
+    "assessment_2026": 1086200
+  },
+  {
+    "address": "2 BRANDYWINE RD",
+    "assessment_2025": 688200,
+    "assessment_2026": 1325200
+  },
+  {
+    "address": "947 WASHINGTON AVE",
+    "assessment_2025": 537300,
+    "assessment_2026": 1008000
+  },
+  {
+    "address": "9 VALLEY FORGE WAY",
+    "assessment_2025": 458900,
+    "assessment_2026": 958100
+  },
+  {
+    "address": "15 VALLEY FORGE WAY",
+    "assessment_2025": 490600,
+    "assessment_2026": 1014100
+  },
+  {
+    "address": "21 VALLEY FORGE WAY",
+    "assessment_2025": 489700,
+    "assessment_2026": 939800
+  },
+  {
+    "address": "26 SLEEPY HOLLOW DR",
+    "assessment_2025": 848200,
+    "assessment_2026": 1487200
+  },
+  {
+    "address": "24 SLEEPY HOLLOW DR",
+    "assessment_2025": 592500,
+    "assessment_2026": 1108500
+  },
+  {
+    "address": "14 SLEEPY HOLLOW DR",
+    "assessment_2025": 583700,
+    "assessment_2026": 947100
+  },
+  {
+    "address": "2 SLEEPY HOLLOW DR",
+    "assessment_2025": 725900,
+    "assessment_2026": 1346600
+  },
+  {
+    "address": "724 WEST SADDLE RIVER RD",
+    "assessment_2025": 610300,
+    "assessment_2026": 1041800
+  },
+  {
+    "address": "730 WEST SADDLE RIVER RD",
+    "assessment_2025": 801000,
+    "assessment_2026": 1277200
+  },
+  {
+    "address": "742 WEST SADDLE RIVER RD",
+    "assessment_2025": 523600,
+    "assessment_2026": 989400
+  },
+  {
+    "address": "748 WEST SADDLE RIVER RD",
+    "assessment_2025": 702500,
+    "assessment_2026": 1148600
+  },
+  {
+    "address": "752 WEST SADDLE RIVER RD",
+    "assessment_2025": 815400,
+    "assessment_2026": 1252500
+  },
+  {
+    "address": "764 WEST SADDLE RIVER RD",
+    "assessment_2025": 660600,
+    "assessment_2026": 1160200
+  },
+  {
+    "address": "68 BRANDYWINE RD",
+    "assessment_2025": 618000,
+    "assessment_2026": 1107300
+  },
+  {
+    "address": "31 VALLEY FORGE WAY",
+    "assessment_2025": 505100,
+    "assessment_2026": 915400
+  },
+  {
+    "address": "27 SLEEPY HOLLOW DR",
+    "assessment_2025": 622500,
+    "assessment_2026": 1097900
+  },
+  {
+    "address": "15 SLEEPY HOLLOW DR",
+    "assessment_2025": 558300,
+    "assessment_2026": 1024500
+  },
+  {
+    "address": "977 WASHINGTON AV",
+    "assessment_2025": 494400,
+    "assessment_2026": 939100
+  },
+  {
+    "address": "955 WASHINGTON AV",
+    "assessment_2025": 591500,
+    "assessment_2026": 1048600
+  },
+  {
+    "address": "961 WASHINGTON AV",
+    "assessment_2025": 507300,
+    "assessment_2026": 909300
+  },
+  {
+    "address": "10 VALLEY FORGE WAY",
+    "assessment_2025": 517400,
+    "assessment_2026": 954900
+  },
+  {
+    "address": "710 WEST SADDLE RIVER RD",
+    "assessment_2025": 643500,
+    "assessment_2026": 1198300
+  },
+  {
+    "address": "1004 WASHINGTON AV",
+    "assessment_2025": 627300,
+    "assessment_2026": 1247200
+  },
+  {
+    "address": "998 WASHINGTON AV",
+    "assessment_2025": 688900,
+    "assessment_2026": 1210800
+  },
+  {
+    "address": "990 WASHINGTON AV",
+    "assessment_2025": 482900,
+    "assessment_2026": 933800
+  },
+  {
+    "address": "984 WASHINGTON AVE",
+    "assessment_2025": 662100,
+    "assessment_2026": 1149700
+  },
+  {
+    "address": "976 WASHINGTON AV",
+    "assessment_2025": 725300,
+    "assessment_2026": 1245300
+  },
+  {
+    "address": "970 WASHINGTON AV",
+    "assessment_2025": 581800,
+    "assessment_2026": 1068900
+  },
+  {
+    "address": "962 WASHINGTON AVE",
+    "assessment_2025": 591400,
+    "assessment_2026": 1052600
+  },
+  {
+    "address": "956 WASHINGTON AV",
+    "assessment_2025": 571100,
+    "assessment_2026": 1080300
+  },
+  {
+    "address": "815 WEST SADDLE RIVER RD",
+    "assessment_2025": 776100,
+    "assessment_2026": 1270300
+  },
+  {
+    "address": "801 WEST SADDLE RIVER RD",
+    "assessment_2025": 1103200,
+    "assessment_2026": 2043000
+  },
+  {
+    "address": "789 WEST SADDLE RIVER RD",
+    "assessment_2025": 1017200,
+    "assessment_2026": 1533100
+  },
+  {
+    "address": "777 WEST SADDLE RIVER RD",
+    "assessment_2025": 846300,
+    "assessment_2026": 1421200
+  },
+  {
+    "address": "773 WEST SADDLE RIVER RD",
+    "assessment_2025": 829400,
+    "assessment_2026": 1263800
+  },
+  {
+    "address": "771 WEST SADDLE RIVER RD",
+    "assessment_2025": 599800,
+    "assessment_2026": 1085400
+  },
+  {
+    "address": "755 WEST SADDLE RIVER RD",
+    "assessment_2025": 666600,
+    "assessment_2026": 1183900
+  },
+  {
+    "address": "743 WEST SADDLE RIVER RD",
+    "assessment_2025": 798800,
+    "assessment_2026": 1201300
+  },
+  {
+    "address": "711 WEST SADDLE RIVER RD",
+    "assessment_2025": 734200,
+    "assessment_2026": 1216900
+  },
+  {
+    "address": "705 WEST SADDLE RIVER RD",
+    "assessment_2025": 695500,
+    "assessment_2026": 1272400
+  },
+  {
+    "address": "701 WEST SADDLE RIVER RD",
+    "assessment_2025": 756400,
+    "assessment_2026": 1391100
+  },
+  {
+    "address": "780 E SADDLE RIVER RD",
+    "assessment_2025": 1020300,
+    "assessment_2026": 1215200
+  },
+  {
+    "address": "800 E SADDLE RIVER RD",
+    "assessment_2025": 720200,
+    "assessment_2026": 820300
+  },
+  {
+    "address": "11 POWDERHORN ROAD",
+    "assessment_2025": 1772000,
+    "assessment_2026": 2570300
+  },
+  {
+    "address": "12 POWDERHORN ROAD",
+    "assessment_2025": 2681000,
+    "assessment_2026": 3844900
+  },
+  {
+    "address": "13 POWDERHORN ROAD",
+    "assessment_2025": 1610000,
+    "assessment_2026": 2707700
+  },
+  {
+    "address": "14 POWDERHORN ROAD",
+    "assessment_2025": 1860500,
+    "assessment_2026": 2521500
+  },
+  {
+    "address": "20 POWDERHORN RD",
+    "assessment_2025": 1669800,
+    "assessment_2026": 2843900
+  },
+  {
+    "address": "1 POWDERHORN RD",
+    "assessment_2025": 2242000,
+    "assessment_2026": 3555900
+  },
+  {
+    "address": "2 POWDERHORN RD",
+    "assessment_2025": 946500,
+    "assessment_2026": 1500900
+  },
+  {
+    "address": "3 POWDERHORN RD",
+    "assessment_2025": 900700,
+    "assessment_2026": 1528900
+  },
+  {
+    "address": "4 POWDERHORN RD",
+    "assessment_2025": 1059400,
+    "assessment_2026": 1764100
+  },
+  {
+    "address": "815 E SADDLE RIVER RD",
+    "assessment_2025": 866300,
+    "assessment_2026": 1350000
+  },
+  {
+    "address": "805 E SADDLE RIVER RD",
+    "assessment_2025": 1218500,
+    "assessment_2026": 1997900
+  },
+  {
+    "address": "823 E SADDLE RIVER RD",
+    "assessment_2025": 1392700,
+    "assessment_2026": 2234700
+  },
+  {
+    "address": "825 E SADDLE RIVER RD",
+    "assessment_2025": 2003900,
+    "assessment_2026": 3167100
+  },
+  {
+    "address": "843 E SADDLE RIVER RD",
+    "assessment_2025": 1147800,
+    "assessment_2026": 1681300
+  },
+  {
+    "address": "16 POWDERHORN RD",
+    "assessment_2025": 1714800,
+    "assessment_2026": 2692400
+  },
+  {
+    "address": "19 TIMBERLINE RD",
+    "assessment_2025": 1198100,
+    "assessment_2026": 2114500
+  },
+  {
+    "address": "18 POWDERHORN RD",
+    "assessment_2025": 1815000,
+    "assessment_2026": 2877500
+  },
+  {
+    "address": "5 POWDERHORN RD",
+    "assessment_2025": 1220000,
+    "assessment_2026": 2052500
+  },
+  {
+    "address": "6 POWDERHORN RD",
+    "assessment_2025": 1306800,
+    "assessment_2026": 2085400
+  },
+  {
+    "address": "7 POWDERHORN RD",
+    "assessment_2025": 926500,
+    "assessment_2026": 1633800
+  },
+  {
+    "address": "8 POWDERHORN RD",
+    "assessment_2025": 992600,
+    "assessment_2026": 1470600
+  },
+  {
+    "address": "9 POWDERHORN RD",
+    "assessment_2025": 1300000,
+    "assessment_2026": 1924100
+  },
+  {
+    "address": "461 BIRCH LANE",
+    "assessment_2025": 1498700,
+    "assessment_2026": 2336500
+  },
+  {
+    "address": "453 BIRCH LANE",
+    "assessment_2025": 1075000,
+    "assessment_2026": 1811900
+  },
+  {
+    "address": "431 BIRCH LANE",
+    "assessment_2025": 1300000,
+    "assessment_2026": 2167700
+  },
+  {
+    "address": "15 POWDERHORN RD",
+    "assessment_2025": 878400,
+    "assessment_2026": 1466100
+  },
+  {
+    "address": "14 TIMBERLINE RD",
+    "assessment_2025": 1350900,
+    "assessment_2026": 2125000
+  },
+  {
+    "address": "13 TIMBERLINE RD",
+    "assessment_2025": 1258200,
+    "assessment_2026": 1930400
+  },
+  {
+    "address": "12 TIMBERLINE RD",
+    "assessment_2025": 969400,
+    "assessment_2026": 1579800
+  },
+  {
+    "address": "11 TIMBERLINE RD",
+    "assessment_2025": 916800,
+    "assessment_2026": 1500800
+  },
+  {
+    "address": "10 POWDERHORN RD",
+    "assessment_2025": 946100,
+    "assessment_2026": 1631000
+  },
+  {
+    "address": "2 COPPER BEECH LANE",
+    "assessment_2025": 1587600,
+    "assessment_2026": 2438400
+  },
+  {
+    "address": "4 COPPER BEECH LANE",
+    "assessment_2025": 2894100,
+    "assessment_2026": 4722400
+  },
+  {
+    "address": "191 WEARIMUS RD",
+    "assessment_2025": 2100000,
+    "assessment_2026": 3310200
+  },
+  {
+    "address": "203 WEARIMUS RD",
+    "assessment_2025": 2000000,
+    "assessment_2026": 3067900
+  },
+  {
+    "address": "207 WEARIMUS RD",
+    "assessment_2025": 1482700,
+    "assessment_2026": 2195400
+  },
+  {
+    "address": "235 WEARIMUS RD",
+    "assessment_2025": 1202900,
+    "assessment_2026": 1470000
+  },
+  {
+    "address": "265 WEARIMUS RD.",
+    "assessment_2025": 1223400,
+    "assessment_2026": 1916600
+  },
+  {
+    "address": "275 WEARIMUS RD",
+    "assessment_2025": 1331300,
+    "assessment_2026": 2157500
+  },
+  {
+    "address": "315 WEARIMUS RD",
+    "assessment_2025": 2851700,
+    "assessment_2026": 4797400
+  },
+  {
+    "address": "209 WEARIMUS RD",
+    "assessment_2025": 1834400,
+    "assessment_2026": 3160000
+  },
+  {
+    "address": "215 WEARIMUS RD",
+    "assessment_2025": 1029500,
+    "assessment_2026": 1713400
+  },
+  {
+    "address": "16 SADDLE RIDGE RD",
+    "assessment_2025": 1765600,
+    "assessment_2026": 3513800
+  },
+  {
+    "address": "18 SADDLE RIDGE RD",
+    "assessment_2025": 2565900,
+    "assessment_2026": 3958100
+  },
+  {
+    "address": "20 SADDLE RIDGE RD",
+    "assessment_2025": 1959200,
+    "assessment_2026": 2932500
+  },
+  {
+    "address": "22 SADDLE RIDGE RD",
+    "assessment_2025": 1294600,
+    "assessment_2026": 1977000
+  },
+  {
+    "address": "180 WEARIMUS RD",
+    "assessment_2025": 2250000,
+    "assessment_2026": 3576400
+  },
+  {
+    "address": "37 DEERHILL DR",
+    "assessment_2025": 1001800,
+    "assessment_2026": 1430000
+  },
+  {
+    "address": "35 DEERHILL DR",
+    "assessment_2025": 1090000,
+    "assessment_2026": 1758600
+  },
+  {
+    "address": "33 DEERHILL DR",
+    "assessment_2025": 1279400,
+    "assessment_2026": 1825300
+  },
+  {
+    "address": "170 WEARIMUS RD",
+    "assessment_2025": 1238700,
+    "assessment_2026": 1773700
+  },
+  {
+    "address": "50 DEERHILL DR",
+    "assessment_2025": 737700,
+    "assessment_2026": 1323900
+  },
+  {
+    "address": "14 STRATFORD LN",
+    "assessment_2025": 1210800,
+    "assessment_2026": 1945700
+  },
+  {
+    "address": "10 JACOB RD",
+    "assessment_2025": 904400,
+    "assessment_2026": 1473300
+  },
+  {
+    "address": "119 N FRANKLIN TPK",
+    "assessment_2025": 614000,
+    "assessment_2026": 1104100
+  },
+  {
+    "address": "109 N FRANKLIN TPK",
+    "assessment_2025": 470200,
+    "assessment_2026": 784800
+  },
+  {
+    "address": "105 N FRANKLIN TPK",
+    "assessment_2025": 487400,
+    "assessment_2026": 840000
+  },
+  {
+    "address": "101 N FRANKLIN TPK",
+    "assessment_2025": 499100,
+    "assessment_2026": 982800
+  },
+  {
+    "address": "85 N FRANKLIN TPK",
+    "assessment_2025": 478200,
+    "assessment_2026": 879200
+  },
+  {
+    "address": "83 N FRANKLIN TPK",
+    "assessment_2025": 601100,
+    "assessment_2026": 1006600
+  },
+  {
+    "address": "81 N FRANKLIN TPK",
+    "assessment_2025": 487800,
+    "assessment_2026": 866100
+  },
+  {
+    "address": "81 WARREN AVE",
+    "assessment_2025": 916200,
+    "assessment_2026": 1468800
+  },
+  {
+    "address": "22 KNOLLWOOD DR",
+    "assessment_2025": 579500,
+    "assessment_2026": 1056800
+  },
+  {
+    "address": "34 KNOLLWOOD DR",
+    "assessment_2025": 380700,
+    "assessment_2026": 713700
+  },
+  {
+    "address": "100 ROSS PL",
+    "assessment_2025": 468100,
+    "assessment_2026": 768100
+  },
+  {
+    "address": "90 N FRANKLIN TPK",
+    "assessment_2025": 482400,
+    "assessment_2026": 838500
+  },
+  {
+    "address": "92 N. FRANKLIN TPK",
+    "assessment_2025": 397900,
+    "assessment_2026": 701900
+  },
+  {
+    "address": "88 N FRANKLIN TPK",
+    "assessment_2025": 612300,
+    "assessment_2026": 1138700
+  },
+  {
+    "address": "82 N FRANKLIN TPK",
+    "assessment_2025": 471500,
+    "assessment_2026": 883000
+  },
+  {
+    "address": "76 N FRANKLIN TPK",
+    "assessment_2025": 486500,
+    "assessment_2026": 821600
+  },
+  {
+    "address": "70 N FRANKLIN TPK",
+    "assessment_2025": 680600,
+    "assessment_2026": 1144800
+  },
+  {
+    "address": "201 WARREN AVE",
+    "assessment_2025": 532400,
+    "assessment_2026": 1030700
+  },
+  {
+    "address": "3 CARLTON AVE",
+    "assessment_2025": 593400,
+    "assessment_2026": 1076000
+  },
+  {
+    "address": "11 CARLTON AVE",
+    "assessment_2025": 767400,
+    "assessment_2026": 1128200
+  },
+  {
+    "address": "15 CARLTON AVE",
+    "assessment_2025": 675800,
+    "assessment_2026": 1186300
+  },
+  {
+    "address": "19 CARLTON AVE",
+    "assessment_2025": 707300,
+    "assessment_2026": 1182200
+  },
+  {
+    "address": "23 CARLTON AVE",
+    "assessment_2025": 528800,
+    "assessment_2026": 995500
+  },
+  {
+    "address": "27 CARLTON AVE",
+    "assessment_2025": 502300,
+    "assessment_2026": 1013200
+  },
+  {
+    "address": "31 CARLTON AVE",
+    "assessment_2025": 560200,
+    "assessment_2026": 926600
+  },
+  {
+    "address": "35 CARLTON AVE",
+    "assessment_2025": 521000,
+    "assessment_2026": 940700
+  },
+  {
+    "address": "49 CARLTON AVE",
+    "assessment_2025": 662500,
+    "assessment_2026": 1185900
+  },
+  {
+    "address": "132 ROSS PL",
+    "assessment_2025": 540600,
+    "assessment_2026": 1012900
+  },
+  {
+    "address": "130 ROSS PL",
+    "assessment_2025": 930600,
+    "assessment_2026": 1407700
+  },
+  {
+    "address": "112 ROSS PL",
+    "assessment_2025": 526600,
+    "assessment_2026": 1030300
+  },
+  {
+    "address": "81 SHERIDAN AV",
+    "assessment_2025": 497800,
+    "assessment_2026": 934600
+  },
+  {
+    "address": "75 SHERIDAN AVE",
+    "assessment_2025": 404800,
+    "assessment_2026": 790500
+  },
+  {
+    "address": "67 SHERIDAN AV",
+    "assessment_2025": 521600,
+    "assessment_2026": 943800
+  },
+  {
+    "address": "61 SHERIDAN AV",
+    "assessment_2025": 607500,
+    "assessment_2026": 1105100
+  },
+  {
+    "address": "55 SHERIDAN AV",
+    "assessment_2025": 489200,
+    "assessment_2026": 923400
+  },
+  {
+    "address": "51 SHERIDAN AVE",
+    "assessment_2025": 515600,
+    "assessment_2026": 904500
+  },
+  {
+    "address": "45 SHERIDAN AV",
+    "assessment_2025": 421200,
+    "assessment_2026": 736200
+  },
+  {
+    "address": "43 SHERIDAN AV",
+    "assessment_2025": 461100,
+    "assessment_2026": 813800
+  },
+  {
+    "address": "255 WARREN AVE",
+    "assessment_2025": 528900,
+    "assessment_2026": 937400
+  },
+  {
+    "address": "8 CARLTON AVE",
+    "assessment_2025": 504200,
+    "assessment_2026": 986900
+  },
+  {
+    "address": "10 CARLTON AV",
+    "assessment_2025": 463300,
+    "assessment_2026": 796300
+  },
+  {
+    "address": "16 CARLTON AVE",
+    "assessment_2025": 540400,
+    "assessment_2026": 883500
+  },
+  {
+    "address": "20 CARLTON AVE",
+    "assessment_2025": 486600,
+    "assessment_2026": 838000
+  },
+  {
+    "address": "26 CARLTON AVE",
+    "assessment_2025": 679600,
+    "assessment_2026": 1264500
+  },
+  {
+    "address": "30 CARLTON AVE",
+    "assessment_2025": 629800,
+    "assessment_2026": 1009500
+  },
+  {
+    "address": "34 CARLTON AVE",
+    "assessment_2025": 599100,
+    "assessment_2026": 1020400
+  },
+  {
+    "address": "38 CARLTON AVE",
+    "assessment_2025": 546000,
+    "assessment_2026": 932400
+  },
+  {
+    "address": "44 CARLTON AVE",
+    "assessment_2025": 557600,
+    "assessment_2026": 950200
+  },
+  {
+    "address": "210 ROSS PL.",
+    "assessment_2025": 522800,
+    "assessment_2026": 1077100
+  },
+  {
+    "address": "216 ROSS PL",
+    "assessment_2025": 473500,
+    "assessment_2026": 886300
+  },
+  {
+    "address": "80 SHERIDAN AV",
+    "assessment_2025": 681400,
+    "assessment_2026": 1235800
+  },
+  {
+    "address": "310 ENOS PL",
+    "assessment_2025": 899900,
+    "assessment_2026": 1472300
+  },
+  {
+    "address": "320 ENOS PL",
+    "assessment_2025": 499900,
+    "assessment_2026": 870500
+  },
+  {
+    "address": "414 WARREN AVE",
+    "assessment_2025": 542700,
+    "assessment_2026": 973700
+  },
+  {
+    "address": "45 ELMWOOD AVE",
+    "assessment_2025": 988700,
+    "assessment_2026": 1812200
+  },
+  {
+    "address": "35 ELMWOOD AVE",
+    "assessment_2025": 592900,
+    "assessment_2026": 1070300
+  },
+  {
+    "address": "31 ELMWOOD AVE",
+    "assessment_2025": 469600,
+    "assessment_2026": 963400
+  },
+  {
+    "address": "27 ELMWOOD AVE",
+    "assessment_2025": 454400,
+    "assessment_2026": 1164100
+  },
+  {
+    "address": "19 ELMWOOD AVE",
+    "assessment_2025": 430000,
+    "assessment_2026": 830400
+  },
+  {
+    "address": "46 ELMWOOD AVE",
+    "assessment_2025": 536000,
+    "assessment_2026": 980100
+  },
+  {
+    "address": "508 WARREN AV",
+    "assessment_2025": 676700,
+    "assessment_2026": 1214400
+  },
+  {
+    "address": "514 WARREN AVENUE",
+    "assessment_2025": 637100,
+    "assessment_2026": 1166000
+  },
+  {
+    "address": "600 WARREN AV",
+    "assessment_2025": 530700,
+    "assessment_2026": 1076000
+  },
+  {
+    "address": "604 WARREN AVE",
+    "assessment_2025": 644400,
+    "assessment_2026": 1230500
+  },
+  {
+    "address": "614 WARREN AV",
+    "assessment_2025": 628500,
+    "assessment_2026": 1230900
+  },
+  {
+    "address": "618 WARREN AVE",
+    "assessment_2025": 592200,
+    "assessment_2026": 1202900
+  },
+  {
+    "address": "622 WARREN AVE",
+    "assessment_2025": 728200,
+    "assessment_2026": 1346200
+  },
+  {
+    "address": "1 LLOYD RD",
+    "assessment_2025": 939400,
+    "assessment_2026": 1698600
+  },
+  {
+    "address": "605 SHERWOOD RD",
+    "assessment_2025": 973900,
+    "assessment_2026": 1673100
+  },
+  {
+    "address": "525 SHERWOOD RD",
+    "assessment_2025": 542800,
+    "assessment_2026": 1074700
+  },
+  {
+    "address": "523 SHERWOOD RD",
+    "assessment_2025": 509500,
+    "assessment_2026": 1035300
+  },
+  {
+    "address": "517 SHERWOOD RD",
+    "assessment_2025": 757200,
+    "assessment_2026": 1371100
+  },
+  {
+    "address": "509 SHERWOOD RD",
+    "assessment_2025": 539900,
+    "assessment_2026": 1079000
+  },
+  {
+    "address": "32 ELMWOOD AVE",
+    "assessment_2025": 519300,
+    "assessment_2026": 975200
+  },
+  {
+    "address": "18 ELMWOOD AVE",
+    "assessment_2025": 490500,
+    "assessment_2026": 1035500
+  },
+  {
+    "address": "508 SHERWOOD RD",
+    "assessment_2025": 579600,
+    "assessment_2026": 1029700
+  },
+  {
+    "address": "512 SHERWOOD RD",
+    "assessment_2025": 437400,
+    "assessment_2026": 851500
+  },
+  {
+    "address": "516 SHERWOOD RD",
+    "assessment_2025": 581200,
+    "assessment_2026": 1122800
+  },
+  {
+    "address": "520 SHERWOOD RD",
+    "assessment_2025": 527200,
+    "assessment_2026": 1073500
+  },
+  {
+    "address": "600 SHERWOOD RD",
+    "assessment_2025": 758300,
+    "assessment_2026": 1410900
+  },
+  {
+    "address": "620 SHERWOOD RD",
+    "assessment_2025": 968600,
+    "assessment_2026": 1706400
+  },
+  {
+    "address": "245 E FRANKLIN TP",
+    "assessment_2025": 591700,
+    "assessment_2026": 1221700
+  },
+  {
+    "address": "235 E FRANKLIN TP",
+    "assessment_2025": 749000,
+    "assessment_2026": 1292800
+  },
+  {
+    "address": "231 E FRANKLIN TP",
+    "assessment_2025": 522000,
+    "assessment_2026": 1059900
+  },
+  {
+    "address": "225 E. FRANKLIN TP",
+    "assessment_2025": 572800,
+    "assessment_2026": 1028500
+  },
+  {
+    "address": "217 E FRANKLIN TP",
+    "assessment_2025": 598600,
+    "assessment_2026": 1193400
+  },
+  {
+    "address": "205 BROOKSIDE AVE",
+    "assessment_2025": 588000,
+    "assessment_2026": 1052100
+  },
+  {
+    "address": "135 BROOKSIDE AVE",
+    "assessment_2025": 560600,
+    "assessment_2026": 954800
+  },
+  {
+    "address": "614 CLIFF ST",
+    "assessment_2025": 434300,
+    "assessment_2026": 799800
+  },
+  {
+    "address": "610 CLIFF ST",
+    "assessment_2025": 477300,
+    "assessment_2026": 753500
+  },
+  {
+    "address": "91 FIRST ST",
+    "assessment_2025": 545100,
+    "assessment_2026": 1102600
+  },
+  {
+    "address": "83 FIRST ST",
+    "assessment_2025": 527800,
+    "assessment_2026": 904000
+  },
+  {
+    "address": "81 FIRST ST",
+    "assessment_2025": 458500,
+    "assessment_2026": 833100
+  },
+  {
+    "address": "200 BROOKSIDE AVE",
+    "assessment_2025": 476700,
+    "assessment_2026": 730900
+  },
+  {
+    "address": "204 BROOKSIDE AVE",
+    "assessment_2025": 467200,
+    "assessment_2026": 891100
+  },
+  {
+    "address": "208 BROOKSIDE AVE",
+    "assessment_2025": 484900,
+    "assessment_2026": 820800
+  },
+  {
+    "address": "212 BROOKSIDE AVE",
+    "assessment_2025": 470200,
+    "assessment_2026": 854900
+  },
+  {
+    "address": "216 BROOKSIDE AVE",
+    "assessment_2025": 450000,
+    "assessment_2026": 815300
+  },
+  {
+    "address": "101-3 FIRST ST",
+    "assessment_2025": 692500,
+    "assessment_2026": 1094800
+  },
+  {
+    "address": "613 CLIFF ST",
+    "assessment_2025": 677300,
+    "assessment_2026": 1270500
+  },
+  {
+    "address": "222 E FRANKLIN TP",
+    "assessment_2025": 755900,
+    "assessment_2026": 1432800
+  },
+  {
+    "address": "232 E FRANKLIN TP",
+    "assessment_2025": 516200,
+    "assessment_2026": 1085900
+  },
+  {
+    "address": "246 E FRANKLIN TP",
+    "assessment_2025": 545300,
+    "assessment_2026": 1026300
+  },
+  {
+    "address": "704 WARREN AVE",
+    "assessment_2025": 740800,
+    "assessment_2026": 1398700
+  },
+  {
+    "address": "710 WARREN AV",
+    "assessment_2025": 723900,
+    "assessment_2026": 1381500
+  },
+  {
+    "address": "716 WARREN AVE",
+    "assessment_2025": 770200,
+    "assessment_2026": 1343500
+  },
+  {
+    "address": "722 WARREN AV",
+    "assessment_2025": 770400,
+    "assessment_2026": 1451000
+  },
+  {
+    "address": "726 WARREN AV",
+    "assessment_2025": 746300,
+    "assessment_2026": 1357700
+  },
+  {
+    "address": "65 EDGEWOOD DR",
+    "assessment_2025": 741100,
+    "assessment_2026": 1335600
+  },
+  {
+    "address": "661 SHERWOOD RD",
+    "assessment_2025": 625800,
+    "assessment_2026": 1185000
+  },
+  {
+    "address": "653 SHERWOOD RD",
+    "assessment_2025": 790500,
+    "assessment_2026": 1342300
+  },
+  {
+    "address": "649 SHERWOOD RD",
+    "assessment_2025": 553300,
+    "assessment_2026": 1067800
+  },
+  {
+    "address": "645 SHERWOOD RD",
+    "assessment_2025": 745600,
+    "assessment_2026": 1309800
+  },
+  {
+    "address": "641 SHERWOOD RD",
+    "assessment_2025": 516200,
+    "assessment_2026": 1037000
+  },
+  {
+    "address": "637 SHERWOOD RD",
+    "assessment_2025": 749700,
+    "assessment_2026": 1441200
+  },
+  {
+    "address": "98 EDGEWOOD DR",
+    "assessment_2025": 577200,
+    "assessment_2026": 1100200
+  },
+  {
+    "address": "94 EDGEWOOD DR",
+    "assessment_2025": 867200,
+    "assessment_2026": 1593300
+  },
+  {
+    "address": "88 EDGEWOOD DR",
+    "assessment_2025": 578000,
+    "assessment_2026": 1136600
+  },
+  {
+    "address": "84 EDGEWOOD DR",
+    "assessment_2025": 757800,
+    "assessment_2026": 1434500
+  },
+  {
+    "address": "74 EDGEWOOD DR",
+    "assessment_2025": 851500,
+    "assessment_2026": 1599500
+  },
+  {
+    "address": "68 EDGEWOOD DR",
+    "assessment_2025": 788600,
+    "assessment_2026": 1471500
+  },
+  {
+    "address": "62 EDGEWOOD DR",
+    "assessment_2025": 773200,
+    "assessment_2026": 1488300
+  },
+  {
+    "address": "56 EDGEWOOD DR",
+    "assessment_2025": 570700,
+    "assessment_2026": 1114800
+  },
+  {
+    "address": "50 EDGEWOOD DR",
+    "assessment_2025": 704900,
+    "assessment_2026": 1380800
+  },
+  {
+    "address": "44 EDGEWOOD DR",
+    "assessment_2025": 720900,
+    "assessment_2026": 1449100
+  },
+  {
+    "address": "38 EDGEWOOD DR",
+    "assessment_2025": 776700,
+    "assessment_2026": 1463600
+  },
+  {
+    "address": "32 EDGEWOOD DR",
+    "assessment_2025": 1103300,
+    "assessment_2026": 1940200
+  },
+  {
+    "address": "1 BEECHWOOD RD",
+    "assessment_2025": 1100000,
+    "assessment_2026": 1924400
+  },
+  {
+    "address": "5 BEECHWOOD RD",
+    "assessment_2025": 830200,
+    "assessment_2026": 1404100
+  },
+  {
+    "address": "7 BEECHWOOD RD",
+    "assessment_2025": 768200,
+    "assessment_2026": 1479400
+  },
+  {
+    "address": "9 BEECHWOOD RD",
+    "assessment_2025": 718600,
+    "assessment_2026": 1284600
+  },
+  {
+    "address": "11 BEECHWOOD RD",
+    "assessment_2025": 650600,
+    "assessment_2026": 1201700
+  },
+  {
+    "address": "13 BEECHWOOD RD",
+    "assessment_2025": 574400,
+    "assessment_2026": 1009200
+  },
+  {
+    "address": "15 BEECHWOOD RD",
+    "assessment_2025": 597600,
+    "assessment_2026": 1171000
+  },
+  {
+    "address": "17 BEECHWOOD RD",
+    "assessment_2025": 827500,
+    "assessment_2026": 1507100
+  },
+  {
+    "address": "19 BEECHWOOD RD",
+    "assessment_2025": 619300,
+    "assessment_2026": 1142700
+  },
+  {
+    "address": "21 BEECHWOOD RD",
+    "assessment_2025": 629800,
+    "assessment_2026": 1240700
+  },
+  {
+    "address": "23 BEECHWOOD RD",
+    "assessment_2025": 1424100,
+    "assessment_2026": 2363700
+  },
+  {
+    "address": "24 BEECHWOOD RD",
+    "assessment_2025": 601600,
+    "assessment_2026": 1150000
+  },
+  {
+    "address": "22 BEECHWOOD RD",
+    "assessment_2025": 551600,
+    "assessment_2026": 1073000
+  },
+  {
+    "address": "20 BEECHWOOD RD",
+    "assessment_2025": 1158500,
+    "assessment_2026": 2038500
+  },
+  {
+    "address": "18 BEECHWOOD RD",
+    "assessment_2025": 886600,
+    "assessment_2026": 1494400
+  },
+  {
+    "address": "16 BEECHWOOD RD",
+    "assessment_2025": 769500,
+    "assessment_2026": 1389700
+  },
+  {
+    "address": "14 BEECHWOOD RD",
+    "assessment_2025": 525700,
+    "assessment_2026": 1060200
+  },
+  {
+    "address": "12 BEECHWOOD RD",
+    "assessment_2025": 718200,
+    "assessment_2026": 1249800
+  },
+  {
+    "address": "10 BEECHWOOD RD",
+    "assessment_2025": 811900,
+    "assessment_2026": 1505400
+  },
+  {
+    "address": "8 BEECHWOOD RD",
+    "assessment_2025": 890700,
+    "assessment_2026": 1600600
+  },
+  {
+    "address": "6 BEECHWOOD RD",
+    "assessment_2025": 796200,
+    "assessment_2026": 1403200
+  },
+  {
+    "address": "4 BEECHWOOD RD",
+    "assessment_2025": 732600,
+    "assessment_2026": 1351700
+  },
+  {
+    "address": "2 BEECHWOOD RD",
+    "assessment_2025": 743400,
+    "assessment_2026": 1366400
+  },
+  {
+    "address": "841 BERNARD PL",
+    "assessment_2025": 902000,
+    "assessment_2026": 1337700
+  },
+  {
+    "address": "31 ARBOR DR",
+    "assessment_2025": 449800,
+    "assessment_2026": 801200
+  },
+  {
+    "address": "35 ARBOR DR",
+    "assessment_2025": 557800,
+    "assessment_2026": 986200
+  },
+  {
+    "address": "39 ARBOR DR",
+    "assessment_2025": 517700,
+    "assessment_2026": 916000
+  },
+  {
+    "address": "43 ARBOR DR",
+    "assessment_2025": 461400,
+    "assessment_2026": 892400
+  },
+  {
+    "address": "47 ARBOR DR",
+    "assessment_2025": 1053400,
+    "assessment_2026": 1793200
+  },
+  {
+    "address": "51 ARBOR DR",
+    "assessment_2025": 519900,
+    "assessment_2026": 1004100
+  },
+  {
+    "address": "55 ARBOR DR",
+    "assessment_2025": 467200,
+    "assessment_2026": 854000
+  },
+  {
+    "address": "59 ARBOR DR",
+    "assessment_2025": 562400,
+    "assessment_2026": 1087900
+  },
+  {
+    "address": "63 ARBOR DR",
+    "assessment_2025": 910000,
+    "assessment_2026": 1570100
+  },
+  {
+    "address": "67 ARBOR DR",
+    "assessment_2025": 553500,
+    "assessment_2026": 1116000
+  },
+  {
+    "address": "73 ARBOR DR",
+    "assessment_2025": 448400,
+    "assessment_2026": 828000
+  },
+  {
+    "address": "77 ARBOR DR",
+    "assessment_2025": 498200,
+    "assessment_2026": 923700
+  },
+  {
+    "address": "81 ARBOR DR",
+    "assessment_2025": 400800,
+    "assessment_2026": 715300
+  },
+  {
+    "address": "85 ARBOR DR",
+    "assessment_2025": 437700,
+    "assessment_2026": 796200
+  },
+  {
+    "address": "89 ARBOR DR",
+    "assessment_2025": 374200,
+    "assessment_2026": 710600
+  },
+  {
+    "address": "91 ARBOR DR",
+    "assessment_2025": 496600,
+    "assessment_2026": 908000
+  },
+  {
+    "address": "93 ARBOR DR",
+    "assessment_2025": 442400,
+    "assessment_2026": 814000
+  },
+  {
+    "address": "95 ARBOR DR",
+    "assessment_2025": 372800,
+    "assessment_2026": 704100
+  },
+  {
+    "address": "97 ARBOR DR",
+    "assessment_2025": 385600,
+    "assessment_2026": 731300
+  },
+  {
+    "address": "99 ARBOR DR",
+    "assessment_2025": 412700,
+    "assessment_2026": 801900
+  },
+  {
+    "address": "101 ARBOR DR",
+    "assessment_2025": 390900,
+    "assessment_2026": 768800
+  },
+  {
+    "address": "103 ARBOR DR",
+    "assessment_2025": 370700,
+    "assessment_2026": 701100
+  },
+  {
+    "address": "105 ARBOR DR",
+    "assessment_2025": 397200,
+    "assessment_2026": 778300
+  },
+  {
+    "address": "107 ARBOR DR",
+    "assessment_2025": 464000,
+    "assessment_2026": 839300
+  },
+  {
+    "address": "109 ARBOR DR",
+    "assessment_2025": 946300,
+    "assessment_2026": 1602200
+  },
+  {
+    "address": "111 ARBOR DR",
+    "assessment_2025": 368900,
+    "assessment_2026": 702600
+  },
+  {
+    "address": "461 RACE TRACK RD",
+    "assessment_2025": 389000,
+    "assessment_2026": 774800
+  },
+  {
+    "address": "3 LINDEN RD",
+    "assessment_2025": 467000,
+    "assessment_2026": 848600
+  },
+  {
+    "address": "30 ARBOR DR",
+    "assessment_2025": 562200,
+    "assessment_2026": 1004500
+  },
+  {
+    "address": "34 ARBOR DR",
+    "assessment_2025": 482100,
+    "assessment_2026": 941300
+  },
+  {
+    "address": "38 ARBOR DR",
+    "assessment_2025": 459800,
+    "assessment_2026": 847800
+  },
+  {
+    "address": "42 ARBOR DR",
+    "assessment_2025": 499800,
+    "assessment_2026": 893400
+  },
+  {
+    "address": "46 ARBOR DR",
+    "assessment_2025": 670200,
+    "assessment_2026": 1234200
+  },
+  {
+    "address": "50 ARBOR DR",
+    "assessment_2025": 844000,
+    "assessment_2026": 1392100
+  },
+  {
+    "address": "56 ARBOR DR",
+    "assessment_2025": 673800,
+    "assessment_2026": 1213800
+  },
+  {
+    "address": "62 ARBOR DR",
+    "assessment_2025": 563400,
+    "assessment_2026": 1064400
+  },
+  {
+    "address": "31 SPRUCE PL",
+    "assessment_2025": 544500,
+    "assessment_2026": 962600
+  },
+  {
+    "address": "27 SPRUCE PL",
+    "assessment_2025": 456200,
+    "assessment_2026": 838100
+  },
+  {
+    "address": "23 SPRUCE PL",
+    "assessment_2025": 677900,
+    "assessment_2026": 1256800
+  },
+  {
+    "address": "19 SPRUCE PL",
+    "assessment_2025": 571600,
+    "assessment_2026": 998600
+  },
+  {
+    "address": "15 SPRUCE PL",
+    "assessment_2025": 648300,
+    "assessment_2026": 1295400
+  },
+  {
+    "address": "11 SPRUCE PL",
+    "assessment_2025": 449000,
+    "assessment_2026": 869500
+  },
+  {
+    "address": "7 SPRUCE PL",
+    "assessment_2025": 498600,
+    "assessment_2026": 983600
+  },
+  {
+    "address": "3 SPRUCE PL",
+    "assessment_2025": 441600,
+    "assessment_2026": 836200
+  },
+  {
+    "address": "15 LINDEN RD",
+    "assessment_2025": 473600,
+    "assessment_2026": 817100
+  },
+  {
+    "address": "8 SPRUCE PL",
+    "assessment_2025": 966900,
+    "assessment_2026": 1692200
+  },
+  {
+    "address": "12 SPRUCE PL",
+    "assessment_2025": 447100,
+    "assessment_2026": 867000
+  },
+  {
+    "address": "16 SPRUCE PL",
+    "assessment_2025": 469200,
+    "assessment_2026": 837900
+  },
+  {
+    "address": "20 SPRUCE PL",
+    "assessment_2025": 485400,
+    "assessment_2026": 889100
+  },
+  {
+    "address": "24 SPRUCE PL",
+    "assessment_2025": 586300,
+    "assessment_2026": 1030800
+  },
+  {
+    "address": "28 SPRUCE PL",
+    "assessment_2025": 465200,
+    "assessment_2026": 859700
+  },
+  {
+    "address": "32 SPRUCE PL",
+    "assessment_2025": 549200,
+    "assessment_2026": 1029000
+  },
+  {
+    "address": "76 ARBOR DR",
+    "assessment_2025": 505800,
+    "assessment_2026": 939300
+  },
+  {
+    "address": "82 ARBOR DR",
+    "assessment_2025": 471400,
+    "assessment_2026": 906200
+  },
+  {
+    "address": "27 CHESTNUT PL",
+    "assessment_2025": 501600,
+    "assessment_2026": 960700
+  },
+  {
+    "address": "23 CHESTNUT PL",
+    "assessment_2025": 476700,
+    "assessment_2026": 897700
+  },
+  {
+    "address": "19 CHESTNUT PL",
+    "assessment_2025": 513900,
+    "assessment_2026": 916400
+  },
+  {
+    "address": "15 CHESTNUT PL",
+    "assessment_2025": 632300,
+    "assessment_2026": 1118400
+  },
+  {
+    "address": "11 CHESTNUT PL",
+    "assessment_2025": 464400,
+    "assessment_2026": 845000
+  },
+  {
+    "address": "7 CHESTNUT PL",
+    "assessment_2025": 502100,
+    "assessment_2026": 887000
+  },
+  {
+    "address": "19 LINDEN RD",
+    "assessment_2025": 459600,
+    "assessment_2026": 838900
+  },
+  {
+    "address": "12 CHESTNUT PL",
+    "assessment_2025": 487900,
+    "assessment_2026": 915700
+  },
+  {
+    "address": "18 CHESTNUT PL",
+    "assessment_2025": 517500,
+    "assessment_2026": 902300
+  },
+  {
+    "address": "24 CHESTNUT PL",
+    "assessment_2025": 554600,
+    "assessment_2026": 1042800
+  },
+  {
+    "address": "92 ARBOR DR",
+    "assessment_2025": 432600,
+    "assessment_2026": 848900
+  },
+  {
+    "address": "94 ARBOR DR",
+    "assessment_2025": 446600,
+    "assessment_2026": 887300
+  },
+  {
+    "address": "3 GORDON RD",
+    "assessment_2025": 434900,
+    "assessment_2026": 853400
+  },
+  {
+    "address": "1 GORDON RD",
+    "assessment_2025": 469300,
+    "assessment_2026": 889000
+  },
+  {
+    "address": "8 CHESTNUT PL",
+    "assessment_2025": 622300,
+    "assessment_2026": 1086300
+  },
+  {
+    "address": "2 GORDON RD",
+    "assessment_2025": 502400,
+    "assessment_2026": 918200
+  },
+  {
+    "address": "4 GORDON RD",
+    "assessment_2025": 490100,
+    "assessment_2026": 899200
+  },
+  {
+    "address": "6 GORDON RD",
+    "assessment_2025": 476800,
+    "assessment_2026": 857600
+  },
+  {
+    "address": "102 ARBOR DR",
+    "assessment_2025": 592700,
+    "assessment_2026": 1020900
+  },
+  {
+    "address": "33 LINDEN RD",
+    "assessment_2025": 451400,
+    "assessment_2026": 819700
+  },
+  {
+    "address": "31 LINDEN RD",
+    "assessment_2025": 763400,
+    "assessment_2026": 1328900
+  },
+  {
+    "address": "29 LINDEN RD",
+    "assessment_2025": 474000,
+    "assessment_2026": 944400
+  },
+  {
+    "address": "27 LINDEN RD",
+    "assessment_2025": 539000,
+    "assessment_2026": 963700
+  },
+  {
+    "address": "630 SHERWOOD RD",
+    "assessment_2025": 535700,
+    "assessment_2026": 999300
+  },
+  {
+    "address": "636 SHERWOOD RD",
+    "assessment_2025": 779300,
+    "assessment_2026": 1414400
+  },
+  {
+    "address": "640 SHERWOOD RD",
+    "assessment_2025": 625700,
+    "assessment_2026": 1151000
+  },
+  {
+    "address": "642 SHERWOOD RD",
+    "assessment_2025": 1165700,
+    "assessment_2026": 2210300
+  },
+  {
+    "address": "650 SHERWOOD RD",
+    "assessment_2025": 698500,
+    "assessment_2026": 1339700
+  },
+  {
+    "address": "656 SHERWOOD RD",
+    "assessment_2025": 625200,
+    "assessment_2026": 1171600
+  },
+  {
+    "address": "660 SHERWOOD RD",
+    "assessment_2025": 740000,
+    "assessment_2026": 1332800
+  },
+  {
+    "address": "37 EDGEWOOD DR",
+    "assessment_2025": 762300,
+    "assessment_2026": 1453000
+  },
+  {
+    "address": "33 EDGEWOOD DR",
+    "assessment_2025": 1054400,
+    "assessment_2026": 1882400
+  },
+  {
+    "address": "31 EDGEWOOD DR",
+    "assessment_2025": 1063400,
+    "assessment_2026": 2017200
+  },
+  {
+    "address": "25 EDGEWOOD DR",
+    "assessment_2025": 868100,
+    "assessment_2026": 1502700
+  },
+  {
+    "address": "19 EDGEWOOD DR",
+    "assessment_2025": 907000,
+    "assessment_2026": 1664600
+  },
+  {
+    "address": "11 EDGEWOOD DR",
+    "assessment_2025": 908200,
+    "assessment_2026": 1619900
+  },
+  {
+    "address": "297 E FRANKLIN TP",
+    "assessment_2025": 807800,
+    "assessment_2026": 1453100
+  },
+  {
+    "address": "275 E FRANKLIN TP",
+    "assessment_2025": 865500,
+    "assessment_2026": 1449600
+  },
+  {
+    "address": "267 E FRANKLIN TP",
+    "assessment_2025": 697900,
+    "assessment_2026": 1329300
+  },
+  {
+    "address": "259 E FRANKLIN TP",
+    "assessment_2025": 771100,
+    "assessment_2026": 1376200
+  },
+  {
+    "address": "28 EDGEWOOD DR",
+    "assessment_2025": 761700,
+    "assessment_2026": 1305500
+  },
+  {
+    "address": "816 BERNARD PL",
+    "assessment_2025": 714500,
+    "assessment_2026": 1350300
+  },
+  {
+    "address": "820 BERNARD PL",
+    "assessment_2025": 538400,
+    "assessment_2026": 1064300
+  },
+  {
+    "address": "824 BERNARD PL",
+    "assessment_2025": 612900,
+    "assessment_2026": 1207500
+  },
+  {
+    "address": "828 BERNARD PL",
+    "assessment_2025": 585600,
+    "assessment_2026": 1144800
+  },
+  {
+    "address": "842 BERNARD PL",
+    "assessment_2025": 590100,
+    "assessment_2026": 1125100
+  },
+  {
+    "address": "15 ARBOR DR",
+    "assessment_2025": 607900,
+    "assessment_2026": 1140900
+  },
+  {
+    "address": "9 ARBOR DR",
+    "assessment_2025": 483000,
+    "assessment_2026": 944900
+  },
+  {
+    "address": "337 RACE TRACK RD",
+    "assessment_2025": 488400,
+    "assessment_2026": 964600
+  },
+  {
+    "address": "333 RACE TRACK RD",
+    "assessment_2025": 486700,
+    "assessment_2026": 970800
+  },
+  {
+    "address": "327 RACE TRACK RD",
+    "assessment_2025": 546000,
+    "assessment_2026": 1045800
+  },
+  {
+    "address": "321 RACE TRACK RD",
+    "assessment_2025": 607000,
+    "assessment_2026": 1181900
+  },
+  {
+    "address": "315 RACE TRACK RD",
+    "assessment_2025": 1038700,
+    "assessment_2026": 1594000
+  },
+  {
+    "address": "309 RACE TRACK RD",
+    "assessment_2025": 531200,
+    "assessment_2026": 1170500
+  },
+  {
+    "address": "4 LINDEN RD",
+    "assessment_2025": 460300,
+    "assessment_2026": 838500
+  },
+  {
+    "address": "8 LINDEN RD",
+    "assessment_2025": 490800,
+    "assessment_2026": 928700
+  },
+  {
+    "address": "12 LINDEN RD",
+    "assessment_2025": 445400,
+    "assessment_2026": 818600
+  },
+  {
+    "address": "16 LINDEN RD",
+    "assessment_2025": 489700,
+    "assessment_2026": 861800
+  },
+  {
+    "address": "20 LINDEN RD",
+    "assessment_2025": 512200,
+    "assessment_2026": 920100
+  },
+  {
+    "address": "24 LINDEN RD",
+    "assessment_2025": 476100,
+    "assessment_2026": 896200
+  },
+  {
+    "address": "28 LINDEN RD",
+    "assessment_2025": 524300,
+    "assessment_2026": 988800
+  },
+  {
+    "address": "30 LINDEN RD",
+    "assessment_2025": 459400,
+    "assessment_2026": 863500
+  },
+  {
+    "address": "32 LINDEN RD",
+    "assessment_2025": 1001700,
+    "assessment_2026": 1810400
+  },
+  {
+    "address": "34 LINDEN RD",
+    "assessment_2025": 539000,
+    "assessment_2026": 975200
+  },
+  {
+    "address": "36 LINDEN RD",
+    "assessment_2025": 600300,
+    "assessment_2026": 1029200
+  },
+  {
+    "address": "38 LINDEN RD",
+    "assessment_2025": 427500,
+    "assessment_2026": 789900
+  },
+  {
+    "address": "40 LINDEN RD",
+    "assessment_2025": 437900,
+    "assessment_2026": 847800
+  },
+  {
+    "address": "110 ARBOR DR",
+    "assessment_2025": 476200,
+    "assessment_2026": 900800
+  },
+  {
+    "address": "455 RACE TRACK RD",
+    "assessment_2025": 423600,
+    "assessment_2026": 816900
+  },
+  {
+    "address": "449 RACE TRACK RD",
+    "assessment_2025": 417800,
+    "assessment_2026": 821300
+  },
+  {
+    "address": "437 RACE TRACK RD",
+    "assessment_2025": 521100,
+    "assessment_2026": 946100
+  },
+  {
+    "address": "427 RACE TRACK RD",
+    "assessment_2025": 730500,
+    "assessment_2026": 1269800
+  },
+  {
+    "address": "419 RACE TRACK RD",
+    "assessment_2025": 584600,
+    "assessment_2026": 967100
+  },
+  {
+    "address": "411 RACE TRACK RD",
+    "assessment_2025": 446600,
+    "assessment_2026": 844000
+  },
+  {
+    "address": "395 RACE TRACK RD",
+    "assessment_2025": 468200,
+    "assessment_2026": 831700
+  },
+  {
+    "address": "387 RACE TRACK RD",
+    "assessment_2025": 445900,
+    "assessment_2026": 819200
+  },
+  {
+    "address": "381 RACE TRACK RD",
+    "assessment_2025": 469600,
+    "assessment_2026": 875100
+  },
+  {
+    "address": "375 RACE TRACK RD",
+    "assessment_2025": 430500,
+    "assessment_2026": 823900
+  },
+  {
+    "address": "369 RACE TRACK RD.",
+    "assessment_2025": 471300,
+    "assessment_2026": 909900
+  },
+  {
+    "address": "363 RACE TRACK RD",
+    "assessment_2025": 418400,
+    "assessment_2026": 743900
+  },
+  {
+    "address": "355 RACE TRACK RD.",
+    "assessment_2025": 567000,
+    "assessment_2026": 847000
+  },
+  {
+    "address": "35 PITCAIRN AVE",
+    "assessment_2025": 493500,
+    "assessment_2026": 928000
+  },
+  {
+    "address": "40 PITCAIRN AVE",
+    "assessment_2025": 578800,
+    "assessment_2026": 1114600
+  },
+  {
+    "address": "38 PITCAIRN AVE",
+    "assessment_2025": 381900,
+    "assessment_2026": 766500
+  },
+  {
+    "address": "36 PITCAIRN AVE",
+    "assessment_2025": 391600,
+    "assessment_2026": 722000
+  },
+  {
+    "address": "34 PITCAIRN AVE",
+    "assessment_2025": 378200,
+    "assessment_2026": 754900
+  },
+  {
+    "address": "32 PITCAIRN AVE",
+    "assessment_2025": 353800,
+    "assessment_2026": 672700
+  },
+  {
+    "address": "30 PITCAIRN AVE",
+    "assessment_2025": 398300,
+    "assessment_2026": 779200
+  },
+  {
+    "address": "28 PITCAIRN AVE",
+    "assessment_2025": 436300,
+    "assessment_2026": 814800
+  },
+  {
+    "address": "26 PITCAIRN AVE",
+    "assessment_2025": 434200,
+    "assessment_2026": 812400
+  },
+  {
+    "address": "24 PITCAIRN AVE",
+    "assessment_2025": 364600,
+    "assessment_2026": 729300
+  },
+  {
+    "address": "22 PITCAIRN AVE",
+    "assessment_2025": 427000,
+    "assessment_2026": 780400
+  },
+  {
+    "address": "20 PITCAIRN AVE",
+    "assessment_2025": 341000,
+    "assessment_2026": 660800
+  },
+  {
+    "address": "23 PITCAIRN AVE",
+    "assessment_2025": 1042300,
+    "assessment_2026": 1781400
+  },
+  {
+    "address": "1 MARION CT",
+    "assessment_2025": 483800,
+    "assessment_2026": 912900
+  },
+  {
+    "address": "3 MARION CT",
+    "assessment_2025": 737000,
+    "assessment_2026": 1360000
+  },
+  {
+    "address": "25 PITCAIRN AVE",
+    "assessment_2025": 542000,
+    "assessment_2026": 949500
+  },
+  {
+    "address": "27 PITCAIRN AVE",
+    "assessment_2025": 658200,
+    "assessment_2026": 1197400
+  },
+  {
+    "address": "29 PITCAIRN AVE",
+    "assessment_2025": 418000,
+    "assessment_2026": 807700
+  },
+  {
+    "address": "31 PITCAIRN AVE",
+    "assessment_2025": 439100,
+    "assessment_2026": 880500
+  },
+  {
+    "address": "31 PRESCOTT RD",
+    "assessment_2025": 459900,
+    "assessment_2026": 845600
+  },
+  {
+    "address": "29 PRESCOTT RD",
+    "assessment_2025": 470000,
+    "assessment_2026": 917700
+  },
+  {
+    "address": "9 MARION CT",
+    "assessment_2025": 437800,
+    "assessment_2026": 925100
+  },
+  {
+    "address": "7 MARION CT",
+    "assessment_2025": 433600,
+    "assessment_2026": 870700
+  },
+  {
+    "address": "5 MARION CT",
+    "assessment_2025": 535600,
+    "assessment_2026": 1019700
+  },
+  {
+    "address": "1 PRESCOTT RD.",
+    "assessment_2025": 466300,
+    "assessment_2026": 882300
+  },
+  {
+    "address": "2 MARION CT",
+    "assessment_2025": 554600,
+    "assessment_2026": 1093400
+  },
+  {
+    "address": "4 MARION CT",
+    "assessment_2025": 954800,
+    "assessment_2026": 1675900
+  },
+  {
+    "address": "6 MARION CT",
+    "assessment_2025": 1024000,
+    "assessment_2026": 1785000
+  },
+  {
+    "address": "8 MARION CT",
+    "assessment_2025": 923500,
+    "assessment_2026": 1667500
+  },
+  {
+    "address": "10 MARION CT",
+    "assessment_2025": 573100,
+    "assessment_2026": 1054900
+  },
+  {
+    "address": "12 MARION CT.",
+    "assessment_2025": 523100,
+    "assessment_2026": 969300
+  },
+  {
+    "address": "14 MARION CT",
+    "assessment_2025": 436200,
+    "assessment_2026": 843700
+  },
+  {
+    "address": "15 PRESCOTT RD",
+    "assessment_2025": 780200,
+    "assessment_2026": 1399400
+  },
+  {
+    "address": "13 PRESCOTT RD",
+    "assessment_2025": 879400,
+    "assessment_2026": 1547200
+  },
+  {
+    "address": "11 PRESCOTT RD",
+    "assessment_2025": 467200,
+    "assessment_2026": 873200
+  },
+  {
+    "address": "9 PRESCOTT RD",
+    "assessment_2025": 493600,
+    "assessment_2026": 948800
+  },
+  {
+    "address": "7 PRESCOTT RD",
+    "assessment_2025": 704500,
+    "assessment_2026": 1280100
+  },
+  {
+    "address": "5 PRESCOTT RD",
+    "assessment_2025": 1086400,
+    "assessment_2026": 1805500
+  },
+  {
+    "address": "3 PRESCOTT RD",
+    "assessment_2025": 1021100,
+    "assessment_2026": 1723000
+  },
+  {
+    "address": "32 PRESCOTT RD",
+    "assessment_2025": 416800,
+    "assessment_2026": 791900
+  },
+  {
+    "address": "30 PRESCOTT RD",
+    "assessment_2025": 504800,
+    "assessment_2026": 946200
+  },
+  {
+    "address": "28 PRESCOTT RD",
+    "assessment_2025": 434400,
+    "assessment_2026": 815300
+  },
+  {
+    "address": "26 PRESCOTT RD",
+    "assessment_2025": 1037600,
+    "assessment_2026": 1808400
+  },
+  {
+    "address": "24 PRESCOTT RD",
+    "assessment_2025": 427300,
+    "assessment_2026": 893200
+  },
+  {
+    "address": "22 PRESCOTT RD",
+    "assessment_2025": 539500,
+    "assessment_2026": 1007900
+  },
+  {
+    "address": "20 PRESCOTT RD",
+    "assessment_2025": 798400,
+    "assessment_2026": 1445400
+  },
+  {
+    "address": "18 PRESCOTT RD",
+    "assessment_2025": 1021800,
+    "assessment_2026": 1734600
+  },
+  {
+    "address": "16 PRESCOTT RD",
+    "assessment_2025": 538800,
+    "assessment_2026": 1028200
+  },
+  {
+    "address": "14 PRESCOTT RD",
+    "assessment_2025": 981600,
+    "assessment_2026": 1724400
+  },
+  {
+    "address": "12 PRESCOTT RD",
+    "assessment_2025": 436400,
+    "assessment_2026": 823100
+  },
+  {
+    "address": "10 PRESCOTT RD",
+    "assessment_2025": 433400,
+    "assessment_2026": 862300
+  },
+  {
+    "address": "8 PRESCOTT RD",
+    "assessment_2025": 539400,
+    "assessment_2026": 1077100
+  },
+  {
+    "address": "6 PRESCOTT RD",
+    "assessment_2025": 693900,
+    "assessment_2026": 1248100
+  },
+  {
+    "address": "4 PRESCOTT RD",
+    "assessment_2025": 476900,
+    "assessment_2026": 1043900
+  },
+  {
+    "address": "2 PRESCOTT RD",
+    "assessment_2025": 415500,
+    "assessment_2026": 836200
+  },
+  {
+    "address": "9 PITCAIRN AVE",
+    "assessment_2025": 411900,
+    "assessment_2026": 813600
+  },
+  {
+    "address": "7 PITCAIRN AVE",
+    "assessment_2025": 838500,
+    "assessment_2026": 1390200
+  },
+  {
+    "address": "5 PITCAIRN AVE",
+    "assessment_2025": 716100,
+    "assessment_2026": 1215500
+  },
+  {
+    "address": "3 PITCAIRN AVE",
+    "assessment_2025": 487900,
+    "assessment_2026": 901400
+  },
+  {
+    "address": "1 PITCAIRN AVE",
+    "assessment_2025": 555000,
+    "assessment_2026": 1061700
+  },
+  {
+    "address": "622 WEST SADDLE RIVER RD",
+    "assessment_2025": 1102600,
+    "assessment_2026": 1871700
+  },
+  {
+    "address": "636 WEST SADDLE RIVER RD",
+    "assessment_2025": 564800,
+    "assessment_2026": 1030100
+  },
+  {
+    "address": "650 WEST SADDLE RIVER RD",
+    "assessment_2025": 1179700,
+    "assessment_2026": 1834900
+  },
+  {
+    "address": "652 WEST SADDLE RIVER RD",
+    "assessment_2025": 673300,
+    "assessment_2026": 1125300
+  },
+  {
+    "address": "654 WEST SADDLE RIVER RD",
+    "assessment_2025": 1334800,
+    "assessment_2026": 2178900
+  },
+  {
+    "address": "668 WEST SADDLE RIVER RD",
+    "assessment_2025": 1204400,
+    "assessment_2026": 1840600
+  },
+  {
+    "address": "680 WEST SADDLE RIVER RD",
+    "assessment_2025": 1706100,
+    "assessment_2026": 2872300
+  },
+  {
+    "address": "684 WEST SADDLE RIVER RD",
+    "assessment_2025": 1330400,
+    "assessment_2026": 1951300
+  },
+  {
+    "address": "688 WEST SADDLE RIVER RD",
+    "assessment_2025": 705400,
+    "assessment_2026": 1047900
+  },
+  {
+    "address": "696 WEST SADDLE RIVER RD",
+    "assessment_2025": 1628000,
+    "assessment_2026": 2503300
+  },
+  {
+    "address": "18 PITCAIRN AVE",
+    "assessment_2025": 379000,
+    "assessment_2026": 722200
+  },
+  {
+    "address": "16 PITCAIRN AVE",
+    "assessment_2025": 443100,
+    "assessment_2026": 827500
+  },
+  {
+    "address": "14 PITCAIRN AVE",
+    "assessment_2025": 404200,
+    "assessment_2026": 798900
+  },
+  {
+    "address": "12 PITCAIRN AVE",
+    "assessment_2025": 376100,
+    "assessment_2026": 790600
+  },
+  {
+    "address": "10 PITCAIRN AVE",
+    "assessment_2025": 483300,
+    "assessment_2026": 903400
+  },
+  {
+    "address": "8 PITCAIRN AVE",
+    "assessment_2025": 445000,
+    "assessment_2026": 889500
+  },
+  {
+    "address": "6 PITCAIRN AVE",
+    "assessment_2025": 418400,
+    "assessment_2026": 800700
+  },
+  {
+    "address": "4 PITCAIRN AVE",
+    "assessment_2025": 666000,
+    "assessment_2026": 1085100
+  },
+  {
+    "address": "2 PITCAIRN AVE",
+    "assessment_2025": 998000,
+    "assessment_2026": 1718500
+  },
+  {
+    "address": "600 WEST SADDLE RIVER RD",
+    "assessment_2025": 715000,
+    "assessment_2026": 1257200
+  },
+  {
+    "address": "541 RACE TRACK RD",
+    "assessment_2025": 407100,
+    "assessment_2026": 823900
+  },
+  {
+    "address": "531 RACE TRACK RD",
+    "assessment_2025": 680100,
+    "assessment_2026": 1313000
+  },
+  {
+    "address": "521 RACE TRACK RD",
+    "assessment_2025": 425700,
+    "assessment_2026": 815600
+  },
+  {
+    "address": "509 RACE TRACK RD",
+    "assessment_2025": 495900,
+    "assessment_2026": 939000
+  },
+  {
+    "address": "501 RACE TRACK RD",
+    "assessment_2025": 412900,
+    "assessment_2026": 792800
+  },
+  {
+    "address": "491 RACE TRACK RD",
+    "assessment_2025": 371300,
+    "assessment_2026": 703100
+  },
+  {
+    "address": "685 WEST SADDLE RIVER RD",
+    "assessment_2025": 727500,
+    "assessment_2026": 1272000
+  },
+  {
+    "address": "679 WEST SADDLE RIVER RD",
+    "assessment_2025": 1339600,
+    "assessment_2026": 2002400
+  },
+  {
+    "address": "675 WEST SADDLE RIVER RD",
+    "assessment_2025": 1629300,
+    "assessment_2026": 2483400
+  },
+  {
+    "address": "710 E SADDLE RIVER RD",
+    "assessment_2025": 427700,
+    "assessment_2026": 450500
+  },
+  {
+    "address": "758 E SADDLE RIVER RD",
+    "assessment_2025": 613500,
+    "assessment_2026": 734400
+  },
+  {
+    "address": "770 E SADDLE RIVER RD",
+    "assessment_2025": 648600,
+    "assessment_2026": 834000
+  },
+  {
+    "address": "609 WEST SADDLE RIVER RD",
+    "assessment_2025": 532500,
+    "assessment_2026": 922600
+  },
+  {
+    "address": "599 WEST SADDLE RIVER RD",
+    "assessment_2025": 1294400,
+    "assessment_2026": 1923700
+  },
+  {
+    "address": "589 WEST SADDLE RIVER RD",
+    "assessment_2025": 557000,
+    "assessment_2026": 1019900
+  },
+  {
+    "address": "1 BOGERT RD",
+    "assessment_2025": 838000,
+    "assessment_2026": 1405400
+  },
+  {
+    "address": "670 E SADDLE RIVER RD",
+    "assessment_2025": 451300,
+    "assessment_2026": 624300
+  },
+  {
+    "address": "650 E SADDLE RIVER RD",
+    "assessment_2025": 768600,
+    "assessment_2026": 909500
+  },
+  {
+    "address": "622 E SADDLE RIVER RD",
+    "assessment_2025": 642300,
+    "assessment_2026": 741700
+  },
+  {
+    "address": "4 FOX RUN",
+    "assessment_2025": 1127700,
+    "assessment_2026": 1968400
+  },
+  {
+    "address": "2 FOX RUN",
+    "assessment_2025": 1192900,
+    "assessment_2026": 1814100
+  },
+  {
+    "address": "755 E SADDLE RIVER RD",
+    "assessment_2025": 1882200,
+    "assessment_2026": 3233000
+  },
+  {
+    "address": "753 E SADDLE RIVER RD",
+    "assessment_2025": 1107600,
+    "assessment_2026": 1880500
+  },
+  {
+    "address": "751 E SADDLE RIVER RD",
+    "assessment_2025": 1057000,
+    "assessment_2026": 1619800
+  },
+  {
+    "address": "747 E SADDLE RIVER RD",
+    "assessment_2025": 835100,
+    "assessment_2026": 1394500
+  },
+  {
+    "address": "725 E SADDLE RIVER RD",
+    "assessment_2025": 1284800,
+    "assessment_2026": 2079500
+  },
+  {
+    "address": "715 E SADDLE RIVER RD",
+    "assessment_2025": 1208200,
+    "assessment_2026": 1867500
+  },
+  {
+    "address": "707 E SADDLE RIVER RD",
+    "assessment_2025": 844800,
+    "assessment_2026": 1341600
+  },
+  {
+    "address": "1 CLEARWATER DR",
+    "assessment_2025": 971700,
+    "assessment_2026": 1529500
+  },
+  {
+    "address": "11 CLEARWATER DR",
+    "assessment_2025": 1022400,
+    "assessment_2026": 1635400
+  },
+  {
+    "address": "17 CLEARWATER DR",
+    "assessment_2025": 1014500,
+    "assessment_2026": 1531800
+  },
+  {
+    "address": "23 CLEARWATER DR",
+    "assessment_2025": 1105900,
+    "assessment_2026": 1900800
+  },
+  {
+    "address": "27 CLEARWATER DR",
+    "assessment_2025": 920000,
+    "assessment_2026": 1536800
+  },
+  {
+    "address": "33 CLEARWATER DR",
+    "assessment_2025": 1037300,
+    "assessment_2026": 1613800
+  },
+  {
+    "address": "420 BIRCH LANE",
+    "assessment_2025": 974500,
+    "assessment_2026": 1512000
+  },
+  {
+    "address": "1 BIRCH LANE",
+    "assessment_2025": 985000,
+    "assessment_2026": 1600700
+  },
+  {
+    "address": "75 WEARIMUS RD",
+    "assessment_2025": 1153900,
+    "assessment_2026": 1710200
+  },
+  {
+    "address": "65 WEARIMUS RD",
+    "assessment_2025": 897900,
+    "assessment_2026": 1473700
+  },
+  {
+    "address": "45 WEARIMUS RD",
+    "assessment_2025": 955700,
+    "assessment_2026": 1647000
+  },
+  {
+    "address": "25 WEARIMUS RD",
+    "assessment_2025": 982700,
+    "assessment_2026": 1603200
+  },
+  {
+    "address": "15 WEARIMUS RD",
+    "assessment_2025": 1032200,
+    "assessment_2026": 1685700
+  },
+  {
+    "address": "3 WEARIMUS RD",
+    "assessment_2025": 1107400,
+    "assessment_2026": 1638800
+  },
+  {
+    "address": "8 CLEARWATER DR",
+    "assessment_2025": 975000,
+    "assessment_2026": 1742000
+  },
+  {
+    "address": "14 CLEARWATER DR",
+    "assessment_2025": 1254300,
+    "assessment_2026": 2099100
+  },
+  {
+    "address": "20 CLEARWATER DR",
+    "assessment_2025": 1318000,
+    "assessment_2026": 2245100
+  },
+  {
+    "address": "32 CLEARWATER DR",
+    "assessment_2025": 1373200,
+    "assessment_2026": 2191800
+  },
+  {
+    "address": "34 CLEARWATER DR",
+    "assessment_2025": 1300000,
+    "assessment_2026": 2771900
+  },
+  {
+    "address": "36 CLEARWATER DR",
+    "assessment_2025": 1525000,
+    "assessment_2026": 2657300
+  },
+  {
+    "address": "160 WEARIMUS RD",
+    "assessment_2025": 994700,
+    "assessment_2026": 1601600
+  },
+  {
+    "address": "140 WEARIMUS RD",
+    "assessment_2025": 1048000,
+    "assessment_2026": 1617500
+  },
+  {
+    "address": "80 WEARIMUS RD",
+    "assessment_2025": 1066500,
+    "assessment_2026": 1607000
+  },
+  {
+    "address": "70 WEARIMUS RD",
+    "assessment_2025": 1340700,
+    "assessment_2026": 1911900
+  },
+  {
+    "address": "44 WEARIMUS RD",
+    "assessment_2025": 947100,
+    "assessment_2026": 1814600
+  },
+  {
+    "address": "34 WEARIMUS RD",
+    "assessment_2025": 1062600,
+    "assessment_2026": 1503700
+  },
+  {
+    "address": "30 WEARIMUS ROAD",
+    "assessment_2025": 1073700,
+    "assessment_2026": 1628700
+  },
+  {
+    "address": "621 E SADDLE RIVER RD",
+    "assessment_2025": 1445000,
+    "assessment_2026": 2241100
+  },
+  {
+    "address": "605 E SADDLE RIVER RD",
+    "assessment_2025": 984400,
+    "assessment_2026": 1509500
+  },
+  {
+    "address": "831 ARROW LANE",
+    "assessment_2025": 764500,
+    "assessment_2026": 1248000
+  },
+  {
+    "address": "845 WICKHAM WAY",
+    "assessment_2025": 1450000,
+    "assessment_2026": 2525100
+  },
+  {
+    "address": "663 WESTBROOK RD",
+    "assessment_2025": 815600,
+    "assessment_2026": 1296200
+  },
+  {
+    "address": "500 EASTGATE RD",
+    "assessment_2025": 1775400,
+    "assessment_2026": 2778900
+  },
+  {
+    "address": "524 EASTGATE RD",
+    "assessment_2025": 2194900,
+    "assessment_2026": 3507600
+  },
+  {
+    "address": "1 DEERHILL DR",
+    "assessment_2025": 857200,
+    "assessment_2026": 1314200
+  },
+  {
+    "address": "5 DEERHILL DR",
+    "assessment_2025": 1022500,
+    "assessment_2026": 1666000
+  },
+  {
+    "address": "3 DEERHILL DR",
+    "assessment_2025": 968300,
+    "assessment_2026": 1520800
+  },
+  {
+    "address": "7 DEERHILL DR",
+    "assessment_2025": 1498100,
+    "assessment_2026": 2266300
+  },
+  {
+    "address": "9 DEERHILL DR",
+    "assessment_2025": 954800,
+    "assessment_2026": 1498000
+  },
+  {
+    "address": "13 DEERHILL DR",
+    "assessment_2025": 965800,
+    "assessment_2026": 1421400
+  },
+  {
+    "address": "15 DEERHILL DR",
+    "assessment_2025": 1041300,
+    "assessment_2026": 1538500
+  },
+  {
+    "address": "17 DEERHILL DR",
+    "assessment_2025": 1298400,
+    "assessment_2026": 1754900
+  },
+  {
+    "address": "19 DEERHILL DR",
+    "assessment_2025": 900000,
+    "assessment_2026": 1562100
+  },
+  {
+    "address": "21 DEERHILL DR",
+    "assessment_2025": 1157100,
+    "assessment_2026": 1891500
+  },
+  {
+    "address": "23 DEERHILL DR",
+    "assessment_2025": 1186400,
+    "assessment_2026": 1924400
+  },
+  {
+    "address": "25 DEERHILL DR",
+    "assessment_2025": 1209300,
+    "assessment_2026": 1896900
+  },
+  {
+    "address": "27 DEERHILL DR",
+    "assessment_2025": 1200000,
+    "assessment_2026": 1607000
+  },
+  {
+    "address": "29 DEERHILL DR",
+    "assessment_2025": 1502200,
+    "assessment_2026": 2277300
+  },
+  {
+    "address": "22 DEERHILL DR",
+    "assessment_2025": 1186700,
+    "assessment_2026": 1676000
+  },
+  {
+    "address": "20 DEERHILL DR",
+    "assessment_2025": 1813100,
+    "assessment_2026": 2978400
+  },
+  {
+    "address": "18 DEERHILL DR",
+    "assessment_2025": 1404200,
+    "assessment_2026": 2246900
+  },
+  {
+    "address": "14 DEERHILL DR",
+    "assessment_2025": 1046700,
+    "assessment_2026": 1648600
+  },
+  {
+    "address": "10 DEERHILL DR",
+    "assessment_2025": 2334500,
+    "assessment_2026": 3799400
+  },
+  {
+    "address": "8 DEERHILL DR",
+    "assessment_2025": 1113000,
+    "assessment_2026": 1876400
+  },
+  {
+    "address": "6 DEERHILL DR",
+    "assessment_2025": 1065000,
+    "assessment_2026": 1673600
+  },
+  {
+    "address": "2 DEERHILL DR",
+    "assessment_2025": 944800,
+    "assessment_2026": 1332800
+  },
+  {
+    "address": "540 EASTGATE RD",
+    "assessment_2025": 1050000,
+    "assessment_2026": 1741300
+  },
+  {
+    "address": "544 EASTGATE RD",
+    "assessment_2025": 883800,
+    "assessment_2026": 1357800
+  },
+  {
+    "address": "550 EASTGATE RD",
+    "assessment_2025": 874000,
+    "assessment_2026": 1462700
+  },
+  {
+    "address": "30 DEERHILL DR",
+    "assessment_2025": 1280000,
+    "assessment_2026": 2137800
+  },
+  {
+    "address": "599 EASTGATE RD",
+    "assessment_2025": 1800000,
+    "assessment_2026": 3847900
+  },
+  {
+    "address": "547 EASTGATE RD",
+    "assessment_2025": 1946800,
+    "assessment_2026": 3711800
+  },
+  {
+    "address": "567 EASTGATE RD",
+    "assessment_2025": 925900,
+    "assessment_2026": 1230600
+  },
+  {
+    "address": "563 EASTGATE RD",
+    "assessment_2025": 986100,
+    "assessment_2026": 1421800
+  },
+  {
+    "address": "553 EASTGATE RD",
+    "assessment_2025": 851200,
+    "assessment_2026": 1271200
+  },
+  {
+    "address": "531 EASTGATE RD",
+    "assessment_2025": 857400,
+    "assessment_2026": 1121000
+  },
+  {
+    "address": "527 EASTGATE RD",
+    "assessment_2025": 1151200,
+    "assessment_2026": 1557900
+  },
+  {
+    "address": "519 EASTGATE RD",
+    "assessment_2025": 1605800,
+    "assessment_2026": 3543700
+  },
+  {
+    "address": "513 EASTGATE RD",
+    "assessment_2025": 1418300,
+    "assessment_2026": 2263700
+  },
+  {
+    "address": "2 STRATFORD LN",
+    "assessment_2025": 1428200,
+    "assessment_2026": 2307600
+  },
+  {
+    "address": "4 STRATFORD LN",
+    "assessment_2025": 1354300,
+    "assessment_2026": 2198300
+  },
+  {
+    "address": "6 STRATFORD LN",
+    "assessment_2025": 1009300,
+    "assessment_2026": 1631000
+  },
+  {
+    "address": "8 STRATFORD LN",
+    "assessment_2025": 1022700,
+    "assessment_2026": 1371400
+  },
+  {
+    "address": "10 STRATFORD LN",
+    "assessment_2025": 1608700,
+    "assessment_2026": 2415300
+  },
+  {
+    "address": "12 STRATFORD LN.",
+    "assessment_2025": 1174600,
+    "assessment_2026": 1851900
+  }
+]
