@@ -73,6 +73,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Autofill / Exact Match Logic
+    searchInput.addEventListener('change', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        const match = properties.find(p => p.address.toLowerCase() === query);
+        if (match) {
+            selectProperty(match);
+            searchInput.blur(); // Hide keyboard on mobile
+            suggestionsBox.style.display = 'none';
+        }
+    });
+
     // Hide suggestions on outside click
     document.addEventListener('click', (e) => {
         if (!searchInput.contains(e.target) && !suggestionsBox.contains(e.target)) {

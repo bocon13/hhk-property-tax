@@ -18,6 +18,11 @@
     padding: 0;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--background);
@@ -79,6 +84,16 @@ input[type="text"]:focus {
     box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
 }
 
+/* Remove yellow background from autofill */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    -webkit-text-fill-color: var(--text) !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
 .suggestions-list {
     position: absolute;
     top: 100%;
@@ -111,6 +126,8 @@ input[type="text"]:focus {
     gap: 1.5rem;
     opacity: 1;
     transition: opacity 0.3s ease;
+    width: 100%;
+    min-width: 0;
 }
 
 .results-section.hidden {
@@ -124,6 +141,8 @@ input[type="text"]:focus {
     padding: 1.5rem;
     box-shadow: var(--shadow);
     border: 1px solid var(--border);
+    min-width: 0;
+    overflow-wrap: break-word;
 }
 
 .card h2 {
@@ -282,6 +301,41 @@ input:checked+.slider:before {
     border-bottom: 1px solid #f1f5f9;
 }
 
+/* Sticky First Column for Mobile Scrolling */
+.comparison-table th:first-child,
+.comparison-table td:first-child,
+.summary-table th:first-child,
+.summary-table td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: var(--surface);
+    z-index: 10;
+    border-right: 1px solid var(--border);
+    box-shadow: 2px 0 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+/* Sticky Background Fixes for Colored Rows */
+.comparison-table tr:hover td:first-child {
+    background-color: #f8fafc;
+}
+
+.highlight-row td:first-child {
+    background-color: #f0fdf4 !important;
+}
+
+.danger-row td:first-child {
+    background-color: #fef2f2 !important;
+}
+
+.summary-table .subtotal-row td:first-child {
+    background-color: #e2e8f0 !important;
+}
+
+.summary-table .total-row td:first-child {
+    background-color: #f0fdf4 !important;
+}
+
+
 /* Row hover effect */
 .comparison-table tr:hover td {
     background-color: #f8fafc;
@@ -410,11 +464,38 @@ footer {
     background: #a855f7;
 }
 
+.table-responsive {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
 .relief-inputs {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
     margin-bottom: 2rem;
+}
+
+@media (max-width: 600px) {
+    .relief-inputs {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 1.5rem 0.75rem;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.75rem;
+    }
 }
 
 .input-row {
