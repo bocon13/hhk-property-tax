@@ -250,7 +250,222 @@ document.addEventListener('DOMContentLoaded', () => {
         calculateScenario();
     });
 
+    function updateBracketFromIncome() {
+        if (!taxRules) return;
+        const incomeVal = manualIncome.value.replace(/,/g, ''); // Strip commas
+        if (incomeVal === "") {
+            displayFedBracket.value = "";
+            displayFedBracket.dataset.rate = "";
+            inputNJRate.value = "";
+            return;
+        }
 
+        const income = parseFloat(incomeVal);
+        const status = selFilingStatus.value;
+
+        // 1. Estimate Taxable Income (using 2025 Standard Ded as baseline)
+        const stdDed = TaxLogic.getStandardDeduction("2025", status, inputAge.checked, taxRules);
+        const taxableIncome = Math.max(0, income - stdDed);
+
+        // Fed Bracket
+        const brackets = taxRules.federal_brackets_2025[status] || taxRules.federal_brackets_2025.single;
+        const fedBracketObj = TaxLogic.getMarginalTaxRate(taxableIncome, brackets);
+
+        displayFedBracket.value = `${(fedBracketObj.rate * 100).toFixed(0)}%`;
+        displayFedBracket.dataset.rate = fedBracketObj.rate; // Store raw rate
+
+        // NJ Rate (Effective)
+        const estTax = TaxLogic.estimateNJIncomeTax(income, taxRules.nj_income_tax_estimates);
+        const effRate = (estTax / income) * 100;
+        inputNJRate.value = effRate.toFixed(2);
+    }
+
+    function calculateScenario() {
+        if (!window.currentProperty || !taxRules) return;
+
+        // 1. GATHER INPUTS
+        const age65 = inputAge.checked;
+        const age = age65 ? 75 : 40;
+        const filingStatus = selFilingStatus.value;
+
+        let income = null;
+        if (manualIncome.value.trim() !== "") {
+            income = parseFloat(manualIncome.value.replace(/,/g, ''));
+        }
+
+        const years = inputYears.checked ? 10 : 0;
+        const baseTaxStr = inputBaseTax.value.replace(/,/g, '');
+        const baseTax = parseFloat(baseTaxStr) || 0;
+        const isHomeowner = document.querySelector('input[name="status"]:checked').value === 'homeowner';
+
+        // Itemized Inputs
+        const userMortgage = parseFloat(inputMortgage.value.replace(/,/g, '')) || 0;
+        const userCharity = parseFloat(inputCharity.value.replace(/,/g, '')) || 0;
+
+        // 2. GET FEDERAL BRACKET (From Data Attribute set by updateBracketFromIncome)
+        let fedBracket = parseFloat(displayFedBracket.dataset.rate) || 0;
+
+        // GET NJ RATE
+        let njRate = 0;
+        const njRateVal = parseFloat(inputNJRate.value);
+        if (!isNaN(njRateVal)) {
+            njRate = njRateVal / 100.0;
+        }
+
+        // Base Data
+        const val25 = parseFloat(window.currentProperty.assessment_2025);
+        const val26 = parseFloat(window.currentProperty.assessment_2026);
+        const tax25 = val25 * TAX_RATE_2025;
+        const tax26Yes = val26 * TAX_RATE_2026_YES;
+        const tax26No = val26 * TAX_RATE_2026_EST;
+
+        // 3. CALCULATE RELIEF
+        let relief_yes = { anchor: 0, freeze: 0, staynj: 0, total: 0 };
+        let relief_no = { anchor: 0, freeze: 0, staynj: 0, total: 0 };
+
+        relief_yes = TaxLogic.calculateRelief(age, income, years, baseTax, isHomeowner, tax26Yes, taxRules);
+        relief_no = TaxLogic.calculateRelief(age, income, years, baseTax, isHomeowner, tax26No, taxRules);
+
+        // Show Relief Breakdown
+        document.getElementById('reliefBreakdown').classList.remove('hidden');
+        document.getElementById('valAnchor').textContent = formatCurrency(relief_yes.anchor);
+        document.getElementById('valFreeze').textContent = formatCurrency(relief_yes.freeze);
+        document.getElementById('valStayNJ').textContent = formatCurrency(relief_yes.staynj);
+        document.getElementById('valTotalRelief').textContent = formatCurrency(relief_yes.total);
+
+        // Show PAS-1 Prompt
+        const pas1Msg = document.getElementById('msgPas1');
+        if (relief_yes.total > 0) {
+            pas1Msg.classList.remove('hidden');
+        } else {
+            pas1Msg.classList.add('hidden');
+        }
+
+        // 4. SUMMARY & NET COST WITH DEDUCTION LOGIC
+        let estNJIncomeTax = 0;
+        if (income > 0) {
+            estNJIncomeTax = TaxLogic.estimateNJIncomeTax(income, taxRules.nj_income_tax_estimates);
+        }
+
+        // --- Helper Calculation for Net Cost ---
+        const calcNetCost = (yearLabel, propTax, reliefObj, rulesKey) => {
+            const inputs = {
+                income, filingStatus, age65, userMortgage, userCharity, rulesKeySalt: rulesKey
+            };
+            return TaxLogic.calcNetCost(yearLabel, propTax, reliefObj, rulesKey, inputs, taxRules);
+        };
+
+        // 2025 Baseline
+        // 2025 Relief Rules (No StayNJ)
+        const rules25 = JSON.parse(JSON.stringify(taxRules));
+        rules25.Stay_NJ.benefit_cap = 0;
+        rules25.Stay_NJ.total_relief_cap = 999999;
+
+        let relief_25 = TaxLogic.calculateRelief(age, income, years, baseTax, isHomeowner, tax25, rules25);
+
+        const res25 = calcNetCost("2025", tax25, relief_25, "2025");
+        const resNo = calcNetCost("2026", tax26No, relief_no, "2026");
+        const resYes = calcNetCost("2026", tax26Yes, relief_yes, "2026");
+
+        // UI Updates for Differences
+        const reliefDiff = relief_yes.total - relief_25.total;
+        document.getElementById('valReliefDiff').textContent = `(vs 2025: ${formatChange(reliefDiff)})`;
+        updateDiff('valAnchorDiff', relief_yes.anchor, relief_25.anchor);
+        updateDiff('valFreezeDiff', relief_yes.freeze, relief_25.freeze);
+        updateDiff('valStayNJDiff', relief_yes.staynj, relief_25.staynj);
+
+        const netCost25 = res25.netCost;
+        const netCost26No = resNo.netCost;
+        const netCost26Yes = resYes.netCost;
+
+        // Render Summary - 2025 ACTUAL
+        document.getElementById('sumGrossTax25').textContent = formatCurrency(tax25);
+        document.getElementById('sumNJRelief25').textContent = `-${formatCurrency(relief_25.total)}`;
+        document.getElementById('sumNetProp25').textContent = formatCurrency(tax25 - relief_25.total);
+        document.getElementById('sumNJIncomeTax25').textContent = formatCurrency(estNJIncomeTax);
+
+        // Detailed Deduction 2025
+        document.getElementById('valStdDed25').textContent = formatCurrency(res25.stdDed);
+        document.getElementById('valSaltDed25').textContent = formatCurrency(res25.saltDed);
+        document.getElementById('valOtherDed25').textContent = formatCurrency(res25.otherDed);
+        document.getElementById('valTotalItemized25').textContent = formatCurrency(res25.totalItemized);
+        document.getElementById('sumDed25').textContent = formatCurrency(res25.deductionUsed);
+
+        document.getElementById('sumFedBenefit25').textContent = `-${formatCurrency(res25.fedBenefit)}`;
+        document.getElementById('sumFinalCost25').textContent = formatCurrency(netCost25);
+
+        // Render Summary - NO VOTE
+        document.getElementById('sumGrossTaxNo').textContent = formatCurrency(tax26No);
+        document.getElementById('sumNJReliefNo').textContent = `-${formatCurrency(relief_no.total)}`;
+        document.getElementById('sumNetPropNo').textContent = formatCurrency(tax26No - relief_no.total);
+        document.getElementById('sumNJIncomeTaxNo').textContent = formatCurrency(estNJIncomeTax);
+
+        // Detailed Deduction No Vote
+        document.getElementById('valStdDedNo').textContent = formatCurrency(resNo.stdDed);
+        document.getElementById('valSaltDedNo').textContent = formatCurrency(resNo.saltDed);
+        document.getElementById('valOtherDedNo').textContent = formatCurrency(resNo.otherDed);
+        document.getElementById('valTotalItemizedNo').textContent = formatCurrency(resNo.totalItemized);
+        document.getElementById('sumDedNo').textContent = formatCurrency(resNo.deductionUsed);
+
+        document.getElementById('sumFedBenefitNo').textContent = `-${formatCurrency(resNo.fedBenefit)}`;
+        document.getElementById('sumFinalCostNo').textContent = formatCurrency(netCost26No);
+
+        // Render Summary - YES VOTE
+        document.getElementById('sumGrossTax').textContent = formatCurrency(tax26Yes);
+        document.getElementById('sumNJRelief').textContent = `-${formatCurrency(relief_yes.total)}`;
+        document.getElementById('sumNetProp').textContent = formatCurrency(tax26Yes - relief_yes.total);
+        document.getElementById('sumNJIncomeTax').textContent = formatCurrency(estNJIncomeTax);
+
+        // Detailed Deduction Yes Vote
+        document.getElementById('valStdDed').textContent = formatCurrency(resYes.stdDed);
+        document.getElementById('valSaltDed').textContent = formatCurrency(resYes.saltDed);
+        document.getElementById('valOtherDed').textContent = formatCurrency(resYes.otherDed);
+        document.getElementById('valTotalItemized').textContent = formatCurrency(resYes.totalItemized);
+        document.getElementById('sumDed').textContent = formatCurrency(resYes.deductionUsed);
+
+        document.getElementById('sumFedBenefit').textContent = `-${formatCurrency(resYes.fedBenefit)}`;
+        document.getElementById('sumFinalCost').textContent = formatCurrency(netCost26Yes);
+
+        // Impact vs 2025
+        const changeNo = netCost26No - netCost25;
+        const changeYes = netCost26Yes - netCost25;
+
+        const cellNo = document.getElementById('sumChangeNo');
+        const cellYes = document.getElementById('sumChangeYes');
+
+        cellNo.textContent = formatChange(changeNo);
+        styleChangeCell(cellNo, changeNo);
+
+        cellYes.textContent = formatChange(changeYes);
+        styleChangeCell(cellYes, changeYes);
+
+        // Update SALT Label if Capped in 2026 scenarios
+        const isCapped = resNo.isSaltCapped || resYes.isSaltCapped;
+        document.getElementById('lblSaltDedRow').textContent = isCapped ? "SALT Deduction (Capped)" : "SALT Deduction";
+    }
+
+    function formatChange(val) {
+        const sign = val >= 0 ? '+' : '';
+        return `${sign}${formatCurrency(Math.abs(val))}`;
+    }
+
+    function styleChangeCell(element, val) {
+        if (val <= 0) {
+            element.style.color = "#16a34a"; // Green (Savings or $0)
+        } else {
+            element.style.color = "#dc2626"; // Red (Increase)
+        }
+    }
+
+    function updateDiff(elementId, val26, val25) {
+        const el = document.getElementById(elementId);
+        if (val26 === 0 && val25 === 0) {
+            el.textContent = "";
+            return;
+        }
+        const diff = val26 - val25;
+        el.textContent = `(${formatChange(diff)})`;
+    }
 
     // Global var for rules to be accessible
     // Load Rules & Data

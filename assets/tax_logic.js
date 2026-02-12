@@ -18,18 +18,51 @@
     }
 
     // 2. Calculate SALT Deduction Limit
-    function calculateSaltLimit(income, rule) {
-        if (typeof rule === 'number') return rule;
-        if (!income) return rule.base_limit;
+    function calculateSaltLimit(income, rule, filingStatus) {
+        // Handle explicit status mapping (e.g. 2025)
+        if (rule.married_separate !== undefined && filingStatus === 'married_separate') {
+            return rule.married_separate;
+        }
+        if (rule.default !== undefined) {
+            if (filingStatus === 'married_separate' && rule.married_separate === undefined) {
+                return rule.default / 2; // Fallback heuristic
+            }
+            return rule.default;
+        }
 
-        if (income <= rule.phase_out_start) return rule.base_limit;
-        if (income >= rule.phase_out_end) return rule.min_limit;
+        // Handle simple number
+        if (typeof rule === 'number') {
+            if (filingStatus === 'married_separate') return rule / 2;
+            return rule;
+        }
 
-        const excess = income - rule.phase_out_start;
+        // Handle Complex Phase-out (2026)
+        let base = rule.base_limit;
+        let start = rule.phase_out_start;
+        let end = rule.phase_out_end; // Unused for limit calc but part of logic
+
+        // If MFS, halve the thresholds/limits? 
+        // Standard tax logic: Halve the cap. Phase-out thresholds might also halve.
+        let min = rule.min_limit;
+
+        if (filingStatus === 'married_separate') {
+            base = base / 2;
+            start = start / 2;
+            // end = end / 2;
+            min = min / 2;
+        }
+
+        // If no income data, return base
+        if (!income) return base;
+
+        if (income <= start) return base;
+        // if (income >= end) return min; // Logic below handles min check
+
+        const excess = income - start;
         const steps = Math.floor(excess / rule.phase_out_step);
         const reduction = steps * rule.reduction_per_step;
 
-        return Math.max(rule.base_limit - reduction, rule.min_limit);
+        return Math.max(base - reduction, min);
     }
 
     // 3. Estimate NJ Income Tax
@@ -127,7 +160,7 @@
         const { income, filingStatus, age65, userMortgage, userCharity, rulesKeySalt } = inputs;
 
         // 1. Determine SALT Cap
-        const saltCap = calculateSaltLimit(income, taxRules.salt_caps[rulesKeySalt || rulesKey]); // Use specific salt key if provided (e.g. 2026)
+        const saltCap = calculateSaltLimit(income, taxRules.salt_caps[rulesKeySalt || rulesKey], filingStatus);
 
         // 2. Determine SALT Deduction (limited by cap)
         // Reduced Itemized Deduction: StayNJ benefit reduces deductible property tax

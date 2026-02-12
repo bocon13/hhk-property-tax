@@ -210,7 +210,10 @@
             }
         ],
         "salt_caps": {
-            "2025": 10000,
+            "2025": {
+                "default": 10000,
+                "married_separate": 5000
+            },
             "2026": {
                 "base_limit": 40000,
                 "phase_out_start": 500000,
