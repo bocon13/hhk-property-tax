@@ -15,7 +15,7 @@
         }
 
         // A. Senior Freeze
-        if (age >= rules.Senior_Freeze.age_min && years >= rules.Senior_Freeze.years_in_home_min && income <= rules.Senior_Freeze.income_limit_2025) {
+        if (isHomeowner && age >= rules.Senior_Freeze.age_min && years >= rules.Senior_Freeze.years_in_home_min && income <= rules.Senior_Freeze.income_limit_2025) {
             if (baseTax > 0 && currentTax > baseTax) {
                 r.freeze = currentTax - baseTax;
             }
@@ -37,7 +37,7 @@
         // Formula: StayNJ fills the gap to reach 50% of Property Tax (capped at $6,500)
         // taking into account existing Anchor and Freeze benefits.
         const ruleStay = rules.Stay_NJ;
-        if (isHomeowner && age >= ruleStay.age_min && income < ruleStay.income_limit) {
+        if (isHomeowner && age >= ruleStay.age_min && years >= ruleStay.years_in_home_min && income < ruleStay.income_limit) {
             const halfTax = currentTax * ruleStay.benefit_percent;
             const cap = ruleStay.benefit_cap;
 

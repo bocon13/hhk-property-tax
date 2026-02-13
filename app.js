@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const voteToggle = document.getElementById('voteToggle');
 
     // Constants
+    const TAX_RATE_2023 = 0.02330; // 2.330%
     const TAX_RATE_2024 = 0.02407; // 2.407%
     const TAX_RATE_2025 = 0.02501; // 2.501%
     const TAX_RATE_2026_EST = 0.01436; // 1.436%
@@ -128,12 +129,12 @@ document.addEventListener('DOMContentLoaded', () => {
         // Store current property
         window.currentProperty = prop;
 
-        // Prefill Base Year Tax with 2025 Tax (Default for new applicants)
-        const tax25 = val2025 * TAX_RATE_2025;
+        // Prefill Base Year Tax with 2024 Est. Tax (Default for new applicants)
+        const tax24 = val2025 * TAX_RATE_2024;
         document.getElementById('inputBaseTax').value = new Intl.NumberFormat('en-US', {
             minimumFractionDigits: 2,
             maximumFractionDigits: 2
-        }).format(tax25);
+        }).format(tax24);
 
         // Initial Calculation with defaults
         calculateScenario();
@@ -143,7 +144,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // UI Elements
     const inputAge = document.getElementById('chkAge65'); // Checkbox
     const selIncome = document.getElementById('selIncome'); // Select Dropdown
-    const inputYears = document.getElementById('chkYearsBase'); // Checkbox
+    const selYears = document.getElementById('selYears'); // Select Dropdown
+    const chkApplied2025 = document.getElementById('chkApplied2025'); // Checkbox
     const inputBaseTax = document.getElementById('inputBaseTax');
     const radioStatus = document.querySelectorAll('input[name="status"]');
 
@@ -158,7 +160,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Dropdown change triggers calculation
     selIncome.addEventListener('change', calculateScenario);
 
-    inputYears.addEventListener('change', calculateScenario);
+    selYears.addEventListener('change', calculateScenario);
+    chkApplied2025.addEventListener('change', calculateScenario);
     radioStatus.forEach(r => r.addEventListener('change', calculateScenario));
 
 
@@ -193,7 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
             income = parseFloat(selIncome.value);
         }
 
-        const years = inputYears.checked ? 10 : 0;
+        const years = parseFloat(selYears.value);
         const baseTaxStr = inputBaseTax.value.replace(/,/g, '');
         const baseTax = parseFloat(baseTaxStr) || 0;
         const isHomeowner = document.querySelector('input[name="status"]:checked').value === 'homeowner';
@@ -229,12 +232,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // 3. SUMMARY & NET COST
 
-        // 2025 Baseline (Relief Rules: No StayNJ)
-        const rules25 = JSON.parse(JSON.stringify(taxRules));
-        rules25.Stay_NJ.benefit_cap = 0;
-        rules25.Stay_NJ.total_relief_cap = 999999; // Anchor isn't capped by itself
+        // 2025 Baseline Calculations
+        let relief_25 = { anchor: 0, freeze: 0, staynj: 0, total: 0 };
 
-        let relief_25 = TaxLogic.calculateRelief(age, income, years, baseTax, isHomeowner, tax25, rules25);
+        if (chkApplied2025.checked) {
+            // User indicated they qualify/applied for 2025 relief.
+            // We calculate full benefits (Anchor + Freeze + StayNJ) based on 2025 Tax.
+            // Note: Simplification assumes 2025 rules/limits apply to 2025 tax year for modeling purposes.
+            relief_25 = TaxLogic.calculateRelief(age, income, years, baseTax, isHomeowner, tax25, taxRules);
+        }
 
         // UI Updates for Differences
         const reliefDiff = relief_yes.total - relief_25.total;
@@ -249,7 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Render Summary - 2025 ACTUAL
         document.getElementById('sumGrossTax25').textContent = formatCurrency(tax25);
-        document.getElementById('sumNJRelief25').textContent = `-${formatCurrency(relief_25.total)}`;
+        document.getElementById('sumNJRelief25').textContent = relief_25.total > 0 ? `-${formatCurrency(relief_25.total)}` : '-';
         document.getElementById('sumNetProp25').textContent = formatCurrency(netCost25);
 
         // Render Summary - NO VOTE

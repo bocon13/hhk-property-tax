@@ -29,6 +29,7 @@
         },
         "Stay_NJ": {
             "age_min": 65,
+            "years_in_home_min": 1,
             "income_limit": 500000,
             "benefit_percent": 0.50,
             "benefit_cap": 6500,

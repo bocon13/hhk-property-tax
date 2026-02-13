@@ -101,30 +101,45 @@
                             </select>
                         </div>
 
-                        <!-- Row 2: Age & Residency -->
+                        <!-- Row 2: Demographics -->
                         <div class="input-group">
-                            <label>Age & Residency</label>
-                            <div class="checkbox-wrapper"
-                                style="display:flex; flex-direction: column; gap:0.5rem; padding:0.5rem; border:1px solid var(--border); border-radius:8px; background:#fff;">
-                                <label style="display:flex; align-items:center; gap:0.5rem; margin:0; font-weight:500;">
-                                    <input type="checkbox" id="chkAge65" style="width:18px; height:18px;">
-                                    I am 65 or older
-                                </label>
-                                <label style="display:flex; align-items:center; gap:0.5rem; margin:0; font-weight:500;">
-                                    <input type="checkbox" id="chkYearsBase" style="width:18px; height:18px;">
-                                    Lived here 3+ years
-                                </label>
-                            </div>
+                            <label>Age</label>
+                            <label class="checkbox-wrapper"
+                                style="display:flex; align-items:center; gap:0.5rem; padding:0.75rem; border:1px solid var(--border); border-radius:8px; background:#fff; height: 100%; cursor: pointer;">
+                                <input type="checkbox" id="chkAge65" style="width:20px; height:20px;">
+                                <span style="font-weight:500;">65 or older</span>
+                            </label>
                         </div>
+
                         <div class="input-group">
                             <label>Residency Status</label>
                             <div class="radio-group"
-                                style="height: 100%; display: flex; flex-direction: column; justify-content: center; gap: 0.5rem;">
-                                <label style="display:flex; align-items:center; gap:0.5rem;"><input type="radio"
-                                        name="status" value="homeowner" checked> Homeowner</label>
-                                <label style="display:flex; align-items:center; gap:0.5rem;"><input type="radio"
-                                        name="status" value="renter"> Renter</label>
+                                style="height: 100%; display: flex; flex-direction: column; justify-content: center; gap: 0.5rem; padding:0.5rem;">
+                                <label style="display:flex; align-items:center; gap:0.5rem; cursor: pointer;"><input
+                                        type="radio" name="status" value="homeowner" checked> Homeowner</label>
+                                <label style="display:flex; align-items:center; gap:0.5rem; cursor: pointer;"><input
+                                        type="radio" name="status" value="renter"> Renter</label>
                             </div>
+                        </div>
+
+                        <!-- 2025 StayNJ -->
+                        <div class="input-group">
+                            <label>2025 Benefit</label>
+                            <label class="checkbox-wrapper"
+                                style="display:flex; align-items:center; gap:0.5rem; padding:0.75rem; border:1px solid var(--border); border-radius:8px; background:#fff; height: 100%; cursor: pointer;">
+                                <input type="checkbox" id="chkApplied2025" style="width:20px; height:20px;">
+                                <span style="font-weight:500;">Applied for 2025 Relief?</span>
+                            </label>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="selYears">Time in Residence</label>
+                            <select id="selYears"
+                                style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:8px; background:#fff;">
+                                <option value="0">Less than 1 year</option>
+                                <option value="2">1 to 3 years</option>
+                                <option value="10" selected>3+ years</option>
+                            </select>
                         </div>
 
                         <!-- Base Tax (Advanced) -->
@@ -137,8 +152,8 @@
                                 <input type="text" id="inputBaseTax" placeholder="0"
                                     class="block w-full rounded-md border-gray-300 pl-7 p-2 focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
                             </div>
-                            <small class="text-muted block mt-1">Only needed if applying for Senior Freeze
-                                reimbursement.</small>
+                            <small class="text-muted block mt-1">Property tax amount in the year you become eligible.
+                                Est. 2024 tax amount is prefilled.</small>
                         </div>
                     </div>
 
@@ -156,13 +171,13 @@
                                     style="display:block; font-size:0.75rem; color:#15803d;"></small>
                             </div>
                             <div class="mini-card">
-                                <span>Senior Freeze</span>
+                                <span>Senior Freeze (no cap)</span>
                                 <strong id="valFreeze" style="display:block; color:#16a34a;">-</strong>
                                 <small id="valFreezeDiff"
                                     style="display:block; font-size:0.75rem; color:#15803d;"></small>
                             </div>
                             <div class="mini-card">
-                                <span>Stay NJ</span>
+                                <span>Stay NJ ($6,500 cap)</span>
                                 <strong id="valStayNJ" style="display:block; color:#16a34a;">-</strong>
                                 <small id="valStayNJDiff"
                                     style="display:block; font-size:0.75rem; color:#15803d;"></small>
