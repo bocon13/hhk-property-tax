@@ -212,8 +212,8 @@ document.addEventListener('DOMContentLoaded', () => {
         let relief_yes = { anchor: 0, freeze: 0, staynj: 0, total: 0 };
         let relief_no = { anchor: 0, freeze: 0, staynj: 0, total: 0 };
 
-        relief_yes = TaxLogic.calculateRelief(age, income, years, baseTax, isHomeowner, tax26Yes, taxRules);
-        relief_no = TaxLogic.calculateRelief(age, income, years, baseTax, isHomeowner, tax26No, taxRules);
+        relief_yes = RebateLogic.calculateRelief(age, income, years, baseTax, isHomeowner, tax26Yes, taxRules);
+        relief_no = RebateLogic.calculateRelief(age, income, years, baseTax, isHomeowner, tax26No, taxRules);
 
         // Show Relief Breakdown
         document.getElementById('reliefBreakdown').classList.remove('hidden');
@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // User indicated they qualify/applied for 2025 relief.
             // We calculate full benefits (Anchor + Freeze + StayNJ) based on 2025 Tax.
             // Note: Simplification assumes 2025 rules/limits apply to 2025 tax year for modeling purposes.
-            relief_25 = TaxLogic.calculateRelief(age, income, years, baseTax, isHomeowner, tax25, taxRules);
+            relief_25 = RebateLogic.calculateRelief(age, income, years, baseTax, isHomeowner, tax25, taxRules);
         }
 
         // UI Updates for Differences
@@ -308,11 +308,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // Global var for rules to be accessible
     // Load Rules & Data
     let taxRules = null;
-    fetch('assets/tax_rules.json')
+    fetch('assets/rebate_rules.json?v=' + new Date().getTime())
         .then(res => res.json())
         .then(data => {
             taxRules = data.programs;
-            window.taxRules = taxRules; // Make accessible
+            // Simplified global assignment
+            window.taxRules = taxRules;
         })
         .catch(err => console.error('Error loading tax rules:', err));
 

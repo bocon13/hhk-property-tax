@@ -76,4 +76,4 @@
     // Export functions
     exports.calculateRelief = calculateRelief;
 
-})(typeof exports === 'undefined' ? (this.TaxLogic = {}) : exports);
+})(typeof exports === 'undefined' ? (this.RebateLogic = {}) : exports);
