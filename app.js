@@ -283,8 +283,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function formatChange(val) {
-        const sign = val >= 0 ? '+' : '';
+        const sign = val >= 0 ? '+' : '-';
         return `${sign}${formatCurrency(Math.abs(val))}`;
+    }
+
+    function styleReliefDiff(element, val) {
+        if (val < 0) {
+            element.style.color = "#dc2626"; // Red (Decreased Relief)
+        } else {
+            element.style.color = "#16a34a"; // Green (Increased Relief)
+        }
     }
 
     function styleChangeCell(element, val) {
@@ -303,6 +311,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         const diff = val26 - val25;
         el.textContent = `(${formatChange(diff)})`;
+        styleReliefDiff(el, diff);
     }
 
     // Global var for rules to be accessible
