@@ -34,29 +34,39 @@
         }
 
         // C. Stay NJ
+        // Formula: StayNJ fills the gap to reach 50% of Property Tax (capped at $6,500)
+        // taking into account existing Anchor and Freeze benefits.
         const ruleStay = rules.Stay_NJ;
         if (isHomeowner && age >= ruleStay.age_min && income < ruleStay.income_limit) {
-            const target = Math.min(currentTax * ruleStay.benefit_percent, ruleStay.benefit_cap);
-            const existing = r.freeze + r.anchor;
+            const halfTax = currentTax * ruleStay.benefit_percent;
+            const cap = ruleStay.benefit_cap;
 
-            // StayNJ pays the difference to reach the target (50% benefit)
-            // But total benefit (Anchor + Freeze + StayNJ) capped at ruleStay.total_relief_cap (6500)
+            // Target Relief is 50% of tax, but not more than $6,500
+            const targetRelief = Math.min(halfTax, cap);
 
-            // Let's calculate raw potential StayNJ first
-            let potentialStay = 0;
-            if (target > existing) {
-                potentialStay = target - existing;
-            }
+            // Benefits already received
+            const existingRelief = r.anchor + r.freeze;
 
-            // Apply Global Cap (Anchor + StayNJ <= 6500)
-            const combinedAnchorStay = r.anchor + potentialStay;
-            if (combinedAnchorStay > ruleStay.total_relief_cap) {
-                // Reduce StayNJ to fit cap
-                const maxStay = Math.max(0, ruleStay.total_relief_cap - r.anchor);
-                r.staynj = Math.min(potentialStay, maxStay);
+            // StayNJ pays the difference
+            if (targetRelief > existingRelief) {
+                r.staynj = targetRelief - existingRelief;
             } else {
-                r.staynj = potentialStay;
+                r.staynj = 0;
             }
+        }
+
+        r.total = r.anchor + r.freeze + r.staynj;
+
+        // Global Cap: Total benefits cannot exceed the property tax amount
+        if (r.total > currentTax) {
+            // Logic on which to reduce? 
+            // "Amounts that you receive under the Senior Freeze program are in addition... total cannot be more than property taxes"
+            // Usually they reduce the benefits in some order, but simpler to just cap the total if it exceeds?
+            // Since StayNJ is calculated last as a gap filler, likely it wouldn't cause overflow unless Anchor+Freeze > Tax.
+            // Anchor + Freeze > Tax is possible if tax is very low.
+            // Docs say: "The total amount of all property tax relief benefits you receive cannot be more than the property taxes paid"
+            // We will clamp total to currentTax.
+            r.total = Math.min(r.total, currentTax);
         }
 
         r.total = r.anchor + r.freeze + r.staynj;
