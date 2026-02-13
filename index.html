@@ -88,16 +88,7 @@
                     </div>
 
                     <div class="relief-inputs">
-                        <!-- Row 1: Filing Status & Income -->
-                        <div class="input-group">
-                            <label for="selFilingStatus">Filing Status</label>
-                            <select id="selFilingStatus">
-                                <option value="single">Single</option>
-                                <option value="married_joint" selected>Married Filing Jointly</option>
-                                <option value="married_separate">Married Filing Separately</option>
-                                <option value="head_household">Head of Household</option>
-                            </select>
-                        </div>
+                        <!-- Row 1: Income Only (Filing Status Removed) -->
                         <div class="input-group">
                             <label for="selIncome">2025 Household Income</label>
                             <select id="selIncome">
@@ -136,35 +127,8 @@
                             </div>
                         </div>
 
-                        <!-- Row 3: Itemized Deductions (Optional) -->
-                        <div class="input-group">
-                            <label class="block text-sm font-medium text-gray-700 mb-1">Deductible Mortgage
-                                Interest ($)</label>
-                            <!-- Use Flex for cleaner mobile layout if needed, but existing relative/absolute is standard. 
-                                 The issue "looks funny" might be the spacing. Let's try a standard input group with prefix -->
-                            <div class="relative rounded-md shadow-sm">
-                                <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-                                    <span class="text-gray-500 sm:text-sm"></span>
-                                </div>
-                                <input type="text" id="inputMortgage" placeholder="0"
-                                    class="block w-full rounded-md border-gray-300 pl-7 p-2 focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
-                            </div>
-                        </div>
-                        <div class="input-group">
-                            <label for="inputCharity" class="block text-sm font-medium text-gray-700 mb-1">Charitable
-                                and Other
-                                Deductions ($)</label>
-                            <div class="relative rounded-md shadow-sm">
-                                <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-                                    <span class="text-gray-500 sm:text-sm"></span>
-                                </div>
-                                <input type="text" id="inputCharity" placeholder="0" inputmode="numeric"
-                                    class="block w-full rounded-md border-gray-300 pl-7 p-2 focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
-                            </div>
-                        </div>
-
-                        <!-- Row 4: Base Tax (Advanced) -->
-                        <div class="input-group md:col-span-2">
+                        <!-- Base Tax (Advanced) -->
+                        <div class="input-group md:col-span-3">
                             <label for="inputBaseTax">Base Year Tax (For Senior Freeze) ($)</label>
                             <div class="relative rounded-md shadow-sm">
                                 <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
@@ -233,23 +197,7 @@
                         <h2>Net Cost Analysis</h2>
                     </div>
 
-                    <div class="relief-inputs" style="margin-bottom: 1rem;">
-                        <div>
-                            <label
-                                style="font-size: 0.9rem; font-weight: 500; display: block; margin-bottom: 0.25rem;">Est.
-                                Fed Bracket</label>
-                            <input type="text" id="displayFedBracket" readonly
-                                style="width: 100%; padding: 0.5rem; border: 1px solid var(--border); border-radius: 6px; background: #f3f4f6; color: #4b5563;">
-                        </div>
-                        <div style="flex: 1;">
-                            <label for="manualIncome"
-                                style="font-size: 0.9rem; font-weight: 500; display: block; margin-bottom: 0.25rem;">Household
-                                Income ($)</label>
-                            <input type="text" id="manualIncome" placeholder="e.g. 150,000" inputmode="numeric"
-                                style="width: 100%; padding: 0.5rem; border: 1px solid var(--border); border-radius: 6px;">
-                            <input type="hidden" id="inputNJRate">
-                        </div>
-                    </div>
+                    <!-- Household Income Input Removed as per request -->
 
                     <div class="table-responsive">
                         <table class="summary-table">
@@ -274,85 +222,11 @@
                                     <td id="sumNJReliefNo" class="credit-text" style="text-align:right;">-</td>
                                     <td id="sumNJRelief" class="credit-text" style="text-align:right;">-</td>
                                 </tr>
-                                <tr class="subtotal-row">
-                                    <td>Net Property Tax Paid</td>
-                                    <td id="sumNetProp25" style="text-align:right;">-</td>
-                                    <td id="sumNetPropNo" style="text-align:right; font-weight:600;">-</td>
-                                    <td id="sumNetProp" style="text-align:right;">-</td>
-                                </tr>
-                                <tr>
-                                    <td colspan="4" style="height:10px;"></td>
-                                </tr>
-                                <tr>
-                                    <td style="color:var(--text-muted);">Est. NJ Income Tax (Info Only)</td>
-                                    <td id="sumNJIncomeTax25"
-                                        style="text-align:right; font-size:0.9rem; color:var(--text-muted);">-</td>
-                                    <td id="sumNJIncomeTaxNo"
-                                        style="text-align:right; font-size:0.9rem; color:var(--text-muted);">-</td>
-                                    <td id="sumNJIncomeTax"
-                                        style="text-align:right; font-size:0.9rem; color:var(--text-muted);">-</td>
-                                </tr>
-                                <tr>
-                                    <td colspan="4" style="height:1px; background:var(--border); padding:0;">
-                                    </td>
-                                </tr>
-                                <!-- Detailed Deduction Section -->
-                                <tr>
-                                    <td id="lblSaltDedRow" style="padding-left:1rem; color:var(--text-muted);">SALT
-                                        Deduction</td>
-                                    <td id="valSaltDed25" style="text-align:right; color:var(--text-muted);">-</td>
-                                    <td id="valSaltDedNo" style="text-align:right; color:var(--text-muted);">-</td>
-                                    <td id="valSaltDed" style="text-align:right; color:var(--text-muted);">-</td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-left:1rem; color:var(--text-muted);">Other Itemized
-                                        (Mortg/Charity)</td>
-                                    <td id="valOtherDed25" style="text-align:right; color:var(--text-muted);">-</td>
-                                    <td id="valOtherDedNo" style="text-align:right; color:var(--text-muted);">-</td>
-                                    <td id="valOtherDed" style="text-align:right; color:var(--text-muted);">-</td>
-                                </tr>
-                                <tr style="background-color: #f8fafc; font-weight:500;">
-                                    <td style="padding-left:1rem; color:var(--text-muted);">Total Itemized</td>
-                                    <td id="valTotalItemized25" style="text-align:right; color:var(--text-muted);">-
-                                    </td>
-                                    <td id="valTotalItemizedNo" style="text-align:right; color:var(--text-muted);">-
-                                    </td>
-                                    <td id="valTotalItemized" style="text-align:right; color:var(--text-muted);">-</td>
-                                </tr>
-                                <tr style="font-style: italic;">
-                                    <td style="padding-left:1rem; color:var(--text-muted);">Standard Deduction
-                                    </td>
-                                    <td id="valStdDed25" style="text-align:right; color:var(--text-muted);">-</td>
-                                    <td id="valStdDedNo" style="text-align:right; color:var(--text-muted);">-</td>
-                                    <td id="valStdDed" style="text-align:right; color:var(--text-muted);">-</td>
-                                </tr>
-                                <tr style="background-color: #f9fafb; font-weight:600;">
-                                    <td>
-                                        Applied Federal Deduction
-                                        <div style="font-size:0.75rem; font-weight:400;" id="lblDedType25">(Greater of
-                                            Standard vs Itemized)</div>
-                                    </td>
-                                    <td id="sumDed25" style="text-align:right;">-</td>
-                                    <td id="sumDedNo" style="text-align:right;">-</td>
-                                    <td id="sumDed" style="text-align:right;">-</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        (-) Value of Federal Deduction
-                                        <div style="font-size:0.75rem; font-weight:400;" id="lblDedType25">(Property Tax
-                                            Portion)</div>
-                                    </td>
-                                    <td id="sumFedBenefit25" class="credit-text" style="text-align:right;">-
-                                    </td>
-                                    <td id="sumFedBenefitNo" class="credit-text" style="text-align:right;">-
-                                    </td>
-                                    <td id="sumFedBenefit" class="credit-text" style="text-align:right;">-</td>
-                                </tr>
                                 <tr class="total-row">
-                                    <td>Net Effective Property Tax</td>
-                                    <td id="sumFinalCost25" style="text-align:right;">-</td>
-                                    <td id="sumFinalCostNo" style="text-align:right;">-</td>
-                                    <td id="sumFinalCost" style="text-align:right;">-</td>
+                                    <td>Net Out-of-Pocket Cost</td>
+                                    <td id="sumNetProp25" style="text-align:right;">-</td>
+                                    <td id="sumNetPropNo" style="text-align:right;">-</td>
+                                    <td id="sumNetProp" style="text-align:right;">-</td>
                                 </tr>
                                 <tr style="font-size:0.9rem; border-top:1px solid var(--border);">
                                     <td style="padding-top:0.75rem; color:var(--text-muted);">Change vs 2025
